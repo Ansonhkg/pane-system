@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/link/clickLinkGesture.ts",
+    "sha256": "382393020ac114bd001cb47b356751074a9ea3e19661d43ab2e237e15b2ca55a"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/link/goToDefinitionAtPosition.css",
+    "sha256": "34f98a59debc5422087e022483533f31bede0f640c46f3ba05f22d8e00ac9913"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/link/goToDefinitionAtPosition.ts",
+    "sha256": "cbaefd41550a066fe7b88908bbbf855645290bd5cd4941f7790dc4cd3d43099f"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/peek/referencesController.ts",
+    "sha256": "3a3e11d00f621d412f6137e99b6450f7f33f9ecac0c0e082852e7c474acd08d1"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/peek/referencesTree.ts",
+    "sha256": "a258a49ed8846c8492c52c56f477b3c44078c2fc8d3985254f67ce7c1a6c66ea"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.css",
+    "sha256": "d74486539a70776a93b558a2656796fa34c92bb3da0c87905e57524cc40cd5a3"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.ts",
+    "sha256": "5ffc7c326f0f2dcf9534ac55bce67a3b955de86cac50bc2703b36752af2c7452"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/referencesModel.ts",
+    "sha256": "c983a43999fda3a5170772f3282886e3139dddb783f45cf7da863a92a6f39179"
+  },
+  {
+    "path": "src/vs/editor/contrib/gotoSymbol/browser/symbolNavigation.ts",
+    "sha256": "302cdf3709a9d012b59f2be134d876777701a7890cbcbe02bd50fbd6f1f1d8d9"
+  },
+  {
+    "path": "src/vs/editor/contrib/gpu/browser/gpuActions.ts",
+    "sha256": "60946ff19e50c001367521a0b72fd80ab8c150ef54a852ee55c46c3b79d815a9"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverComputer.ts",
+    "sha256": "5023117faf811e39cfcdb538fa438a72beca94b62abfddcf709b616c59115ed5"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverController.ts",
+    "sha256": "65e2ec9b83b2b27ab1320dfa333c482c9e51263d2e5f06978be78dd6efa20d9a"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverRendered.ts",
+    "sha256": "5cc79fd066f0a7ab31ccecbee2dd4d8fec796c3b0b11cda5cb82c2ccf31ff0ea"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverStatusBar.ts",
+    "sha256": "4456e5bb62adbb83cd13c8e8a409c14242c593487e739904a752c1aa85e4aec4"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverTypes.ts",
+    "sha256": "1dce3145ac72e7a86fd7d6d9c5deccfc63ab20da31e81fb2e68c458721231bee"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverWidget.ts",
+    "sha256": "56360aa8b4094f6200b571c03ee654f1cdb960aac5ec6d6de81ebd0180575ea6"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/contentHoverWidgetWrapper.ts",
+    "sha256": "5626f17144febbe7609fadeb989793d0f9add5790f0e2efbce905d9d1afeb942"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/getHover.ts",
+    "sha256": "2b557f228fdf8dbfda34c2b7e22cc801a840af9a393d5e79d94c512bb8902180"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/glyphHoverComputer.ts",
+    "sha256": "aa441a9c6aa5ab759f4781b3c9e13738d9e84bec60c355aafbd1c7c27082ab62"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/glyphHoverController.ts",
+    "sha256": "62dacba2ac5d82008733aec8bb41f0a5f82f3d07a985efe039bbe275d5f0591e"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/glyphHoverWidget.ts",
+    "sha256": "b88ba3e54a5f6159f1c808c7efda651e029539f8c34e59120237482798449771"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hover.css",
+    "sha256": "f127be0b376fd6b770c5d3efa79fb787e8ea42f2497254415bcbd655d3b5ed43"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverAccessibleViews.ts",
+    "sha256": "7b289124a20fa84d267cc9d630c24669b00939ddc48919f811cc51679c197d89"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverActionIds.ts",
+    "sha256": "d6aad69a530b825d7159ef1052bae0b50958f673fdb126d72e5fd4d209599fa0"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverActions.ts",
+    "sha256": "39d56c10e895a5615f8cdeb6c191126b317a0dba77447e4eb7240329d90abb5a"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverContribution.ts",
+    "sha256": "be34dedecec424a85b1bd08d93e6cd9126619fdc02ea1d79dde6f95e0967a450"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverCopyButton.ts",
+    "sha256": "ba3c814e87227a24ab30f8e81f288a0c2845f04f31e0b4ad7f769c11b4ddc145"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverOperation.ts",
+    "sha256": "1dafe308001bebb727140e74e61756b50245a2897662decce3ed6e88adbd0db9"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverTypes.ts",
+    "sha256": "bf816268981b594e7895b35b54e2b03841e2388993f912f0e45e4092c3ab957a"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/hoverUtils.ts",
+    "sha256": "c37a1daa7cea2732b653f5566d36d541ad91a50643bb539316d1ed7e4eaaf116"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/markdownHoverParticipant.ts",
+    "sha256": "a5873681ff205c85727a3db302779f09ce31fa97e03cd76fd2bfd1e4f4cc9a98"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/markerHoverParticipant.ts",
+    "sha256": "4234b2e6f87e63f485b59869b89071f18833d7a034a23e71c9198773be94dc49"
+  },
+  {
+    "path": "src/vs/editor/contrib/hover/browser/resizableContentWidget.ts",
+    "sha256": "135e8c988e241ec80e28ab4fd742a3a66a640c74342385d37eac61cb54d0a039"
+  },
+  {
+    "path": "src/vs/editor/contrib/indentation/browser/indentation.ts",
+    "sha256": "a60513b8a3db28d672affce8d1f6048b1b2738d27a10e40a1a9818a72c1b162e"
+  },
+  {
+    "path": "src/vs/editor/contrib/indentation/common/indentation.ts",
+    "sha256": "94722649bc53ac565f34e7b6af80065028f5a130a597d991397366f8f6cb023c"
+  },
+  {
+    "path": "src/vs/editor/contrib/indentation/common/indentUtils.ts",
+    "sha256": "32e4ef626e248723f4bc5cb7ec95a3c0dc4e6b66459591f201b5ae349c585aa7"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlayHints/browser/inlayHints.ts",
+    "sha256": "b0ff4b2d6d5dd8151d188d5b4994ea57ef763f6638e1b9296d8e78d3e090e3a1"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlayHints/browser/inlayHintsContribution.ts",
+    "sha256": "1fffd3911c9a6491a46ae85b0cec6638400f25128c1519d8c82f43f0d9354f3c"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlayHints/browser/inlayHintsController.ts",
+    "sha256": "a282a5588f0f3aa5b9bd18dd17ccd7d05df069789b7cc710aad9640672e083b0"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlayHints/browser/inlayHintsHover.ts",
+    "sha256": "02427a84349ec91fdc47c9533af11bf869e50fca983b1ac2959b220fd4d3d834"
+  }
+]

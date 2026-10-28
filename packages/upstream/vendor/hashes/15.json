@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/common/services/languageService.ts",
+    "sha256": "53a7f7ca4f69cc3bad80a1bc28aa2ab9ed2be3a2663c0a52f41a13eab847deb6"
+  },
+  {
+    "path": "src/vs/editor/common/services/languagesRegistry.ts",
+    "sha256": "b10237f859adb368253039f76d6e6eebb8fc89447c5c62d2b44182368df32ae3"
+  },
+  {
+    "path": "src/vs/editor/common/services/markerDecorations.ts",
+    "sha256": "1caf136d54aede6e99d71c0c20794c135ac53ab9b009854c503141f8acf04778"
+  },
+  {
+    "path": "src/vs/editor/common/services/markerDecorationsService.ts",
+    "sha256": "0c7d9d955b2b195874784a07ec33841c6d2e154954a95d3a351a153ef93921c5"
+  },
+  {
+    "path": "src/vs/editor/common/services/model.ts",
+    "sha256": "c22f2c85f3bf0a2193585505db70e90935bf2b2d91505548b740d4ce07dd69dd"
+  },
+  {
+    "path": "src/vs/editor/common/services/modelService.ts",
+    "sha256": "cc3ee03009a8e1246dd37013f703c3316be567517d207bf95dd9dccebf9b5080"
+  },
+  {
+    "path": "src/vs/editor/common/services/resolverService.ts",
+    "sha256": "6bf6ca6b7acbec6d3340850abc079712a2be87c08ee89a381448120d47df8037"
+  },
+  {
+    "path": "src/vs/editor/common/services/semanticTokensDto.ts",
+    "sha256": "d8d103d945f372b26be420d6231ba6ff2cc9cb669b03f7398f0010e3fdd40f09"
+  },
+  {
+    "path": "src/vs/editor/common/services/semanticTokensProviderStyling.ts",
+    "sha256": "d85c6aed15347eb344a4c6a48846f90b1fada6d542953b6196fafd682c57d2d8"
+  },
+  {
+    "path": "src/vs/editor/common/services/semanticTokensStyling.ts",
+    "sha256": "4fc756398888ccb5ce39d4d3d6fad3cad09f2dd84827896bd617825f1177d2b0"
+  },
+  {
+    "path": "src/vs/editor/common/services/semanticTokensStylingService.ts",
+    "sha256": "c69e38824d41138818e26f362110722958899c78f17afc7c55349eb6f8601750"
+  },
+  {
+    "path": "src/vs/editor/common/services/textModelSync/textModelSync.impl.ts",
+    "sha256": "eb099ce38035898f9b61b1eb1c72a1494250e0220c0dbecabf7b43cf7c323e7b"
+  },
+  {
+    "path": "src/vs/editor/common/services/textModelSync/textModelSync.protocol.ts",
+    "sha256": "b8bb9d3a3640ba94ecf96a577495c6ca6f722490d1c055a50efc6cc2698dec28"
+  },
+  {
+    "path": "src/vs/editor/common/services/textResourceConfiguration.ts",
+    "sha256": "9151fe73ac9357f9e9c8be2ea55ed8dea4293611a2e62dccb560d24ddf3087ad"
+  },
+  {
+    "path": "src/vs/editor/common/services/treeSitter/treeSitterLibraryService.ts",
+    "sha256": "a9c98b1d38a0573ab86084865c2cf6da587518c27f2d0944e70a881d802891b3"
+  },
+  {
+    "path": "src/vs/editor/common/services/treeSitter/treeSitterThemeService.ts",
+    "sha256": "cea02fddec4d0e7a95a15dece43784494301ad18e619a6f98fd2f947ff1a957f"
+  },
+  {
+    "path": "src/vs/editor/common/services/treeViewsDnd.ts",
+    "sha256": "ad1377502d699f50aecaecaad594f36d0af5c939800e31a001e54db981034919"
+  },
+  {
+    "path": "src/vs/editor/common/services/treeViewsDndService.ts",
+    "sha256": "d3ef1901697ce3a9059831b36764acec781e3bbb4ec325f014b24be74756f07b"
+  },
+  {
+    "path": "src/vs/editor/common/services/unicodeTextModelHighlighter.ts",
+    "sha256": "e20c394298946583135025a3e265e0488202e3fde5b50ac42e93ad5a1a218a7b"
+  },
+  {
+    "path": "src/vs/editor/common/standalone/standaloneEnums.ts",
+    "sha256": "768617c1a33bf10dd26c4f7e0192dba401ac9f1c861adf34571db77e6c236347"
+  },
+  {
+    "path": "src/vs/editor/common/standaloneStrings.ts",
+    "sha256": "2bebeaf6e0cfd94f9688e8eb6fc570d7f607d4f60c919a4a71a32adb6e8a2ff7"
+  },
+  {
+    "path": "src/vs/editor/common/textModelBracketPairs.ts",
+    "sha256": "cfd4cd4e0cfd121cd2d381535ee7ef284aea740648b7e3e2b37583fc3c35dea9"
+  },
+  {
+    "path": "src/vs/editor/common/textModelEditSource.ts",
+    "sha256": "6413e238a7ac6bc284b5980962564d6b83c222b5958c5ccc471b185ae95ea432"
+  },
+  {
+    "path": "src/vs/editor/common/textModelEvents.ts",
+    "sha256": "06958d775aea5dbb06fef0b6d64bb77cb1bb7666c5cc1ce4dfcf850845bfb2b2"
+  },
+  {
+    "path": "src/vs/editor/common/textModelGuides.ts",
+    "sha256": "751a9c9f08ab993de4747edeb6d91a75fbfce8744f4bf6544a8a2ec5b27f5e9e"
+  },
+  {
+    "path": "src/vs/editor/common/tokenizationRegistry.ts",
+    "sha256": "1fad61c70c831a1f2efb66149f6aa82fc42e443e70e39a8aa6a5f80d345383b4"
+  },
+  {
+    "path": "src/vs/editor/common/tokenizationTextModelPart.ts",
+    "sha256": "80f706bd39e72f3feca28b601f7e1d8ff92d17e1e3744070b7ef58aaa50fe778"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/common.ts",
+    "sha256": "a9857266d22fe9bcd93b7abb81d88150d9bdae594881673a26fa2af290bd5a79"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/contiguousMultilineTokens.ts",
+    "sha256": "9e49b3d20c02cd1cc4b4d9bfa130f3d493bafc7dfef0c7dcbe4458bcbbe27970"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/contiguousMultilineTokensBuilder.ts",
+    "sha256": "28183d4240e976ad017fed7ce5faa50b4deda17bfd5bde0c0b6a0f0fdde3dd06"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/contiguousTokensEditing.ts",
+    "sha256": "1336d1028f6748fad47b8ef26bb0ea9e466dd9c616a83ec8064a8c2e5583cfcb"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/contiguousTokensStore.ts",
+    "sha256": "023d0e335d112eb2a215f79c415df38642689c61e1fd8b576278e693018de9cc"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/lineTokens.ts",
+    "sha256": "0aae01a14e6910ff9a2f629a084b3f0af3d2bfe55d89dafaa5c19a8a73361f94"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/sparseMultilineTokens.ts",
+    "sha256": "4a4ce7e4bd7eb89d8d4365a7fe3ea1ac2ed19c3bec9acb1966735320b4a12175"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/sparseTokensStore.ts",
+    "sha256": "bce493e34aaf48ca9b3d783aed8546821b090c055e7ca237d20aa1dc975f7b9a"
+  },
+  {
+    "path": "src/vs/editor/common/tokens/tokenWithTextArray.ts",
+    "sha256": "a31ba1e6ee1d8c67a5495f8c865e97beaf4699bd8ab2b378bca3f3d5d4a5749c"
+  },
+  {
+    "path": "src/vs/editor/common/viewEventHandler.ts",
+    "sha256": "1eb8aa7b6af6240b85684838155c8b2ed650e7f3bca26c73f8caf32e25d9b3d5"
+  },
+  {
+    "path": "src/vs/editor/common/viewEvents.ts",
+    "sha256": "5259d6c440c38bf32ace131cae7a171bd036aca5dd123ffdf359bc220488cbd8"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/lineDecorations.ts",
+    "sha256": "f759e2b0a77bd2b5d9a34c58e0edec2c5e4bb836f8fe3f0600af09df86488b63"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/lineHeights.ts",
+    "sha256": "0e22a108af5436cd05405d49a1fdb223bf3d2aa400b88b777148ba4a99c031b1"
+  }
+]

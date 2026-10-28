@@ -1,0 +1,18 @@
+.reference-workbench {
+  --pane-chevron-size: 12.8px;
+  --pane-chevron-color: #949596;
+  --vscode-tree-indentGuidesStroke: #585858;
+}
+[data-theme="light"] .reference-workbench {
+  --pane-chevron-color: #626365;
+}
+.reference-workbench .source-control {
+  padding: 0 0 9px;
+}
+.reference-workbench .source-control > :not(.scm-tree):not(.pane-view-heading) {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.reference-workbench .source-control > textarea {
+  width: calc(100% - 18px);
+}

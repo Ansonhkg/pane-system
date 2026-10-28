@@ -1,0 +1,16 @@
+export const PATTERN = {
+  COMMENT: /\/\/.*$/,
+  HASH_COMMENT: /#.*$/,
+  BLOCK_START: /\/\*/,
+  BLOCK_END: /\*\//,
+  BLOCK_TEXT: /[^*]+/,
+  BLOCK_STAR: /\*/,
+  STRING: /"([^"\\]|\\.)*"|'([^'\\]|\\.)*'|`([^`\\]|\\.)*`/,
+  NUMBER: /\b\d+(\.\d+)?\b/,
+  IDENTIFIER: /[a-zA-Z_$][\w$]*/,
+  BRACKET: /[{}()[\]]/,
+  OPERATOR: /[=+\-*/%<>!&|?:]+/,
+  SPACE: /\s+/,
+  HEADING: /^#{1,6}.*$/,
+  TAG: /<\/?[\w-]+/,
+};

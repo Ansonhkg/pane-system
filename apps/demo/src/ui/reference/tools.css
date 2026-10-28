@@ -1,0 +1,177 @@
+.reference-workbench
+  .pane:is(
+    [data-kind="explorer"],
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  > .pane-header {
+  background: var(--pane-utility-header, #da7e62);
+  color: var(--pane-utility-foreground, #655044);
+}
+.reference-workbench .pane[data-kind="explorer"] > .pane-header > .tabs,
+.reference-workbench
+  .pane[data-kind="explorer"]
+  > .pane-header
+  > .pane-controls {
+  display: none;
+}
+.reference-workbench .rail {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  width: auto;
+  height: 28px;
+  padding: 0 2px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0;
+}
+.reference-workbench .rail-main {
+  flex-direction: row;
+  gap: 0;
+  overflow: hidden;
+}
+.reference-workbench .rail button {
+  color: var(--pane-utility-foreground, #655044);
+  width: 22px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.reference-workbench .rail button[data-active="true"] {
+  color: #ddd;
+  background: #454545;
+  border-radius: 4px;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab {
+  padding: 0;
+  color: var(--pane-utility-foreground, #655044);
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab
+  > [role="tab"] {
+  font-size: 0;
+  width: 22px;
+  height: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab-actions {
+  display: none;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab[data-active="true"] {
+  color: #ddd;
+  background: transparent;
+  box-shadow: none;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .pane-controls {
+  color: var(--pane-utility-foreground, #655044);
+}
+.reference-workbench
+  .pane[data-kind="source-control"]
+  > .pane-header
+  > .pane-controls {
+  display: none;
+}
+.reference-workbench .pane-body {
+  background: var(--surface);
+}
+.reference-workbench .monaco-sash::before {
+  background: transparent !important;
+}
+.reference-workbench .monaco-sash.hover::before,
+.reference-workbench .monaco-sash.active::before {
+  background: #ffffff88 !important;
+}
+@media (max-width: 600px) {
+  .reference-workbench .project-name {
+    max-width: 45%;
+    font-size: 10px;
+  }
+  .window-actions button {
+    width: 22px;
+  }
+}
+
+.reference-workbench
+  .pane:is(
+    [data-kind="explorer"],
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  ) {
+  --pane-header-surface: #da7e62;
+}
+
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab:hover {
+  background: transparent;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab[data-active="true"]
+  > button:first-child:is(:hover, :focus-visible) {
+  background: #454545;
+}
+.reference-workbench
+  .pane:is([data-kind="explorer"], [data-kind="source-control"])
+  > .pane-header
+  > .pane-controls {
+  display: flex;
+}
+.reference-workbench
+  .pane:is([data-kind="explorer"], [data-kind="source-control"])
+  .pane-controls
+  .action-item:not(:has(.codicon-zoom-in)) {
+  display: none;
+}

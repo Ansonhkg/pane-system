@@ -1,0 +1,24 @@
+{
+  "name": "@pane-system/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./module": "./src/core/contracts/module.ts",
+    "./node": "./src/platform/node-runs.ts",
+    "./package-host": "./src/platform/package-host.ts",
+    "./icons": "./src/platform/browser/icons.ts",
+    "./dialogs": "./src/platform/browser/dialogs.ts",
+    "./dialogs.css": "./src/platform/browser/dialogs.css",
+    "./file-icons": "./src/platform/browser/file-icons.ts",
+    "./tree-settings": "./src/platform/browser/tree-settings.ts",
+    "./icons.css": "./src/platform/browser/icons.css"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT"
+}

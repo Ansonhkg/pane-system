@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimap.css",
+    "sha256": "eefcf323c75957e80fe6882d5d63186fb50769d4b1c4b61ae9fc8c6d944da54d"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimap.ts",
+    "sha256": "272dbae8158a4c2b9712985029dec60244e094fb1a3ccdca0d48b7ac86f2778f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimapCharRenderer.ts",
+    "sha256": "c47711a3201ea2da99cc67355c8c1ed0350a5f9be3e6096a963ceefc873a0db4"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimapCharRendererFactory.ts",
+    "sha256": "534c27267294ab3fbf3372a4bdc6fb14dbf89b30a245c4eed03fb18efef33272"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimapCharSheet.ts",
+    "sha256": "b879857381c13a9103f026c74327c146e930c7411a4fc5fa0f186f3a347f55ac"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/minimap/minimapPreBaked.ts",
+    "sha256": "cd0b7dcbb7277ba3ede8467c3b8814dcc8b31888a4a5c2f204c8bdfb54b04858"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css",
+    "sha256": "f114f69d3668c20319bbf412e2078ff060698f93829dd4b749c5c74ee60a988b"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.ts",
+    "sha256": "aecfc70557534e9649bc328e0a63f981b8af2beaf901bd970eccaa7c0522fbd3"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/overviewRuler/decorationsOverviewRuler.ts",
+    "sha256": "a7421635199f80773a480072538d629f311ad9efdaf7305d2db580bbb148e01e"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/overviewRuler/overviewRuler.ts",
+    "sha256": "ffa40316b051bd042edc1cd98bf538b79ff1ac268565b83e4656f48e73f2b4d2"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/rulers/rulers.css",
+    "sha256": "1ba666a0c4c37bc5e46ca11fd3f0958682cceefd6b2dcdd408b9456647c8d378"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/rulers/rulers.ts",
+    "sha256": "e646e58e345c59dd6d3e0b79edfb9677c0d9c1f2c3bc2a7a4a430d696485f472"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/rulersGpu/rulersGpu.ts",
+    "sha256": "a63303b2df70589a26586f3b1367ab149b7037b0c9b66e1f9ce863db4b117aeb"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css",
+    "sha256": "3262d133f93599876978b77b8dbdbabd5dd9602d4f4517618966db8632b27626"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.ts",
+    "sha256": "ff5c359956c25b0077ebd61e443cc85c39ee919611f20e31552d7f8142a2d99c"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/selections/selections.css",
+    "sha256": "f18c599271f8e475cbcbd7baa1d2133f7925a4f2c1b5f71e7c3dcbacb20be4fe"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/selections/selections.ts",
+    "sha256": "4c36aaa9ac0e7deca07a2f66576809013df2d4b0d02f0ada8dda03da91804be6"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewCursors/viewCursor.ts",
+    "sha256": "d7642c6f6910ff64f1deba089c14c26dceea17abd00eb30695a0695f5d0382a5"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewCursors/viewCursors.css",
+    "sha256": "61eb3783f991266e63f49401223d7ef1e6c389816b75b20cbd871df50733b994"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewCursors/viewCursors.ts",
+    "sha256": "b4f2e15e8600c3cf188b35bd3f99a0c8912046dd7d538f3dbb2a22fa6ffee1eb"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/domReadingContext.ts",
+    "sha256": "4a11a0a5bc68b9e9f78ab8866030c3ae06db3316daa0119f2974592de60a5ff3"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/rangeUtil.ts",
+    "sha256": "9eb603fc9f3cc41cfb4a84424d083f88f904de34de2f81b03d5b85a0c8323c41"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/viewLine.ts",
+    "sha256": "91431229e78c2a64e90656aa60c89c9399814a76e2b6e0d5a8e27afd4b81d8cc"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/viewLineOptions.ts",
+    "sha256": "067c7ba3fe1a9cf2568a8e0d0a56293ffe4a37b47d0c29601acc6fe228d51c83"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/viewLines.css",
+    "sha256": "bed3ecadfd904b42ee03dbb98b2b73cfc96b48756eed6eca0e46ad22e3ddbd16"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLines/viewLines.ts",
+    "sha256": "b312dba68bbf6ebfd33f90ad2c2d6ea403f595d80bc25f82999328153517df5a"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewLinesGpu/viewLinesGpu.ts",
+    "sha256": "e20baba486832d24a6417700d934999dfd6275c7a368440494c68b107a9aa638"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/viewZones/viewZones.ts",
+    "sha256": "9cb62bb235e89f9432515ff1739987a776f2bbcf4f7819087f01373a7f0e2c77"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/whitespace/whitespace.css",
+    "sha256": "d5df5813cf9552bdacab93446e4063b210ee278d6bef678fb7711537ff9339a5"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/whitespace/whitespace.ts",
+    "sha256": "9dcce4d4502014a2f85cf0ed559ddd6346c8f40be516d20e9f017f51b7b576c7"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/wordWrapIndicator/wordWrapIndicator.css",
+    "sha256": "2d794c3dba4960dd04d81510645b2f4c02c512172d69476fdf7bf5906eb3227d"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/wordWrapIndicator/wordWrapIndicator.ts",
+    "sha256": "191a3f4e7eec7d68dc93d16f6133bfce67e724a39fdfc878430007dd43e75c55"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/codeEditor/codeEditorContributions.ts",
+    "sha256": "3cd98c20ffa0e0f691c38ecd30723240ee91536e2a542bde83e65c2d412ebb99"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/codeEditor/codeEditorWidget.ts",
+    "sha256": "f22a291ce6c523a803833738feb1a5ded33104495f9fd677c568e92d3751ea62"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/codeEditor/editor.css",
+    "sha256": "6ad2d3445cef3fcadf5b396179af922b8bbfe98d7f575548f2e92518e0a3ba5a"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/codeEditor/embeddedCodeEditorWidget.ts",
+    "sha256": "063bccfc1845cd44b9b55f7abfde9b72194405bc64836b8730eacbdb00becabd"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/commands.ts",
+    "sha256": "d7928994accbf9ab361a1a2f5a90bce2ee0399b91d7312e096a64d22aa84bf67"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/accessibleDiffViewer.css",
+    "sha256": "8980abc305a4cfd92688c7ea64434aab781ef270e8444504aa6e2e2a6e485724"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/accessibleDiffViewer.ts",
+    "sha256": "5ec0776aa8aa2e3697396582d68a060afcc56911c54db580fc01a65083124866"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorDecorations.ts",
+    "sha256": "f9400dacce641f04624eb6bcf6eb7fc41d7f82c3d181c5ea6ceae564479a7054"
+  }
+]

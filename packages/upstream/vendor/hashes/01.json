@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/base/browser/ui/contextview/contextview.ts",
+    "sha256": "ed5f05a722bd47915cda0d155115cf7dada11a05aabac075d5fec79f7b957f79"
+  },
+  {
+    "path": "src/vs/base/browser/ui/countBadge/countBadge.css",
+    "sha256": "8eebeb81712eb213359f83e6f3db9b0f12e9e02024c538948f9cc7ad574053fb"
+  },
+  {
+    "path": "src/vs/base/browser/ui/countBadge/countBadge.ts",
+    "sha256": "4b1f12591b643ff571e89ba682d79c0ce6548c7ad394c7eac952a4a0fb71794e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dialog/dialog.css",
+    "sha256": "5489e2b6e38895d4529450bb400166a8e145414bc864894b8faee7d18d43737e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dialog/dialog.ts",
+    "sha256": "01fcaae45485037682f71be33859bfa80629d677ec6d14de641530ed22aa9e8f"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dnd/dnd.css",
+    "sha256": "f9eaf6734b2d7737cdb6095d8dd120a53705456a820131e07213d36bc5d6c73f"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dnd/dnd.ts",
+    "sha256": "4a01ea0ba550a3a5cc7f7080882cce16ec879d77257fe70eb7d8663e915839c8"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dropdown/dropdown.css",
+    "sha256": "330381b92b00a57120161f28e75bb6463f19e0aa6726d898c90e8d59da70cd38"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dropdown/dropdown.ts",
+    "sha256": "57a2bf43f2638f513f39762e518a121e5275ea986c80bf083e2df95802dbfef0"
+  },
+  {
+    "path": "src/vs/base/browser/ui/dropdown/dropdownActionViewItem.ts",
+    "sha256": "d51e2a1b8f655eda607ae3b5fcdb477062e9c91829cdc07f09a47ca015901c67"
+  },
+  {
+    "path": "src/vs/base/browser/ui/findinput/findInput.css",
+    "sha256": "549fbde7e4af0e00ce08f18b804ea93b0581e549e8e7bdb963ddf1b077fc9058"
+  },
+  {
+    "path": "src/vs/base/browser/ui/findinput/findInput.ts",
+    "sha256": "7a358bf253e78ab9e30ff3f21355c1b86e7194f7a3812fac2a2df9b44eba54c2"
+  },
+  {
+    "path": "src/vs/base/browser/ui/findinput/findInputToggles.ts",
+    "sha256": "fd5478d72fcf02c2cbd00385a140a2cb018e9f6fbdfe5bfb7f6a555ab228ef46"
+  },
+  {
+    "path": "src/vs/base/browser/ui/findinput/replaceInput.ts",
+    "sha256": "9474330b82bdf66fbb6d03a374133995b00b596fad90c88d42be02f0d82a78ee"
+  },
+  {
+    "path": "src/vs/base/browser/ui/grid/grid.ts",
+    "sha256": "04466f2080659ebb9c5ad3fb38fc5678060f0ac034376d96a3e85d540dbd7442"
+  },
+  {
+    "path": "src/vs/base/browser/ui/grid/gridview.css",
+    "sha256": "25edcfc23929e2be836c6950bfd244dce8c16b88ccc653ccf6168fa63e1085a1"
+  },
+  {
+    "path": "src/vs/base/browser/ui/grid/gridview.ts",
+    "sha256": "b3f2f96e4d1c2701e9fee58fff33c75feaed1c9b23bf23cb6f871c5dbfc24767"
+  },
+  {
+    "path": "src/vs/base/browser/ui/highlightedlabel/highlightedLabel.ts",
+    "sha256": "4997e86beeb58fc88e3258dd965affdd7fc9852cf554628b4fbc4847e8eca38b"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hover.ts",
+    "sha256": "f5e3aa21a37e5edda372c5dcbcc4a2c6bd580fd7edb2410170d47c7c8ce714d7"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hoverDelegate.ts",
+    "sha256": "450cdb2db77a6da3f21d2d0f360c04549f4353e428f8aaa02bf7272a8c99734c"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hoverDelegate2.ts",
+    "sha256": "273d24a00478a538c51e28ebd622f9f49a6000a56534c0d7c773190874380860"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hoverDelegateFactory.ts",
+    "sha256": "a63eeffc13509a6d735009d22c9fe0afb24255c1f1e659e8ebd26320052e3cfa"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hoverWidget.css",
+    "sha256": "f8ac5a4ec085640cb2afda7916b5396430be520455a94b5de757b998dd6fd649"
+  },
+  {
+    "path": "src/vs/base/browser/ui/hover/hoverWidget.ts",
+    "sha256": "6c5cbbaa041a760cd285f3e9220792cf2112bda0ee8eaf480951384a8163a620"
+  },
+  {
+    "path": "src/vs/base/browser/ui/iconLabel/iconlabel.css",
+    "sha256": "3311ab4406248701895ff53bf45074666ca95bf92ec259dafcbddb2c48581d3a"
+  },
+  {
+    "path": "src/vs/base/browser/ui/iconLabel/iconLabel.ts",
+    "sha256": "130af6ced27e48d625534995a4e7fb86eb8866ec3b31e3aaeb160251b889e157"
+  },
+  {
+    "path": "src/vs/base/browser/ui/iconLabel/iconLabels.ts",
+    "sha256": "dcad435c0c74f1b78d35f36f2167d14e68899ff8a6ab1164343a96a04cec3930"
+  },
+  {
+    "path": "src/vs/base/browser/ui/inputbox/inputBox.css",
+    "sha256": "b7d1c7ac8e6018d8777111da721c09712ab7761f959f5794366dafc50b45489d"
+  },
+  {
+    "path": "src/vs/base/browser/ui/inputbox/inputBox.ts",
+    "sha256": "35c6b0283091c4e51a0d0193b1ca6814434456792656622de2a5d81223131ad7"
+  },
+  {
+    "path": "src/vs/base/browser/ui/keybindingLabel/keybindingLabel.css",
+    "sha256": "1848d41d6647e497f11772933254d74caec75d6b75fbd80c4df9949963bc5b92"
+  },
+  {
+    "path": "src/vs/base/browser/ui/keybindingLabel/keybindingLabel.ts",
+    "sha256": "8c259d82ba9cf2005d6d2781d33dc727b573b3a1ae95fffba1299321b9ff8fd5"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/list.css",
+    "sha256": "7221839be4fa74bd8a1f2f0511a7d73affda39ab9a8994fe70e927ce5255cb8e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/list.ts",
+    "sha256": "ef09779611dd4ab686e3852c2714ee250b228fc259b7a49c14411616d2455e81"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/listPaging.ts",
+    "sha256": "53cea842aaef0cf3806c9e5713be55f97adb5199de2f282f50311ca768cd6111"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/listView.ts",
+    "sha256": "a1e957151c8ed8590156306f2ef08ed7b1e3128c921f363c1f0a833be093e9f3"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/listWidget.ts",
+    "sha256": "2d7801465f466d7a271b98f8e34b1136875a655284a7f93e2f4a5d77d1c4a7d6"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/rangeMap.ts",
+    "sha256": "b9712d5a2e0a861b008972602fc3559aa8e22f82a0c4c84be6b0d97d720f477a"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/rowCache.ts",
+    "sha256": "1af8317e82f0e7d674e2d89af6b556dbd2b1d6313521ef533b31f33b837a748e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/list/splice.ts",
+    "sha256": "7bc1e2ce70bd3a7c108e1176747a7759e12ae36bf173191ed3f7c85b7f6e58b3"
+  },
+  {
+    "path": "src/vs/base/browser/ui/menu/menu.ts",
+    "sha256": "41bcbf6221e7f1060fa5f4175f54f08be1c4fbeddfc6220df5098c86744b1fcc"
+  }
+]

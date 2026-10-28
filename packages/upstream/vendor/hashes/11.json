@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/common/commands/surroundSelectionCommand.ts",
+    "sha256": "20c6c25cc2a09d1f1ac99c2f4abca6e67627f927af1127cd372039db00777a1d"
+  },
+  {
+    "path": "src/vs/editor/common/commands/trimTrailingWhitespaceCommand.ts",
+    "sha256": "4ce03e5a5491a86b0b5025f0f5e805fe66680d05e18a5a3b4d480e5815040c59"
+  },
+  {
+    "path": "src/vs/editor/common/config/diffEditor.ts",
+    "sha256": "c15890a1b64ed5e6eff5eee084a6e0b185672ac3b91cc33f7a29046836420e9b"
+  },
+  {
+    "path": "src/vs/editor/common/config/editorConfiguration.ts",
+    "sha256": "ef1d3e1476c5ad86460783f9a673e247ca1457489262e81050396409f10f13a5"
+  },
+  {
+    "path": "src/vs/editor/common/config/editorConfigurationSchema.ts",
+    "sha256": "7f83b666a193dcc4e02596ecece5f186cf6ba233401bb4cf106d85f02f2b2972"
+  },
+  {
+    "path": "src/vs/editor/common/config/editorOptions.ts",
+    "sha256": "2a09e8e63a4d35eb961169d595fee3c0ceff34316c7d19a279776eb74fc7a4b7"
+  },
+  {
+    "path": "src/vs/editor/common/config/editorZoom.ts",
+    "sha256": "d0699e5bfe615838436f5e1fb2931a69518ce607bc00e4cb49861ef43f574658"
+  },
+  {
+    "path": "src/vs/editor/common/config/fontInfo.ts",
+    "sha256": "39b5fc2435351945fc2b56bc16207481d5371b9cecd050a52a73a73d0fa50291"
+  },
+  {
+    "path": "src/vs/editor/common/config/fontInfoFromSettings.ts",
+    "sha256": "83355a1662c6eba8bdfeaaaa69e56839b1fd6d1d61088364900705e16144788c"
+  },
+  {
+    "path": "src/vs/editor/common/coordinatesConverter.ts",
+    "sha256": "7b1d1e7b10a4538a6a8ec25727b3c36aa41cf5f2c75518cf33da2973c7cbf0da"
+  },
+  {
+    "path": "src/vs/editor/common/core/2d/dimension.ts",
+    "sha256": "1fafc523693fc7916a11c3ab9d45ba7f10a6db7713a95166ec7a4118ff8f06e8"
+  },
+  {
+    "path": "src/vs/editor/common/core/2d/point.ts",
+    "sha256": "df5618042c1771f60d6ba34dd77ce1caa193d22eaee462cbdb0fb3933146693a"
+  },
+  {
+    "path": "src/vs/editor/common/core/2d/rect.ts",
+    "sha256": "f95a1b535410c261f2a7c528e269f6a554d781aa7fa855a9f145d31b3b2f2319"
+  },
+  {
+    "path": "src/vs/editor/common/core/2d/size.ts",
+    "sha256": "7d1ed613a248e8155f17ee1fd0a8da8f38a88494e46072742b0e0582e48ef077"
+  },
+  {
+    "path": "src/vs/editor/common/core/characterClassifier.ts",
+    "sha256": "892ad85d50589b63516d5a2d9a6bf07f6104f299f2d0e112b29063cb192eb0eb"
+  },
+  {
+    "path": "src/vs/editor/common/core/cursorColumns.ts",
+    "sha256": "ad77ad13290b47a1102d567a762d6fe8cd7bb7ae4e1f3b5ae0f2338939679702"
+  },
+  {
+    "path": "src/vs/editor/common/core/editOperation.ts",
+    "sha256": "0e9f593191a2a56d0274d8aa9223c931a8921693dcd26263b62cac894402456b"
+  },
+  {
+    "path": "src/vs/editor/common/core/editorColorRegistry.ts",
+    "sha256": "7a028ed14ae4195d9c361efc5f2807b3855109f798cf8297f2c118a69fa53452"
+  },
+  {
+    "path": "src/vs/editor/common/core/edits/edit.ts",
+    "sha256": "9b096c65afe7063ed99baae4d865a89a304867331ff1594baa2c853246ef8e6a"
+  },
+  {
+    "path": "src/vs/editor/common/core/edits/lengthEdit.ts",
+    "sha256": "f330cd8ec72768e560f11412ee89168c82024a837f6e8b670d8b5c7e3f0bfcaa"
+  },
+  {
+    "path": "src/vs/editor/common/core/edits/lineEdit.ts",
+    "sha256": "023c463a25176513b164296afe779525dacebdd7eaf9c5b586d1171eabf0d744"
+  },
+  {
+    "path": "src/vs/editor/common/core/edits/stringEdit.ts",
+    "sha256": "fdbf4c9cb2629b03c102393e3c6c06937b4823606fa5ad15876a56c5e0d20bd1"
+  },
+  {
+    "path": "src/vs/editor/common/core/edits/textEdit.ts",
+    "sha256": "7e431ed1c83436dc917b95c635c9242a42bb07a9551eb4dd0d37354c57d3f71b"
+  },
+  {
+    "path": "src/vs/editor/common/core/misc/eolCounter.ts",
+    "sha256": "68dc95ff9dfef574ef28d18a6100bc13c7632c2cc34d738b5449a7eaf08d7d46"
+  },
+  {
+    "path": "src/vs/editor/common/core/misc/indentation.ts",
+    "sha256": "a4ac04486cfcc5fc56af1418ef370f3ec263d7e3d0d06f13eb9ead44d74cadd7"
+  },
+  {
+    "path": "src/vs/editor/common/core/misc/rgba.ts",
+    "sha256": "e665e696b838464a1a7cd011f3b696ba66f98feea61b2c49785496cd12ee4919"
+  },
+  {
+    "path": "src/vs/editor/common/core/misc/textModelDefaults.ts",
+    "sha256": "a7560657484037cf92ebc7d165d589ec21322ffc34efeaf96b1e2edf72e723ca"
+  },
+  {
+    "path": "src/vs/editor/common/core/position.ts",
+    "sha256": "b69aae3ba93326bba1bab591cba8d59cb5314f95d81ee222237c0a802bc1d6c9"
+  },
+  {
+    "path": "src/vs/editor/common/core/range.ts",
+    "sha256": "6fd33470d628380712d7162369f89d5aedeac831639f6d909bcd6892b272bb95"
+  },
+  {
+    "path": "src/vs/editor/common/core/ranges/columnRange.ts",
+    "sha256": "055634a9b7239c6972e3abbbf434c5c4c09ceac86f7203dd756007513bd954fe"
+  },
+  {
+    "path": "src/vs/editor/common/core/ranges/lineRange.ts",
+    "sha256": "253dcefaf8a2fd0cf5bf088ca1e58e08391f6ab47d366da07760e7e8423497fc"
+  },
+  {
+    "path": "src/vs/editor/common/core/ranges/offsetRange.ts",
+    "sha256": "5d0361037e2575d76242532b65ab4fed292b97a9405adce1d712b7283b02462d"
+  },
+  {
+    "path": "src/vs/editor/common/core/ranges/rangeSingleLine.ts",
+    "sha256": "034ba484912fcd71c3a5ea4a845c60b07ed02a405c81708dd0e8d32d1f972a08"
+  },
+  {
+    "path": "src/vs/editor/common/core/selection.ts",
+    "sha256": "b42866bc51ebb7889275eacb12a993603d020ff80569b957d6e07c5002acbf03"
+  },
+  {
+    "path": "src/vs/editor/common/core/stringBuilder.ts",
+    "sha256": "7876d058a0eb295b58e4db93728de2a8ad6380d70906245540e2795fba81c494"
+  },
+  {
+    "path": "src/vs/editor/common/core/text/abstractText.ts",
+    "sha256": "294f325a883a1c975b4a3d74b47f674737decc97110eb1dd390b5c8ecf81326e"
+  },
+  {
+    "path": "src/vs/editor/common/core/text/getPositionOffsetTransformerFromTextModel.ts",
+    "sha256": "3b5e95ee5d7f51760e3941cbb1d142bbd06215ae54d970f8e166461b4e9c2f32"
+  },
+  {
+    "path": "src/vs/editor/common/core/text/positionToOffset.ts",
+    "sha256": "b3b49de339b45b8bb5325f2a00bfbb6eaf57dba0091519d71c20d7059c8740c3"
+  },
+  {
+    "path": "src/vs/editor/common/core/text/positionToOffsetImpl.ts",
+    "sha256": "3f7103f363008590098b711e7dc61265e751737c1be9d1d210e521243fa6920a"
+  },
+  {
+    "path": "src/vs/editor/common/core/text/textLength.ts",
+    "sha256": "4a3eec97f21d906bbf0d26600cc6d0335bc14e8642dc52cc3f04dccd01f7fc53"
+  }
+]

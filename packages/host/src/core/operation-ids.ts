@@ -1,0 +1,23 @@
+export const OPERATION = {
+  INSPECT: "host.inspect",
+  DOCTOR: "host.doctor",
+  LIST: "files.list",
+  READ: "files.read",
+  WRITE: "files.write",
+  STATUS: "git.status",
+  DIFF: "git.diff",
+  STAGE: "git.stage",
+  UNSTAGE: "git.unstage",
+  DISCARD: "git.discard",
+  PATCH: "git.patch",
+  HEAD: "git.head",
+  STASH: "git.stash",
+  COMMIT: "git.commit",
+  PUBLISH: "git.publish",
+  DIRECTORY: "files.directory",
+  RENAME: "files.rename",
+  COPY: "files.copy",
+  REMOVE: "files.remove",
+  MEASURE: "measurements.record",
+} as const;
+export const PACKAGE_OPERATION = { INSPECT: OPERATION.INSPECT } as const;

@@ -1,0 +1,11 @@
+{
+  "flows": [
+    {
+      "id": "contracts.inspect",
+      "kind": "operation",
+      "options": ["enabled", "disabled"],
+      "status": "built",
+      "source": "src/features/contracts/module.ts"
+    }
+  ]
+}

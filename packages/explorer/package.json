@@ -1,0 +1,20 @@
+{
+  "name": "@pane-system/explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pane-system/upstream": "workspace:*",
+    "@pane-system/contracts": "workspace:*",
+    "@pane-system/layout": "workspace:*"
+  },
+  "license": "MIT"
+}

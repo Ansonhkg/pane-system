@@ -1,0 +1,58 @@
+[
+  {
+    "path": "src/vs/workbench/services/textfile/common/encoding.ts",
+    "sha256": "63066418aa3c0b6e2c2dec169db14bb0b5472576c345e2c6215ae431b21eb808"
+  },
+  {
+    "path": "src/vs/workbench/services/textfile/common/textfiles.ts",
+    "sha256": "6a86c8c8015a2f8d881bfc305ea1d1b3046936d61ce4790d4e4db414c911f135"
+  },
+  {
+    "path": "src/vs/workbench/services/untitled/common/untitledTextEditorModel.ts",
+    "sha256": "3a3e85ffaa2d292aa7de16f41c4fb39d343a565e87806c268e6645c6ed867532"
+  },
+  {
+    "path": "src/vs/workbench/services/untitled/common/untitledTextEditorService.ts",
+    "sha256": "6f706fd868886af65a789c3f854a2b7d8f0e1fc48da736d8c38f0e097a9b9a6d"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/fileWorkingCopy.ts",
+    "sha256": "3a7158b92a4120ec6d1d1a6c0ca1945fd34cef3f8c6c7709c7fd873ee58de573"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/resourceWorkingCopy.ts",
+    "sha256": "d0359d612515bfe385e7f0808163c95aefa041aa7bc7b20b76e018d610d5cdee"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/storedFileWorkingCopy.ts",
+    "sha256": "9d04611e0f4f18bdb6a89846b1a2aa9b1cc68b62d7a44ec527f91a1cc0509bb9"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/storedFileWorkingCopySaveParticipant.ts",
+    "sha256": "aa0a75cb4542abe0e864c7d8d2ef947ab341e4de62e5c66547da642018fdb175"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopy.ts",
+    "sha256": "ea113e76266ade329431fac267b4d3600e566abec243d5fab10c19f67dbc595a"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopyBackup.ts",
+    "sha256": "9a3760e4a62423f3a59004023bed7614824245346e238e0e51ac57298aaaf7dc"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopyEditorService.ts",
+    "sha256": "ad00f0ab6d6f3cf6b87466d51eb1ea1361e31828d6336de3cfa08b6562691aad"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopyFileOperationParticipant.ts",
+    "sha256": "0227ef3b3f541e8b311723d0df9bfe8f7aa93e3aabd67468ed12397bf430ccb9"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopyFileService.ts",
+    "sha256": "9a3f312dffee582af394fa260329f2daf1cd3660de90a1aac699bad4b24cf61d"
+  },
+  {
+    "path": "src/vs/workbench/services/workingCopy/common/workingCopyService.ts",
+    "sha256": "a83ad8b64d235a17f10a3da3fc8387d569cd5aa926b604fdbddce5da0a52f0eb"
+  }
+]

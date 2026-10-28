@@ -1,0 +1,149 @@
+@import "./reference/tools.css";
+@import "./reference/content.css";
+.reference-workbench {
+  --frame: #d05c39;
+  --surface: #191a1b;
+  --editor: #121314;
+  --raised: #212223;
+  --active: #2b2c2d;
+  --field: #252627;
+  --muted: #949596;
+  --text: #cccccc;
+  font-size: 11px;
+  background: var(--frame);
+}
+[data-theme="light"] .reference-workbench {
+  --surface: #f6f6f6;
+  --editor: #ffffff;
+  --raised: #ececec;
+  --active: #e0e1e2;
+  --field: #eeeeee;
+  --muted: #626365;
+  --text: #333333;
+}
+.reference-workbench .app-header {
+  height: 32px;
+  position: relative;
+  padding: 0 8px;
+  color: var(--pane-titlebar-foreground, #fff);
+}
+.reference-workbench .project-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-weight: 400;
+  gap: 5px;
+  max-width: 50%;
+}
+.reference-workbench .project-name span {
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.reference-workbench .project-name img {
+  margin-left: 8px;
+}
+.window-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 2px;
+}
+.reference-workbench button:is(:has(> svg), :has(> .pane-codicon)) {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  flex-shrink: 0;
+}
+.reference-workbench button svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+  flex-shrink: 0;
+}
+.window-actions button {
+  width: 24px;
+  height: 26px;
+}
+.reference-workbench .app-main {
+  height: calc(100% - 32px);
+  padding: 0 1px 1px;
+}
+.reference-workbench #workspace {
+  background: var(--frame);
+  border-radius: 0;
+}
+.reference-workbench .app-main > .rail,
+.reference-workbench .app-footer {
+  display: none;
+}
+.reference-workbench .pane {
+  border: 2px solid var(--frame);
+  border-radius: 6px;
+  font-size: 11px;
+  background: var(--surface);
+}
+.reference-workbench .pane-header {
+  height: 28px;
+  min-height: 28px;
+  background: var(--pane-header-surface, var(--raised));
+  padding: 0 2px;
+}
+.reference-workbench .pane[data-focused="true"] > .pane-header {
+  background: var(--pane-header-surface, var(--raised));
+}
+.reference-workbench .tabs {
+  height: 28px;
+}
+.reference-workbench .tab {
+  min-width: 0;
+  padding: 0 2px 0 6px;
+  max-width: 240px;
+}
+.reference-workbench .tab[data-active="true"] {
+  background: var(--editor);
+  border-radius: 4px 4px 0 0;
+  box-shadow: none;
+}
+.reference-workbench .tab > button:first-child {
+  min-width: 0;
+  height: 28px;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+}
+.reference-workbench .tab > button:last-child {
+  width: 20px;
+  height: 24px;
+  opacity: 0;
+}
+.reference-workbench .tab[data-active="true"] > button:last-child,
+.reference-workbench .tab:hover > button:last-child,
+.reference-workbench .tab:focus-within > button:last-child {
+  opacity: 1;
+}
+.tab-kind-icon,
+.file-icon {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+}
+.tab-kind-icon svg,
+.file-icon svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.reference-workbench .pane-controls {
+  gap: 0;
+  padding: 0 2px;
+}
+.reference-workbench .pane-controls button {
+  width: 22px;
+  height: 24px;
+  color: var(--muted);
+}

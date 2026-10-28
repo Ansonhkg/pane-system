@@ -1,0 +1,81 @@
+.scm-tree {
+  min-height: 0;
+  overflow: hidden;
+}
+.scm-tree-row {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-width: 0;
+  gap: 4px;
+}
+.scm-tree-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scm-tree-row small {
+  color: #dfbd7f;
+}
+.scm-tree-row button {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  font-size: 16px;
+}
+
+.tree-settings form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 320px;
+}
+.tree-settings form > label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.tree-settings select {
+  max-width: 190px;
+  background: var(--field);
+  color: var(--text);
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+.tree-settings select:focus-visible {
+  outline: 0;
+  background: var(--active);
+}
+.tree-settings input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex: none;
+}
+
+.scm-row-actions {
+  display: flex;
+  align-items: center;
+  flex: none;
+  opacity: 0;
+}
+.scm-tree .monaco-list-row:hover .scm-row-actions,
+.scm-tree .monaco-list-row:focus-within .scm-row-actions,
+.scm-tree .monaco-list-row.focused .scm-row-actions {
+  opacity: 1;
+}
+.scm-row-actions button {
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+
+.explorer-error {
+  padding: 5px 10px;
+  color: #ee9d9d;
+  overflow-wrap: anywhere;
+}

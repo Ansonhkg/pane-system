@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/browser/controller/editContext/textArea/textAreaEditContext.css",
+    "sha256": "5b8a181bac97be07b6aa5305a6b3f58e1283652d1d7234c7aef334a0ed55bebb"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/textArea/textAreaEditContext.ts",
+    "sha256": "35f11fe9dbb26750ade17dfcd35de98ef2a0e1d17fffa63fe0bdd88fae28ce34"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/textArea/textAreaEditContextInput.ts",
+    "sha256": "ebe03d8acda91ea17f2119cd367b06e86a845210e2e26eeb525e810c8497191a"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/textArea/textAreaEditContextRegistry.ts",
+    "sha256": "887dcc73b38584e88b520f008e079e8bc2e139cb834b9c51a9bc163da2e4ac14"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/textArea/textAreaEditContextState.ts",
+    "sha256": "a85a48531dbd9485880269bf8a82032c3d0f2c0a1f6a6e118d9de3089ae59909"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/mouseHandler.ts",
+    "sha256": "3a07ac0185272ffd9f6b557d18fec24e2b441e2da23ff15c958607fdb809386a"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/mouseTarget.ts",
+    "sha256": "f7b3638deecbaca20bc66bf7d2d90f2446009aa03d74959eb97bd6d53faf12ba"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/pointerHandler.ts",
+    "sha256": "1988c425c6136dd969623ee498eaae6d26e333b088f6b40ee8fa43bd35b395bf"
+  },
+  {
+    "path": "src/vs/editor/browser/coreCommands.ts",
+    "sha256": "68f22613a117e8782e18800c04d9623d207e3272626cdd34936efeba90d62c78"
+  },
+  {
+    "path": "src/vs/editor/browser/dataTransfer.ts",
+    "sha256": "5b2dec6486b841eae7bae97c3e153adc60b6b0515c4c2ee92fa7845f4376c246"
+  },
+  {
+    "path": "src/vs/editor/browser/editorBrowser.ts",
+    "sha256": "6e826cbdb1a10c30dc747c40bcc99831d7be00032540fa98d5166e719fc7b150"
+  },
+  {
+    "path": "src/vs/editor/browser/editorDom.ts",
+    "sha256": "360a831f31253f57a8ba523631771f2ede5a3027498c44bca6d8739096c850af"
+  },
+  {
+    "path": "src/vs/editor/browser/editorExtensions.ts",
+    "sha256": "16dd965e131283e37f0fbe6a431825c8f6d8f0de8f9e182ff2dfd02c16af9136"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/atlas/atlas.ts",
+    "sha256": "a20e8cb0df07edee70f64c13d86b91c2c5d48436eec63ee7cf759bb51aeedfab"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/atlas/textureAtlas.ts",
+    "sha256": "b7f34a37f150bf9b2ab83977ecbc25098fef806c9cc76e7fc299d34cec02a759"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/atlas/textureAtlasPage.ts",
+    "sha256": "a483aaa44f9314c44849d2f488ea7e3b7d4c43f8b08cfe7154bd34559d1533a2"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/atlas/textureAtlasShelfAllocator.ts",
+    "sha256": "22d991ac4284d233cec139562dfe9cd96f822b3ae42ffbec0feb2adeb6f9373c"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/atlas/textureAtlasSlabAllocator.ts",
+    "sha256": "5930a0026f9fd81d0a8d92fc4337defc568030ca3071dd36a895741c8e8f2b4a"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/bufferDirtyTracker.ts",
+    "sha256": "61f21bf6dec282aaf93053206999bad5588e49a45dfbb878f1c54fde01a73943"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/contentSegmenter.ts",
+    "sha256": "78b9d483e42c05f9d90bf7a6bb7aa737b9f664111aa9699c92b5febdbb16973d"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/css/decorationCssRuleExtractor.ts",
+    "sha256": "b15d0a79b5cf4a1ff7250f539e4c1b0798d70b343edf398021bbde6a660e3f57"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/css/decorationStyleCache.ts",
+    "sha256": "756165be0ac6f9dbfae7be93ad76e61e8dea2382809fdb327ae05cf0e056beba"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/css/media/decorationCssRuleExtractor.css",
+    "sha256": "38dffe4fef849d5d7332551bfd58c8ace6406a13b4250aa9de2319acde6aa6fe"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/gpu.ts",
+    "sha256": "ec238d2b7c61533f37a36516e6f16e9ce86d8a571e4b15c5ae157c748bef6ec0"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/gpuDisposable.ts",
+    "sha256": "f7d502cf91543c6f0615392e9050af77d37065bacb5b4d13c4ad2643aa191f1e"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/gpuUtils.ts",
+    "sha256": "5b8d54e0dc33728fe0f68d43cdd6b57707838f891d626612886bfb542317a668"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/objectCollectionBuffer.ts",
+    "sha256": "b5e01b7c609ad8dc98e5aa2fd87ebbfdc62c0f3231dbe5eba5988ae74c38ed4f"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/raster/glyphRasterizer.ts",
+    "sha256": "de1242a040abde42aaf7bad34b960c85edf1a487591946598f923326a5ec1fcd"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/raster/raster.ts",
+    "sha256": "4bc39c3ae1e70587d9e5c0ade0f677dafcd51f30d499c79dcdf6f60e89efd05b"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/rectangleRenderer.ts",
+    "sha256": "0e9f6b544615219ff8cee3d456f44da775bf8f6a52ae608c70bdc692e8858605"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/rectangleRenderer.wgsl.ts",
+    "sha256": "c0a44eec283485a5947e66fe1d80b5c891fe9ce049f5ff99d27cec562be39dca"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/renderStrategy/baseRenderStrategy.ts",
+    "sha256": "60e2bea5bdaf9adb3cf1387661570b8be2a5536ffd90afeada1f80d6b32900d5"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/renderStrategy/fullFileRenderStrategy.ts",
+    "sha256": "f4bd2a60245cb5f17813be13114186c4d8bfaff01640fcd2e30690a8bc1f8d7c"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/renderStrategy/fullFileRenderStrategy.wgsl.ts",
+    "sha256": "ccd10bf30a285b24501ec8a27c8198a521547c9c9fc6abd334385baaa2cc5643"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/renderStrategy/viewportRenderStrategy.ts",
+    "sha256": "50c3a051136b83b18e82a00254a5bc02451613a6a84aa777ece4590078a0c092"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/taskQueue.ts",
+    "sha256": "4818aa246ff4a3fc7abd3a7e16d809a0a41a2e482c4092ebbd9f5c099b30d3eb"
+  },
+  {
+    "path": "src/vs/editor/browser/gpu/viewGpuContext.ts",
+    "sha256": "dc21d24c6e9eeffef071841e965c7784d6094fd91d9162972ba235d4e07afe9a"
+  },
+  {
+    "path": "src/vs/editor/browser/observableCodeEditor.ts",
+    "sha256": "00083554c54068a7a38c9124f2916dc107ace6f11ec05e18b1c2caded02e908e"
+  },
+  {
+    "path": "src/vs/editor/browser/services/abstractCodeEditorService.ts",
+    "sha256": "2892a3f801ea818c7b5efefb119d127dd522e40becf169ca0fec737e1d828394"
+  },
+  {
+    "path": "src/vs/editor/browser/services/bulkEditService.ts",
+    "sha256": "04e646d821298cb8c579193b9c6986338b06cba29d4d9f514394cb341791e881"
+  }
+]

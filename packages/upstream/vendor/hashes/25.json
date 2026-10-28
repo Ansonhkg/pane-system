@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/platform/actions/browser/menuEntryActionViewItem.css",
+    "sha256": "bbacce56e92c4871ac745dbec15447039b4f32768ece588b513f0f7a72117bd3"
+  },
+  {
+    "path": "src/vs/platform/actions/browser/menuEntryActionViewItem.ts",
+    "sha256": "0b5b47b4bdfc7a5bee98c5711aa5d5847af9be6b69081bfd4bea865ba78859c1"
+  },
+  {
+    "path": "src/vs/platform/actions/browser/toolbar.ts",
+    "sha256": "79b210d1c3441e796270303b6153ea4d7cba546b510fd87eba581aa0330d1037"
+  },
+  {
+    "path": "src/vs/platform/actions/common/actions.ts",
+    "sha256": "8257514acf4177ec2b00d6d1ce59a2c5258fd16c1d83c2142f7404a8bbdc71a1"
+  },
+  {
+    "path": "src/vs/platform/actions/common/menuService.ts",
+    "sha256": "c1fd343de44ad8b01ae8e22b51ce70daab1bead0edacb2882fe7e0034838b3cd"
+  },
+  {
+    "path": "src/vs/platform/actionWidget/browser/actionList.ts",
+    "sha256": "02e38559c9914497a0971d15716ab19c5a6e4b1c5b32e886dee433789c259402"
+  },
+  {
+    "path": "src/vs/platform/actionWidget/browser/actionWidget.css",
+    "sha256": "158f63daa7324f94cd356a0fb67c3f47219418765ffa23f9b7e51393776af5ce"
+  },
+  {
+    "path": "src/vs/platform/actionWidget/browser/actionWidget.ts",
+    "sha256": "0ebd0cde58871ab4a38197067e887b394a6c182a834218121cec98b5bd60e826"
+  },
+  {
+    "path": "src/vs/platform/actionWidget/browser/actionWidgetMotion.ts",
+    "sha256": "210954df195546019ed2a2f76ee45ddb0f232f0f99072b739e65392fa67739fd"
+  },
+  {
+    "path": "src/vs/platform/actionWidget/common/actionWidget.ts",
+    "sha256": "47cda99ece1b5fe91c6e04512d3fa0eff220be02285b1dbf1987e726fea1f9fc"
+  },
+  {
+    "path": "src/vs/platform/clipboard/browser/clipboardService.ts",
+    "sha256": "1b7a6921d70bc61c7f5c729a3813cb82f359154ba00f2da2f5cf8782ea31329e"
+  },
+  {
+    "path": "src/vs/platform/clipboard/common/clipboardService.ts",
+    "sha256": "1ff29fea5f01733fc782f716df2b888554ca5763086188dcb0d900be0485170b"
+  },
+  {
+    "path": "src/vs/platform/commands/common/commands.ts",
+    "sha256": "61b0d5d3ef6c441f193e1fe8a17dd6628016e073d8036a0aafc3999a41322e5a"
+  },
+  {
+    "path": "src/vs/platform/configuration/common/configuration.ts",
+    "sha256": "6d62700d9a686ceb6b28b38c39bf2b0a48e6d0b6b64e8d399b38da28381d5103"
+  },
+  {
+    "path": "src/vs/platform/configuration/common/configurationModels.ts",
+    "sha256": "11b040741a304c1147b1fe4f0c034748dbe3baba617c2aab0151f888f9b7729b"
+  },
+  {
+    "path": "src/vs/platform/configuration/common/configurationRegistry.ts",
+    "sha256": "331024ba08d5e97b4ebff53f4aa280d273504cb11b296cdd07315538d1c8efca"
+  },
+  {
+    "path": "src/vs/platform/configuration/common/configurations.ts",
+    "sha256": "4d2cf6d10991d59b3b751f7b1998afa0c731cc79c3d18d6b6cb3ffd1411a58e9"
+  },
+  {
+    "path": "src/vs/platform/contextkey/browser/contextKeyService.ts",
+    "sha256": "985acb0ec6953181862fbe166faec689ed21d6a1c9cb52973349b97e9a6b9da0"
+  },
+  {
+    "path": "src/vs/platform/contextkey/common/contextkey.ts",
+    "sha256": "a3c2b571413942c559a0f31b569531bd28018126ef8f2a6cce1d2e506ccd31a2"
+  },
+  {
+    "path": "src/vs/platform/contextkey/common/contextkeys.ts",
+    "sha256": "9993e0f7a553f6d96d4ae674fe0abef07730ea417273d9d0e966b441c5b25ca7"
+  },
+  {
+    "path": "src/vs/platform/contextkey/common/scanner.ts",
+    "sha256": "d26faea0a81798a70810a3f72dc950a9c9eefa29bb42f708a99ce65e0cca8300"
+  },
+  {
+    "path": "src/vs/platform/contextview/browser/contextMenuHandler.ts",
+    "sha256": "7f5c881d34f5ca1189486ccf11b0dd4d7656a805e13cc67f586d2b300ceaeb54"
+  },
+  {
+    "path": "src/vs/platform/contextview/browser/contextMenuService.ts",
+    "sha256": "68dfb44296ca6db9ba15ba45de31199c0d65b3857f4a0863ed773ef01d57dccd"
+  },
+  {
+    "path": "src/vs/platform/contextview/browser/contextView.ts",
+    "sha256": "d733b493afcca6ef62ffbf7286097f0a5fea8eb9084f10915c25c517e01126f0"
+  },
+  {
+    "path": "src/vs/platform/contextview/browser/contextViewService.ts",
+    "sha256": "5b76a5761771e3ec7470b23003dd1bb04a544ad4bc0167b275e702c0d7a114de"
+  },
+  {
+    "path": "src/vs/platform/dataChannel/browser/forwardingTelemetryService.ts",
+    "sha256": "1578921ba169fe7a3fb9e7fab703bc70abb8c70710876fa2da268deb52f3af1f"
+  },
+  {
+    "path": "src/vs/platform/dataChannel/common/dataChannel.ts",
+    "sha256": "e5aa47c97ec63c95404e438db7a56e0ad186fdd9b9cf629faaf4e409fc97d3df"
+  },
+  {
+    "path": "src/vs/platform/defaultAccount/common/defaultAccount.ts",
+    "sha256": "8804db1046ebdc56ce06bebcbfb9122f9f7ab5319e6cf2297a3c5cf89017e3df"
+  },
+  {
+    "path": "src/vs/platform/dialogs/common/dialogs.ts",
+    "sha256": "70102f2d59772bae6fb02979218891f1892f02a08911e35af4e35173ff5a72f1"
+  },
+  {
+    "path": "src/vs/platform/dnd/browser/dnd.ts",
+    "sha256": "cc314c5ad5572c61439b4f269bf891b9f6e634dfdd4e7d22757ba63465405bb6"
+  },
+  {
+    "path": "src/vs/platform/editor/common/editor.ts",
+    "sha256": "e431467b11fdab4d38744be6a621d79d7d5443e0f72b0b0bef1a5699d0ad221e"
+  },
+  {
+    "path": "src/vs/platform/environment/common/argv.ts",
+    "sha256": "163b8ba20a40b5af01d32d911c8d04188b2f087d5f51de4f534271ee6719f4e2"
+  },
+  {
+    "path": "src/vs/platform/environment/common/environment.ts",
+    "sha256": "454a94c6cf2d25456fa4fe89c03960cf01b32faef94e8b3082644ec20ae03439"
+  },
+  {
+    "path": "src/vs/platform/extensionManagement/common/extensionGalleryManifest.ts",
+    "sha256": "c43cfdd56790a821cf963b18b8948161a3b44d2d6981322a8160c79da9500f48"
+  },
+  {
+    "path": "src/vs/platform/extensionManagement/common/extensionManagement.ts",
+    "sha256": "e619227a338b167d97633d22671bbd316e04061c42eb7634242544f83ebb179b"
+  },
+  {
+    "path": "src/vs/platform/extensions/common/extensions.ts",
+    "sha256": "3b7aee22378bc19f77edd02f6786d19aa367ff02b6fae9e1029e6de437c9bd24"
+  },
+  {
+    "path": "src/vs/platform/files/browser/htmlFileSystemProvider.ts",
+    "sha256": "aebeff47ba12c40f4fa11f40f53ab2efd8e4a2fdbab99162f5829507d8887272"
+  },
+  {
+    "path": "src/vs/platform/files/browser/webFileSystemAccess.ts",
+    "sha256": "fbf6900abb87c990ee24a4ac313c3f66c288b7dd2dd0224ae0247c287df99b55"
+  },
+  {
+    "path": "src/vs/platform/files/common/files.ts",
+    "sha256": "501d9d5c97ed86f225f1c6e7cebd16879650f0dc313fb1afdaa0749bd3bcecb7"
+  },
+  {
+    "path": "src/vs/platform/history/browser/contextScopedHistoryWidget.ts",
+    "sha256": "fefcd9baf3e0126e4aa1bb715f61cc561d2cb3c44fadf7c6064027a10c67bc33"
+  }
+]

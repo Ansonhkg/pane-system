@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/platform/history/browser/historyWidgetKeybindingHint.ts",
+    "sha256": "118bf262447c95bf36a59a06ed0921e79216b4b706d9b847a8cec97902de6dca"
+  },
+  {
+    "path": "src/vs/platform/hover/browser/hover.css",
+    "sha256": "5d6699291ded17c270a5869056adf7fd4a6cc633c0c4fe7f32c6bb746a8dd609"
+  },
+  {
+    "path": "src/vs/platform/hover/browser/hover.ts",
+    "sha256": "468e4394a5ec4e35f476b036ef88ae92f8e9a7713badb7b31da4d8d518bd4f93"
+  },
+  {
+    "path": "src/vs/platform/hover/browser/hoverService.ts",
+    "sha256": "532128a797310e721ef0927ae06203deb041ca8222313192ce288ee8ca76e336"
+  },
+  {
+    "path": "src/vs/platform/hover/browser/hoverWidget.ts",
+    "sha256": "ed3880cacd1b48109543ca05b6ce31fde2bcb5ca092d1a16f9c70f760d9fa29c"
+  },
+  {
+    "path": "src/vs/platform/hover/browser/updatableHoverWidget.ts",
+    "sha256": "7de5b8bdc80b7169492d0476742a48a14a41d5498f44b0a7a424331e9dc3e8c4"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/descriptors.ts",
+    "sha256": "3822bb2986b64bbf1eb4f644eaf5a83056a7537b9d0450bea83a552dd8c48975"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/extensions.ts",
+    "sha256": "40de914f6ca92f36c0dde943616e0b573c9a5e6f6df29213d7ec7348a388cf5d"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/graph.ts",
+    "sha256": "b8ae77bb498c985066239a4c819882530a933768ae0e4bb399bc43de78f71f42"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/instantiation.ts",
+    "sha256": "87247ec79a014320fd3d3d7a4a763308b94219c95a9cf58b53c3e3a1e3aa89a6"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/instantiationService.ts",
+    "sha256": "a7da6fb0279c3a208c85752b6b73d2598e2eac2d7fcf90bdd7920562d0bb2c01"
+  },
+  {
+    "path": "src/vs/platform/instantiation/common/serviceCollection.ts",
+    "sha256": "be9a3d6b1d53412f259aa39e23eada52fcf81af45d5d2113686965251e21d38f"
+  },
+  {
+    "path": "src/vs/platform/jsonschemas/common/jsonContributionRegistry.ts",
+    "sha256": "60bca0ed59e663c66a04baee0782ee65736d64312a711ca55d1586c78202a9f9"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/abstractKeybindingService.ts",
+    "sha256": "b2875ae8cd71532e991602ad2912ace09a6a7b6a2dae895e95260b670cf4ef17"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/baseResolvedKeybinding.ts",
+    "sha256": "518ea7d95bbbb2a18bb3562ff17bbcb55d3374fcf8320e74719fcf568f5057ad"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/keybinding.ts",
+    "sha256": "fb8ff28fb5431355c9fb9b8cc11f4a44c84eb0455780004074cd8c466d506341"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/keybindingResolver.ts",
+    "sha256": "9187d380bac24e50bc108ce0629aab2cb28b88f74b0bea72a96643346ea57f72"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/keybindingsRegistry.ts",
+    "sha256": "3a92f98e10addeb1d651fb6e8e433b7e0e2b2e2ea722d8f18c631ab742ded8cd"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/resolvedKeybindingItem.ts",
+    "sha256": "6e3caa1bac6c3ec193796524fdcb0691c268b2b6bd56de217c7f462d339c8bec"
+  },
+  {
+    "path": "src/vs/platform/keybinding/common/usLayoutResolvedKeybinding.ts",
+    "sha256": "389a53e987ea9853e8e6e3721208e3c5943794660ecc976fd2ce88fc030ca7b5"
+  },
+  {
+    "path": "src/vs/platform/label/common/label.ts",
+    "sha256": "b54e9170ccb2ad4354eea6c4a41ee07c2e8ca22f4d93f56690333bf01a2858c9"
+  },
+  {
+    "path": "src/vs/platform/layout/browser/layoutService.ts",
+    "sha256": "58155dd8cd86cb1e020f6f11ba39d2d3c356f3cc3a5435167ec5975744b16ef7"
+  },
+  {
+    "path": "src/vs/platform/list/browser/listService.ts",
+    "sha256": "cdc81e193589c3a98ee309a55946e11aac8db0d0cb5901929490ad6c854cbd49"
+  },
+  {
+    "path": "src/vs/platform/log/common/log.ts",
+    "sha256": "9304faab7368e014708eec7a6d46ed4261a828759cc720cd252d5f5b24d0fab9"
+  },
+  {
+    "path": "src/vs/platform/log/common/logService.ts",
+    "sha256": "1c28341b1e92d81da6ced2c824fc50193007f52a281cc51b74e2b1aa29781494"
+  },
+  {
+    "path": "src/vs/platform/markdown/browser/markdownRenderer.ts",
+    "sha256": "e3dc7bc7f256f1c001b6260c6f17a112d6cb535ea9a9902aec6f7238423574fc"
+  },
+  {
+    "path": "src/vs/platform/markers/common/markers.ts",
+    "sha256": "9b319a3b48e20fbc45c9daf79b3a202d87b9f6ce1d21821422fead330cff94d5"
+  },
+  {
+    "path": "src/vs/platform/markers/common/markerService.ts",
+    "sha256": "ed3aaeb9d66c31fe14e002e58cb33c6165d8522b88350bca6fe69be8d347bc9a"
+  },
+  {
+    "path": "src/vs/platform/notification/common/notification.ts",
+    "sha256": "422446a403da789abf36968401c469b7ee1a86fa66562f93b337c37fbeb21788"
+  },
+  {
+    "path": "src/vs/platform/notification/common/notificationLegacy.ts",
+    "sha256": "805d3734d90f3a64c3d05bb5988d13a280f07629fd00de690bca1358e0d875bd"
+  },
+  {
+    "path": "src/vs/platform/notification/common/notificationMessage.ts",
+    "sha256": "3242dc8e3238cc27760db0a189c3830d4abc06c96d4cb61058d10f81ab338f5f"
+  },
+  {
+    "path": "src/vs/platform/notification/common/notificationTelemetry.ts",
+    "sha256": "dfa98f01bf7b71619eb96389000d751a38bf0e115c131a8d40d32659d9662df8"
+  },
+  {
+    "path": "src/vs/platform/observable/common/platformObservableUtils.ts",
+    "sha256": "e84a42e908477aba3d857a1c3d96c663a7da21134f5e76657425486622350a3a"
+  },
+  {
+    "path": "src/vs/platform/observable/common/wrapInHotClass.ts",
+    "sha256": "72c79ca9e27e6d606bca1a7648aad3aeffda3caa62ce94922f430bc704f39907"
+  },
+  {
+    "path": "src/vs/platform/observable/common/wrapInReloadableClass.ts",
+    "sha256": "1da6605fc74fe26f0154d6ab974ef3debb946a653811a761fee9b4b162b077bb"
+  },
+  {
+    "path": "src/vs/platform/opener/browser/link.css",
+    "sha256": "5150c63b9179787110bfb72ce8039bb449de5b23b6c4aedcad4316f7b2e21833"
+  },
+  {
+    "path": "src/vs/platform/opener/browser/link.ts",
+    "sha256": "2c856e150635b642838a7de4980d0c83bf9489c36af60b46048af7abe4195a9d"
+  },
+  {
+    "path": "src/vs/platform/opener/common/opener.ts",
+    "sha256": "02da7e12cbd0e92ba99d3fda08fa9c60f9ba0e91ec88d88185831d30eec9b7d3"
+  },
+  {
+    "path": "src/vs/platform/policy/common/copilotManagedSettings.ts",
+    "sha256": "e1eb6ae331ecc133dd403d25d9045763abff1c8bc72f621f45a1843476e57ab2"
+  },
+  {
+    "path": "src/vs/platform/policy/common/managedSettingsFreshness.ts",
+    "sha256": "093609a6a2598318cd33d49ec4405f0a62ac76082723f4d0b640d427861c9ac6"
+  }
+]

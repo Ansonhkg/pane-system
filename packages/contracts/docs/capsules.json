@@ -1,0 +1,11 @@
+[
+  {
+    "id": "contracts",
+    "start": "bun src/app/entrypoints/package.ts doctor --json",
+    "owned": ["src/"],
+    "exports": ["src/index.ts"],
+    "ports": ["RunStore", "Flags"],
+    "dependencies": [],
+    "operations": ["contracts.inspect"]
+  }
+]

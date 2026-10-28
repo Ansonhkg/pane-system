@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/common/languages.ts",
+    "sha256": "c35e7f0372e7443fbac34dda6eb8d0fefb8089a17b0ffd3d4677f7f7b7c9ee62"
+  },
+  {
+    "path": "src/vs/editor/common/languages/autoIndent.ts",
+    "sha256": "c726b01b231080a6f654d1e6a556c3c0eb03d5c83f9199d78d42cb190714c3db"
+  },
+  {
+    "path": "src/vs/editor/common/languages/defaultDocumentColorsComputer.ts",
+    "sha256": "6c11b325f46f14266fb6f8b07240dabee7bd4834ba5137e135c4ab8de3d05c24"
+  },
+  {
+    "path": "src/vs/editor/common/languages/enterAction.ts",
+    "sha256": "7f4158cd54f2168031da9445456ba2dd8c1ce356ee132ea132c01691c7ba21ff"
+  },
+  {
+    "path": "src/vs/editor/common/languages/language.ts",
+    "sha256": "19a39842d1bcf4fbf3b4684ca21a029fcb64c5898c85912d2f85e9b481eb726f"
+  },
+  {
+    "path": "src/vs/editor/common/languages/languageConfiguration.ts",
+    "sha256": "2f2e42b1a1bc1766d95cd773bf65eab245f96f414e52f51739eab09fdca9ccb4"
+  },
+  {
+    "path": "src/vs/editor/common/languages/languageConfigurationRegistry.ts",
+    "sha256": "cef5668bcfb146b9693833a8710c8489ee5d469ab5fc171dd9a047645fc02927"
+  },
+  {
+    "path": "src/vs/editor/common/languages/linkComputer.ts",
+    "sha256": "fb23dd68c2cf8ef8474cc7b896ba9599b1212b0e4d3e27db7f0d43a825af0085"
+  },
+  {
+    "path": "src/vs/editor/common/languages/modesRegistry.ts",
+    "sha256": "72481ef871d77a75bdefff908fff46d946008e799429c28c5e5b66c617aaeaf5"
+  },
+  {
+    "path": "src/vs/editor/common/languages/nullTokenize.ts",
+    "sha256": "7d43d8f4d6131b30807431bfaded83aef3691ba6beda8ba65f3df1481bc87e29"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports.ts",
+    "sha256": "2b0716e359d4119fada585d75b681c5b5b97ff7f9241a8b3dc99da4cbd60c075"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/characterPair.ts",
+    "sha256": "2a57ecae3a1ddfc28955d46eccaec28c742e8b5d6806f4ff6299efb48e8761a3"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/electricCharacter.ts",
+    "sha256": "589079b0bba4c5577d9f88d00b0cdf3efbc0e6380ccaacd583f7daa66facab41"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/indentationLineProcessor.ts",
+    "sha256": "4a05c9c69345bc6962678bd415f304dd9085d6f3e9e64e9c5804a8890e164597"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/indentRules.ts",
+    "sha256": "32e78fc6c800576ef74df130b0eb38eef3a0518a60cc424c63c69f213d61bb9d"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/inplaceReplaceSupport.ts",
+    "sha256": "6be87d4f5463416b6dd53ec3402bbba00f5c85cf5ae743fcb665619ec4de1b90"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/languageBracketsConfiguration.ts",
+    "sha256": "81655018015ca2686f53d1d0f4dddde262590cd98731852b1009985fd47f2904"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/onEnter.ts",
+    "sha256": "0bf15e0d1d255a3e0d398caa0ee05bd7ab28215f52a463894e5b0c1924f24bb2"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/richEditBrackets.ts",
+    "sha256": "150160c627d573164417ce7a7884c3496072d6e96f7130ce43446cfbc50bd5c3"
+  },
+  {
+    "path": "src/vs/editor/common/languages/supports/tokenization.ts",
+    "sha256": "021654c5e03df100afb52074d0954cc8de353f5fd3fbed22787dd45583806b81"
+  },
+  {
+    "path": "src/vs/editor/common/languages/textToHtmlTokenizer.ts",
+    "sha256": "591ffbd8b97b13ba03cb5b4bc70b87b6a957f5a70c8d6f254ff5b150b7ea1221"
+  },
+  {
+    "path": "src/vs/editor/common/languageSelector.ts",
+    "sha256": "1da50ad64c0995f4b8575f61d5e9855da698a5767b0d10f34b5478ad3e6b4edf"
+  },
+  {
+    "path": "src/vs/editor/common/model.ts",
+    "sha256": "e340152391faaa19cf3e1a339e67c0235f3785f457734191eaa985020ed45980"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsImpl.ts",
+    "sha256": "7590390b4e9c2c32dc50a904dc1431198ec4605e963c4aa50737779b7b771c60"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/ast.ts",
+    "sha256": "272706f0f8efcb918f0991cab2b7227c2a9b4571b912ebad3b74a7942ec9d6ee"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/beforeEditPositionMapper.ts",
+    "sha256": "db72a24f228c1ad125dacf7cf07b680d3efc0d63098c94985ba10865a30c92be"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/bracketPairsTree.ts",
+    "sha256": "a45973f3d5bc123be9acedc02819fc638c289fbfd5c8bf74d145ee660a083c07"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/brackets.ts",
+    "sha256": "2a9ce6b2821abaab869a8726266a13d5ebaec91473db11178f07bd4d45fee84b"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/combineTextEditInfos.ts",
+    "sha256": "62510f0e0d815c18e8c77b9987a35ec25310a8dba5d68fbc845bfe8e483a13fe"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/concat23Trees.ts",
+    "sha256": "e243fd5172b6aec49cef6291b35675515f94b5d0eec64482e235f59d984fd0e3"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/length.ts",
+    "sha256": "ecaa950c3b34736a4123f7e51c66396457a6c92437743a1a5f4931658be7869f"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/nodeReader.ts",
+    "sha256": "8a31675fc50d8e18332ab32336547e57648ac5f63707f86af12bbe2e3096150e"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/parser.ts",
+    "sha256": "183ff30e8ba1e211687cf7e07b52dcd74f0232b70c6c014f757ec1794da6f462"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/smallImmutableSet.ts",
+    "sha256": "bf515ea52c0ceb6dbb25f01ce290d77318b78f270eeb9cfb94e85e2f89974766"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/tokenizer.ts",
+    "sha256": "b537592cdba9b4f2817da9786c16e825b7d658e516212f9ffc9b894a4ea4763d"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/colorizedBracketPairsDecorationProvider.ts",
+    "sha256": "f67419124ce1cf3ec5675ed3e9c77614108b62be0268eaaa224f7b0587132cbc"
+  },
+  {
+    "path": "src/vs/editor/common/model/bracketPairsTextModelPart/fixBrackets.ts",
+    "sha256": "0492af7a4e640f98fa41b024db709b95d471d7b065ef4c986b8a51febcd0ce27"
+  },
+  {
+    "path": "src/vs/editor/common/model/decorationProvider.ts",
+    "sha256": "b215e1739acc56493f3e581d6b87e3e79cfbb6ce265f6bc75f28be0c9e8b84b0"
+  },
+  {
+    "path": "src/vs/editor/common/model/editStack.ts",
+    "sha256": "406a22174f0b5a58407e1e8adc5816ada835072f6e0ca211896d6c71bceb7077"
+  },
+  {
+    "path": "src/vs/editor/common/model/fixedArray.ts",
+    "sha256": "0b0253e0bf4ea9075896c757d091774b5dc5a4668f5b88886536a81d441bb180"
+  }
+]

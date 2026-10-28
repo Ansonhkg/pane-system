@@ -1,0 +1,21 @@
+{
+  "name": "@pane-system/language-services",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./worker": "./src/platform/worker.ts"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pane-system/upstream": "workspace:*",
+    "@pane-system/contracts": "workspace:*",
+    "monaco-editor": "0.57.0"
+  },
+  "license": "MIT"
+}

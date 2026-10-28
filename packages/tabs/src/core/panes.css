@@ -1,0 +1,230 @@
+@import "@pane-system/upstream/drop.css";
+@import "@pane-system/layout/styles.css";
+@import "@pane-system/upstream/chrome.css";
+@import "@pane-system/contracts/icons.css";
+@import "@pane-system/contracts/dialogs.css";
+.pane {
+  color: var(--pane-text, #cbd3df);
+  font:
+    12px -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: var(--pane-surface, #1b1e25);
+  overflow: hidden;
+  position: relative;
+}
+.pane-header {
+  height: 35px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  background: var(--pane-frame, #15171d);
+}
+.pane[data-focused="true"] > .pane-header {
+  background: var(--pane-raised, #252a34);
+}
+.tabs {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  height: 35px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+.tab {
+  display: flex;
+  align-items: center;
+  min-width: 90px;
+  max-width: 240px;
+  flex-shrink: 0;
+  padding: 0 3px 0 4px;
+  color: var(--pane-muted, #8590a2);
+}
+.tab[data-active="true"] {
+  color: var(--pane-text, #cbd3df);
+  background: var(--pane-surface, #1b1e25);
+  box-shadow: inset 0 2px var(--pane-accent, #a594f9);
+}
+.tab > button:first-child {
+  text-align: left;
+  height: 30px;
+  padding: 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tab > button:last-child {
+  flex-shrink: 0;
+  width: 23px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+}
+.pane-controls {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+.pane-controls > button {
+  height: 27px;
+  width: 25px;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+}
+.pane-body {
+  flex: none;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+.pane-zoom-menu strong {
+  display: block;
+  padding: 7px 8px;
+}
+.pane-zoom-menu input {
+  width: calc(100% - 16px);
+  margin: 8px;
+}
+.pane-body > * {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.monaco-sash {
+  --vscode-sash-size: 6px;
+  --vscode-sash-hover-size: 3px;
+}
+.monaco-sash::before {
+  background: var(--pane-line, #343945) !important;
+}
+.monaco-sash.hover::before,
+.monaco-sash.active::before {
+  background: var(--pane-accent, #a594f9) !important;
+}
+.monaco-split-view2 > .monaco-scrollable-element {
+  height: 100%;
+}
+
+.pane button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.pane button:hover,
+.pane button:focus-visible {
+  background: var(--pane-active, #303644);
+}
+.pane [hidden] {
+  display: none !important;
+}
+.tab[data-preview="true"] [role="tab"] {
+  font-style: italic;
+}
+.tab[data-sticky="true"] {
+  box-shadow: inset 3px 0 var(--pane-accent, #a594f9);
+}
+.pane-tab-menu {
+  position: fixed;
+  margin: 0;
+  padding: 6px;
+  width: 190px;
+  background: var(--pane-surface, #1b1e25);
+  color: var(--pane-text, #cbd3df);
+  border: 0;
+  border-radius: 7px;
+}
+.pane-tab-menu::backdrop {
+  background: transparent;
+}
+.pane-tab-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: inherit;
+}
+.pane-tab-menu button:hover,
+.pane-tab-menu button:focus-visible {
+  background: var(--pane-active, #303644);
+}
+/* MultiEditorTabsControl applies tab hover to the container, not its label. */
+.tab:hover {
+  background-color: var(
+    --vscode-tab-hoverBackground,
+    var(--pane-active, #282828)
+  );
+}
+.tab > button:first-child:hover,
+.tab > button:first-child:focus-visible {
+  background: transparent;
+  color: inherit;
+}
+.tab-actions {
+  flex: 0 0 22px;
+  align-self: center;
+  height: 22px;
+}
+.tab-actions .action-label {
+  box-sizing: content-box;
+  opacity: 0;
+  background-color: transparent;
+}
+.tab[data-active="true"] .tab-actions .action-label,
+.tab:hover .tab-actions .action-label,
+.tab:focus-within .tab-actions .action-label {
+  opacity: 1;
+}
+.tab-actions .action-label:hover,
+.tab-actions .action-label:focus-visible {
+  background-color: var(--vscode-toolbar-hoverBackground, #ffffff1a);
+}
+.tab {
+  position: relative;
+}
+.tab.dragged-over {
+  background-color: var(
+    --vscode-tab-hoverBackground,
+    var(--pane-active, #282828)
+  );
+}
+.tab.drop-target-left::after,
+.tab.drop-target-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: var(--vscode-tab-dragAndDropBorder, #cccccc);
+  pointer-events: none;
+  z-index: 11;
+}
+.tab.drop-target-right::before {
+  left: 0;
+}
+.tab.drop-target-left::after {
+  right: -2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .monaco-workbench.monaco-enable-motion
+    #monaco-workbench-editor-drop-overlay
+    > .editor-group-overlay-indicator.overlay-move-transition {
+    transition: none;
+  }
+}

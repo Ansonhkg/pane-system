@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "spine": "src/app/spine/application.ts",
+  "wiring": "src/app/bootstrap/providers.ts",
+  "registry": "src/app/bootstrap/modules.ts"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/platform/theme/common/colors/miscColors.ts",
+    "sha256": "f118af50acb82490b4de3e04f9ec5fa09f8ef847e02305b5bc7e60e1f9302756"
+  },
+  {
+    "path": "src/vs/platform/theme/common/colors/quickpickColors.ts",
+    "sha256": "ba21b76bd8b39452de7c9779af2f54979ee445d190922513cab6025261318e5d"
+  },
+  {
+    "path": "src/vs/platform/theme/common/colors/searchColors.ts",
+    "sha256": "8b9cd5c1d527ed29c92d016268933e37e864a24fdd42df2c181ecdf088b7c419"
+  },
+  {
+    "path": "src/vs/platform/theme/common/colorUtils.ts",
+    "sha256": "cc1656c41e8b61326fb22161013a806e80cb5a758368bb8cdfedf2b77f3b05f6"
+  },
+  {
+    "path": "src/vs/platform/theme/common/iconRegistry.ts",
+    "sha256": "649e8858310c5ea402b6af8db24c5e0b9b0262b34ba269e78c5ffcb16bdf4aba"
+  },
+  {
+    "path": "src/vs/platform/theme/common/theme.ts",
+    "sha256": "65965acd8bfbd3b4648607b7b488314208b9d44e0a5925a8ce435ae5bf939981"
+  },
+  {
+    "path": "src/vs/platform/theme/common/themeService.ts",
+    "sha256": "3e40c2c0fb13401899ed16e7ae3c6f72f2817defc8d4fe8e7f0b214c04d35745"
+  },
+  {
+    "path": "src/vs/platform/undoRedo/common/undoRedo.ts",
+    "sha256": "dfa1be6524c4012f304a4e12d4a33c48ea6944c830db874bd59ba23704d1562a"
+  },
+  {
+    "path": "src/vs/platform/undoRedo/common/undoRedoService.ts",
+    "sha256": "ed8b339df6af0f0cf3e70dadcb4000df429073ede510aeb4029a3243ac11aced"
+  },
+  {
+    "path": "src/vs/platform/uriIdentity/common/uriIdentity.ts",
+    "sha256": "902c9d9e9a4b2cbba3311c27b32c75f0d36aff819b8cea96f83a39edcd2efe4e"
+  },
+  {
+    "path": "src/vs/platform/userDataProfile/common/userDataProfile.ts",
+    "sha256": "63d7b077e90334a64ad20ca22f6437cbbe9ba68caadc57c3fa2037c8dd84a40d"
+  },
+  {
+    "path": "src/vs/platform/userInteraction/browser/userInteractionService.ts",
+    "sha256": "81ab3fc537eadc8d98d1212d926f1caff59dd6b007e8931ba623de9e7b0a0fb3"
+  },
+  {
+    "path": "src/vs/platform/userInteraction/browser/userInteractionServiceImpl.ts",
+    "sha256": "0211b0fc253610626cd775a99d92f175b40355691803c87921ab09fdfe34e732"
+  },
+  {
+    "path": "src/vs/platform/webWorker/browser/webWorkerDescriptor.ts",
+    "sha256": "873fe6fc9b7f8c8ae3356224b9410592796ecd107f3bce3edd3ba321ad0e222e"
+  },
+  {
+    "path": "src/vs/platform/webWorker/browser/webWorkerService.ts",
+    "sha256": "1190e9c409b6bf34f911cf19e201257d70dd176a32aa5d97cd8a192a2f6ab380"
+  },
+  {
+    "path": "src/vs/platform/webWorker/browser/webWorkerServiceImpl.ts",
+    "sha256": "fe34acfa246e03b586e82889149db8c3454a73bf17806b4479a1002b3d0715ea"
+  },
+  {
+    "path": "src/vs/platform/window/common/window.ts",
+    "sha256": "71e1fa37a6fa3d4a36c701cd401b098cdcb710c718f5537886f0f514b8027327"
+  },
+  {
+    "path": "src/vs/platform/workspace/common/workspace.ts",
+    "sha256": "dec44bb8e4e02b3b17c95986a7f1a7f622bdb3176fa81090eee9f3ec0ba1f6ef"
+  },
+  {
+    "path": "src/vs/platform/workspace/common/workspaceTrust.ts",
+    "sha256": "577db86bcd8528ac414a243190571127c70d07a8c849acb2824bc127c50bacc9"
+  },
+  {
+    "path": "src/vs/workbench/browser/parts/editor/editorDropTarget.ts",
+    "sha256": "d29958ea2dbab5f66c2b2239f515c313f839a28473e1b074ca1c41e46b2a28eb"
+  },
+  {
+    "path": "src/vs/workbench/browser/parts/editor/media/editordroptarget.css",
+    "sha256": "efcd93f378da2ac0276719cac724e99ce6b3c7cc492fd591ba48cb245a304f30"
+  },
+  {
+    "path": "src/vs/workbench/browser/parts/editor/media/multieditortabscontrol.css",
+    "sha256": "80844371c9fc2d041ab2fab5ed53bf01d14d6c838dc641c92237ba90dec5b5f3"
+  },
+  {
+    "path": "src/vs/workbench/browser/parts/editor/multiEditorTabsControl.ts",
+    "sha256": "809fd239226d14a0605fc47f75ebc36971e32893d32d46ca3add4a2dec01ba93"
+  },
+  {
+    "path": "src/vs/workbench/common/composite.ts",
+    "sha256": "9d9447809d08e56378016e81957fdc06e8923b11e6b3a7c658ea951af1d5974b"
+  },
+  {
+    "path": "src/vs/workbench/common/editor.ts",
+    "sha256": "3b7ab8e20588b96a87e3cb52d1a12bd01165571a01fc63b1ce7f762a4d07e3e2"
+  },
+  {
+    "path": "src/vs/workbench/common/editor/editorGroupModel.ts",
+    "sha256": "c72776f936e0d9fd829905c5639b0de534937deb4246fb6ac46ecafced555165"
+  },
+  {
+    "path": "src/vs/workbench/common/editor/editorInput.ts",
+    "sha256": "f553ced9660ef099e702674439295fb301ce869ee63ccd4e57c229d14f502791"
+  },
+  {
+    "path": "src/vs/workbench/common/editor/editorModel.ts",
+    "sha256": "668d9459a08cf2b4114bc01b7ca566334edf31292ecdb5baf72ae7e6c0431aad"
+  },
+  {
+    "path": "src/vs/workbench/common/editor/sideBySideEditorInput.ts",
+    "sha256": "9924e8f3906b594fb1421a929b338234893a199a8d4b2bdf991d6bb60deed6c8"
+  },
+  {
+    "path": "src/vs/workbench/common/editor/textEditorModel.ts",
+    "sha256": "6375a5181e766d5b831bd4de39faa21c750e7e1ea90fa6df0ab49c8cd0bf1cb6"
+  },
+  {
+    "path": "src/vs/workbench/common/resources.ts",
+    "sha256": "3696d1514bace5811769172ce442456ac1e40e2bfe8dbcfef2694368f42b9fc4"
+  },
+  {
+    "path": "src/vs/workbench/services/configuration/common/configuration.ts",
+    "sha256": "3886afbff477210a7d255286c7f59c6864a6dc392ed1116fad4e36bac7123d7a"
+  },
+  {
+    "path": "src/vs/workbench/services/editor/common/editorGroupsService.ts",
+    "sha256": "190ee755cd6ef73c43a89c7565b65af71211d0878563cba58aab9cea5a7f3c07"
+  },
+  {
+    "path": "src/vs/workbench/services/editor/common/editorService.ts",
+    "sha256": "5f195f0a7cae4e74e4678c3ca4485c91817ff026041164ecd16b662fdb439626"
+  },
+  {
+    "path": "src/vs/workbench/services/files/common/elevatedFileService.ts",
+    "sha256": "266f05da4f466f2268a67ab5953882c45b080b603bc45d731bb8a7e4622070d0"
+  },
+  {
+    "path": "src/vs/workbench/services/filesConfiguration/common/filesConfigurationService.ts",
+    "sha256": "ba9a5f7cd40e2426a30d296c4d9d245c2bd0bb050d59fa84af8ceccefeb52e9a"
+  },
+  {
+    "path": "src/vs/workbench/services/languageDetection/common/languageDetectionWorkerService.ts",
+    "sha256": "f0c15b2502c706be5f6ac5413d39374fb63e9a88caa61b9a819b7b3a9463c8c3"
+  },
+  {
+    "path": "src/vs/workbench/services/preferences/common/preferences.ts",
+    "sha256": "8c81732ab52a786dd48e7879048fe4a40e9ccc51431964e366669c195b5cf6ce"
+  },
+  {
+    "path": "src/vs/workbench/services/preferences/common/preferencesModels.ts",
+    "sha256": "d90143da3e248c8e8b535ac04609b5b9cf0196459125ce08bc5b25718db5244c"
+  },
+  {
+    "path": "src/vs/workbench/services/preferences/common/preferencesValidation.ts",
+    "sha256": "98983ab6887da0485da1b4df630bda85844557ebaca7757ca91259602b63336d"
+  }
+]

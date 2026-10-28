@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="pane-token" content="__PANE_TOKEN__" />
+    <title>Pane System</title>
+    <link rel="stylesheet" href="/assets/demo.css" />
+    <script type="module" src="/assets/demo.js"></script>
+  </head>
+  <body class="reference-workbench">
+    <header class="app-header">
+      <div class="project-name">
+        <span id="active-file">Welcome</span> —
+        <span id="workspace-name">workspace</span
+        ><img src="/assets/logo.svg" alt="" width="16" height="16" />
+      </div>
+      <div class="window-actions">
+        <button
+          id="commands"
+          title="Find a command (Command K)"
+          aria-label="Find a command"
+        ></button>
+        <button
+          id="toggle-files"
+          title="Toggle files (Command B)"
+          aria-label="Toggle files"
+        ></button>
+        <button
+          id="split-editor"
+          title="Split pane right"
+          aria-label="Split pane right"
+        ></button>
+        <button
+          id="theme"
+          title="Change theme"
+          aria-label="Change theme"
+        ></button>
+        <button
+          id="reset"
+          title="Reset layout"
+          aria-label="Reset layout"
+        ></button>
+      </div>
+    </header>
+    <main class="app-main">
+      <nav id="activity" class="rail" aria-label="Views">
+        <div class="rail-main">
+          <button data-view="explorer" title="Files" aria-label="Files">
+            ▱
+          </button>
+          <button data-view="search" title="Search" aria-label="Search">
+            ⌕
+          </button>
+          <button
+            data-view="source-control"
+            title="Source control"
+            aria-label="Source control"
+          >
+            ⑂
+          </button>
+          <button data-view="terminal" title="Terminal" aria-label="Terminal">
+            ›_
+          </button>
+          <button data-view="context" title="Context" aria-label="Context">
+            ⊞
+          </button>
+          <button data-view="input" title="Input" aria-label="Input">⌨</button>
+          <button data-view="output" title="Output" aria-label="Output">
+            ≡
+          </button>
+        </div>
+        <button
+          data-view="connections"
+          title="Connections"
+          aria-label="Connections"
+        >
+          ⚙
+        </button>
+      </nav>
+      <div id="workspace" aria-label="Workspace"></div>
+    </main>
+    <footer class="app-footer">
+      <span id="status" role="status">Starting</span
+      ><span id="performance"></span
+      ><button id="layout-export">Export layout</button
+      ><a href="/layout">Layout framework</a><span>VS Code source · MIT</span>
+    </footer>
+  </body>
+</html>

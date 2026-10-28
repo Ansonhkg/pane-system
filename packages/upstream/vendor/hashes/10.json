@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorEditors.ts",
+    "sha256": "d3cb0c06db86d167e5977a9062d365a63a7d3da45f3d8b1ee6cd43764f666de6"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorSash.ts",
+    "sha256": "454cdcc06aa93240bfae6ad44a55193c0fa3eba0cce639538389820aa755616a"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/copySelection.ts",
+    "sha256": "e6c3dbc3b866dfb9a32dae30585cf0817cf096fd7c3645e45e616b8c40ffe6fd"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/diffEditorViewZones.ts",
+    "sha256": "f07e969b2cf677afcb8cdaf3caf74223d988f02a16f6df06016909f06e583923"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/inlineDiffDeletedCodeMargin.ts",
+    "sha256": "05aef8a73213b5b1de6a1edd9599a242258664d2fa644e5d55bfa1446e2009e5"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/renderLines.ts",
+    "sha256": "1176a1ae0930734db51c16d1f66d344cf806bbf0f28eb36cc01eac184d6a5f26"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/delegatingEditorImpl.ts",
+    "sha256": "8738b50e38b3f7e9edf4e3c92aab1348b359f00cf785c3b0b060d4e346b826ad"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/diffEditor.contribution.ts",
+    "sha256": "187401c5eecfe7f6653fb9a8f2c3521629f1b10d65e72dc941f862c56c981708"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/diffEditorOptions.ts",
+    "sha256": "6cf58b6ec53216d464254d5e24d724ec824369a585ecdd89a63ad8167af790dc"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/diffEditorViewModel.ts",
+    "sha256": "6f7673dcfa8d84b67cca0a4484501f3a6b1810b80c68e1ce8468a9e1b3626fa4"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/diffEditorWidget.ts",
+    "sha256": "46920a1ed38d371f72117f020550d4a356bc800b216a04c362316427e741a1a6"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/diffProviderFactoryService.ts",
+    "sha256": "bab6f3c3206c23488bb74790ff2adb8aec818dd6d4ae48dc2676c6831e490788"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/features/gutterFeature.ts",
+    "sha256": "23ce6ba202b72c706491f4e43d1aca3362cf38e4871bd7a3803b42ec7ed2cf94"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature.ts",
+    "sha256": "1deb3a0b45c1feff92076e947af49fbcbe2455e042685827c11721ff8814e5f4"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/features/movedBlocksLinesFeature.ts",
+    "sha256": "faabda9c4574ac1859dc540dfdc40bb999c47d56046934e055b5e14063b664da"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/features/overviewRulerFeature.ts",
+    "sha256": "a5614af0c769fc64dff3776b5fc23ea5e0ce1a253c1e2e57678edf85fca29cef"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/features/revertButtonsFeature.ts",
+    "sha256": "9eb4789a47722aa7b6965ba9c85fdf88b3de9fe7338306b38171ce0b163833c3"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/registrations.contribution.ts",
+    "sha256": "e07da032db03bbe5c5023dda4897ee01dbad0518958d5f1a450a9898585af21c"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/style.css",
+    "sha256": "70928c1e55edca7ac80bb35d758763c40912d235cabdf34a0a2032ac32fab804"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/utils.ts",
+    "sha256": "b8e32c9ae130f16ba0c2f6b3bd992de83a4259069078ebd07e76bc30e0878731"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/diffEditor/utils/editorGutter.ts",
+    "sha256": "b898b492cc1e424063debf01add727e4b7f14adc75bc9f7c3ad5161940bbe7c6"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/markdownRenderer/browser/editorMarkdownCodeBlockRenderer.ts",
+    "sha256": "ca6bc4b23546ba8d2911d78e2e0937fd26a0712ea65794653edfb2ca072a86d3"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/markdownRenderer/browser/renderedMarkdown.css",
+    "sha256": "45f887cbf0667fef1e5573c96d33e38bcfcd4fc67093793ba8cc6fde20ea5f13"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/colors.ts",
+    "sha256": "a58038208a19dfe7edc377cd61d7ff77bb24d7fee0869a010d8ee209ddd6e76d"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/compressedVirtualizedScrollLayout.ts",
+    "sha256": "634e046dd4506cc0c615af3b7dc2021157e997849d340c4ab0b46556e94d7f93"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/compressedVirtualizedScrollView.ts",
+    "sha256": "093f16663f652506595432979d3225b946dd3e4982ccde8adeb855779e98ed46"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/diffEditorItemTemplate.ts",
+    "sha256": "28c91d77c3344edbaa80865a90c758ca145227b10670a95cf6f873e69f139913"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/model.ts",
+    "sha256": "2c8392db8b28a38b3b030bf5dbdb490a3ce7e5a1fb06c5afe23530780c685b9f"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorLogging.ts",
+    "sha256": "e67b2a54f357ea6543309a25c49207857a276855b1ef7b347e5af46170b32d38"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorOptions.ts",
+    "sha256": "1a2302b15a93be596fb0e27bc78cf212b6403894b11fa4b212cd1374d9b529d7"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorViewModel.ts",
+    "sha256": "4e75de4611023058104b063d090aff47ecceffa5f66c1e71ef3d6c069f438993"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget.ts",
+    "sha256": "c582d81c035b66df3457facdbdaf6da3fb75bbe7e908fa6a96c46bc16a5bf673"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidgetImpl.ts",
+    "sha256": "f542f60e459426012190635fec13f27e1c81c2025e6474ee60d4c063e7b53514"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/style.css",
+    "sha256": "9fc071fc922a5f2471191c0fb17570ca46941bc855f153d1fe6f0205afca8f39"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/utils.ts",
+    "sha256": "e3d5a97f1fb47cdea6cdebec85488584a8e3912a0cece8e00bb16bb76fdaebcf"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/virtualizedItemManager.ts",
+    "sha256": "b5c4f49d1b26a003f73a1f8f8725d3cf8fc4838b668792cff34d06de8f24cae4"
+  },
+  {
+    "path": "src/vs/editor/browser/widget/multiDiffEditor/workbenchUIElementFactory.ts",
+    "sha256": "bae261822426a10de9189b58b0c342f92afc25dcd74f0f84f861fbc6bc0605ff"
+  },
+  {
+    "path": "src/vs/editor/common/commands/columnSelectionPasteCommand.ts",
+    "sha256": "99fa1de692edac8052fb99ec5ca0eed84ecdd6a186876d6a88ec52c0f08425ec"
+  },
+  {
+    "path": "src/vs/editor/common/commands/replaceCommand.ts",
+    "sha256": "d5cb017cfdedcebc01095dbdfe9bbddb0f5a5aabce16297e2b09c20a884ce4aa"
+  },
+  {
+    "path": "src/vs/editor/common/commands/shiftCommand.ts",
+    "sha256": "058f33f0adcc87b7b45d64e4505ec9d16f2ff104c80169deee1580ee93c1ff56"
+  }
+]

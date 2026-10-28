@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/common/viewLayout/linePart.ts",
+    "sha256": "dd34c4b2dfab28e3f0d5149024ccbcbf591deb0639e007d639feee1278c8566d"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/linesLayout.ts",
+    "sha256": "2265a18001e0158ec5b0dca17da6385e6101a46f47cbc2830f6a8028a7fdcd71"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/viewLayout.ts",
+    "sha256": "628be8f63ced174d6325773b20cb8bf263ebc073fc19632bd7657300d60c70a3"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/viewLineRenderer.ts",
+    "sha256": "6ddd86b1e0f2181dabcd3d2d139e07d6f4b60a93092e048ce4dc17aa38dbc4fc"
+  },
+  {
+    "path": "src/vs/editor/common/viewLayout/viewLinesViewportData.ts",
+    "sha256": "e3fbe524d245e0349b2fe1c136461ebf65ed1727c49611b327333190e42f10a4"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel.ts",
+    "sha256": "12a24fa3e36352168060a48551e76bcaeef60942ac0161d7fec12dda60d3e1ee"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/glyphLanesModel.ts",
+    "sha256": "6e6cae93cf6d3376fb3d7d4e6d3b7d9b38f7f0da2bced325dbaef2fb4b3383ef"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/inlineDecorations.ts",
+    "sha256": "8567e69c52958cb75cf819a38a407f5c5f79db726b8abef84a3d6200ef4a8d65"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/minimapTokensColorTracker.ts",
+    "sha256": "830f0ae2e793bf667f100d66d91a91f7abf06da70c49f99b3c58e7066805a90b"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/modelLineProjection.ts",
+    "sha256": "f9a2f9c3e5a22f809c374c03abad8b49dca29677ab1254c5f4d2948a85575ec4"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/monospaceLineBreaksComputer.ts",
+    "sha256": "e722e6cbb7e0997e0f8a9bae7c2e5c182bfd2951977a89f04824a58b13f30c2e"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/overviewZoneManager.ts",
+    "sha256": "3ea7e01e1629e454443a11a96a379281743c2e3bd0e542a26ccf693aade6c746"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/screenReaderSimpleModel.ts",
+    "sha256": "a51d6953637af8e7144359a0bec95e64df05ad50adbc5849e7dd543e9fb95e2a"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/viewContext.ts",
+    "sha256": "45af8973d8882c518b44edf5ca15d508eb291374e45091217cf1320f8f424ebb"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/viewModelDecoration.ts",
+    "sha256": "f50cc262d9cf57b1b9f6f4e7aacf49dec9cb5ca5b80084c818deb01d035b1ee1"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/viewModelDecorations.ts",
+    "sha256": "4ec579095ee0b462726a65bc17e147542d10fd5cc1f05abdf4ba3d43870b47db"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/viewModelImpl.ts",
+    "sha256": "3689f786022e48730d6b449514d3d816ff1f34acbc85af2205f5885029f34e23"
+  },
+  {
+    "path": "src/vs/editor/common/viewModel/viewModelLines.ts",
+    "sha256": "3c0f8b593b3909b725c41d189066c8f4ac9ba7d34b910787153463ef1b499ad5"
+  },
+  {
+    "path": "src/vs/editor/common/viewModelEventDispatcher.ts",
+    "sha256": "64c5aee53d0bd580e8bb13d6f6ca563fcd02b8f78cf764ed0be87747f7d58448"
+  },
+  {
+    "path": "src/vs/editor/contrib/anchorSelect/browser/anchorSelect.css",
+    "sha256": "ecf6df8fc380837b9c7990c3c75fe0bef49985573fb2e129ef7beef02defb351"
+  },
+  {
+    "path": "src/vs/editor/contrib/anchorSelect/browser/anchorSelect.ts",
+    "sha256": "a7fb3c0ab1b813d73d9ef0a7dd2306f770bed71fefe4d8059f8c1546dde62b13"
+  },
+  {
+    "path": "src/vs/editor/contrib/bracketMatching/browser/bracketMatching.css",
+    "sha256": "469e4f9ea1cf1ae27d4aa9a9bdd6270038a01cf799a3798ea0d9540d094853dc"
+  },
+  {
+    "path": "src/vs/editor/contrib/bracketMatching/browser/bracketMatching.ts",
+    "sha256": "7056cc40f4f150a925885470e44e07a22119a6d0fda51a6150ac290df12c6902"
+  },
+  {
+    "path": "src/vs/editor/contrib/caretOperations/browser/caretOperations.ts",
+    "sha256": "790eeac57170fcc3f9f821ef28bf786c02f57feff2e0c94972213def156cc410"
+  },
+  {
+    "path": "src/vs/editor/contrib/caretOperations/browser/moveCaretCommand.ts",
+    "sha256": "9817d441562c19a295f710131045aa01e012cdc7d259b35eb96004584d340fa6"
+  },
+  {
+    "path": "src/vs/editor/contrib/caretOperations/browser/transpose.ts",
+    "sha256": "bf37e5804d3eb1f7e78790b2d552248cc978bb4dfe5cb303880e942a788f7646"
+  },
+  {
+    "path": "src/vs/editor/contrib/clipboard/browser/clipboard.ts",
+    "sha256": "d5e2c3395bb792e74a19d7fbf87f6b8cd1778f4bbe693310002f36f1c5677bb8"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeAction.ts",
+    "sha256": "a4273de7cdb1f3f462e10b9ec8f51eb16a6192689b104d2010cdcdfb35b29a69"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionCommands.ts",
+    "sha256": "cea3e885fdb9c3375b0a9b9a074bd4b712c18caca5e64c14d1f45ca42ba91ec4"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionContributions.ts",
+    "sha256": "b4177fc299fa121a1edb2a37839f2ff895d1861459002622ae13f652436961e3"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionController.ts",
+    "sha256": "34be8bfe3d3cc05594ca8fd097d575317a7ddf81496349b98ec1866c64cc8ba4"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionKeybindingResolver.ts",
+    "sha256": "5c074940e8b476e7d95d428902278417b9df475d3dd7530d7360eec88b31da38"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionMenu.ts",
+    "sha256": "1328828fac518250ab5fb6e3730265b9b57895e6373b82f94523ff336ac79c30"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/codeActionModel.ts",
+    "sha256": "1def72efef3047740bddc164ff976137239c09b021e96134ed5e2a58da8fe874"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/lightBulbWidget.css",
+    "sha256": "5981f1049300fb1585569763a847e0070c2fdf45a7f0c74f93ac0d1ce940fcd3"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/browser/lightBulbWidget.ts",
+    "sha256": "c81826ece867ef19a51a0bd172c60458ef122fd1153b7fc7fb771489a0c0eb7f"
+  },
+  {
+    "path": "src/vs/editor/contrib/codeAction/common/types.ts",
+    "sha256": "f068bc81838d453f35e1240d8512e8b8d8a75084ddab2d580b51ad2ad9f42d3b"
+  },
+  {
+    "path": "src/vs/editor/contrib/codelens/browser/codelens.ts",
+    "sha256": "e9aeeede7fefa6700556326ab8fb96b328dd17de8663959acb96c41dfda77b14"
+  },
+  {
+    "path": "src/vs/editor/contrib/codelens/browser/codeLensCache.ts",
+    "sha256": "90b4fc956d017dd908306cda309f137d39ceab9442315adceab24f153e27f854"
+  },
+  {
+    "path": "src/vs/editor/contrib/codelens/browser/codelensController.ts",
+    "sha256": "3297c4667dd27e25e1e85e1cc7510105dcbe941f5e0aeca63ca0d42c03c196c3"
+  }
+]

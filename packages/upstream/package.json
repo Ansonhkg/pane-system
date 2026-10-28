@@ -1,0 +1,56 @@
+{
+  "name": "@pane-system/upstream",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./layout": {
+      "types": "./src/core/layout.d.ts",
+      "default": "./dist/layout.js"
+    },
+    "./editor": {
+      "types": "./src/core/editor.d.ts",
+      "default": "./dist/editor.js"
+    },
+    "./tree": {
+      "types": "./src/core/tree.d.ts",
+      "default": "./dist/tree.js"
+    },
+    "./lifecycle": {
+      "types": "./src/core/lifecycle.ts",
+      "default": "./dist/layout.js"
+    },
+    "./layout.css": "./dist/layout.css",
+    "./editor.css": "./dist/editor.css",
+    "./tree.css": "./dist/tree.css",
+    ".": "./src/index.ts",
+    "./groups": {
+      "types": "./src/core/groups.d.ts",
+      "default": "./dist/groups.js"
+    },
+    "./keys": {
+      "types": "./src/core/keys.d.ts",
+      "default": "./dist/keys.js"
+    },
+    "./chrome": {
+      "types": "./src/core/chrome.d.ts",
+      "default": "./dist/chrome.js"
+    },
+    "./chrome.css": "./dist/chrome.css",
+    "./drop": {
+      "types": "./src/core/drop.d.ts",
+      "default": "./dist/drop.js"
+    },
+    "./drop.css": "./dist/drop.css"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "monaco-editor": "0.57.0",
+    "@pane-system/contracts": "workspace:*"
+  },
+  "license": "MIT"
+}

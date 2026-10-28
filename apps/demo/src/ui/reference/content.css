@@ -1,0 +1,196 @@
+@import "./tree.css";
+
+.reference-workbench .primary {
+  background: var(--accent, #287e9f);
+  color: #fff;
+  border-radius: 2px;
+}
+.reference-workbench .primary:hover {
+  background: color-mix(in srgb, var(--accent, #287e9f), white 15%);
+}
+
+.reference-workbench .file-row {
+  height: 18px;
+  font-size: 11px;
+  gap: 3px;
+}
+.reference-workbench .file-row[data-directory="true"] {
+  color: var(--text);
+}
+
+.reference-workbench .scm-branch {
+  display: none;
+}
+.reference-workbench .source-control textarea {
+  border: 1px solid #ffffff0d;
+  min-height: 23px;
+  height: 23px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  resize: none;
+  white-space: nowrap;
+}
+.scm-actions {
+  display: flex;
+  gap: 4px;
+}
+.scm-actions button {
+  flex: 1;
+  padding: 4px;
+  height: 23px;
+  font-size: 11px;
+}
+.reference-workbench .source-control .status {
+  margin: 12px 0 4px;
+  color: var(--text);
+  font-size: 11px;
+}
+.reference-workbench .change-row {
+  height: 22px;
+}
+.reference-workbench .change-row small {
+  color: #d8ba76;
+}
+.scm-group summary {
+  padding: 4px 0;
+  color: var(--muted);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scm-group .change-row {
+  padding-left: 12px;
+}
+.reference-workbench .terminal-content {
+  padding: 5px 10px;
+  background: var(--surface);
+}
+.editor-breadcrumbs {
+  height: 22px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.editor-breadcrumbs span:last-child {
+  color: var(--text);
+}
+.editor-viewport {
+  width: 100%;
+  height: calc(100% - 22px);
+}
+
+.codicon-tree-item-expanded::before {
+  content: "\eab4";
+}
+.reference-workbench .monaco-action-bar .action-label {
+  box-sizing: content-box;
+  color: inherit;
+}
+.reference-workbench .monaco-action-bar .action-label.checked {
+  background: var(--active);
+}
+.reference-workbench .rail .action-label {
+  color: var(--pane-utility-foreground, #655044);
+}
+.reference-workbench .rail .action-label.checked {
+  color: #dddddd;
+  background: #454545;
+}
+.reference-workbench .explorer-actions > .monaco-action-bar {
+  margin-left: auto;
+}
+.reference-workbench {
+  --vscode-codiconFontSize-compact: 12px;
+}
+.reference-workbench
+  .monaco-action-bar
+  .action-label.codicon:not([class*="codicon-chevron-"]) {
+  font-size: var(--vscode-codiconFontSize-compact);
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab {
+  align-items: center;
+  background: transparent;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab
+  > button:first-child {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab[data-active="true"]
+  > button:first-child {
+  background: #454545;
+}
+.reference-workbench .monaco-action-bar .action-label.codicon {
+  justify-content: center;
+}
+.reference-workbench .rail .action-item.checked .action-label {
+  color: #dddddd;
+  background: #454545;
+  border-radius: 3px;
+}
+.reference-workbench .tab:hover,
+.reference-workbench .tab[data-active="true"]:hover {
+  background-color: var(--vscode-tab-hoverBackground, #252627);
+}
+.reference-workbench .tab > button:first-child:hover,
+.reference-workbench .tab > button:first-child:focus-visible {
+  background-color: transparent;
+  color: inherit;
+}
+.reference-workbench .tab .tab-actions .action-label:hover {
+  background-color: var(--vscode-toolbar-hoverBackground, #ffffff1a);
+}
+.reference-workbench
+  .pane:is(
+    [data-kind="source-control"],
+    [data-kind="terminal"],
+    [data-kind="output"],
+    [data-kind="problems"]
+  )
+  .tab-actions,
+.reference-workbench .pane[data-kind="explorer"] .tab-actions {
+  display: none;
+}
+.reference-workbench {
+  --vscode-actionBar-toggledBackground: #454545;
+  --vscode-toolbar-hoverBackground: #ffffff1a;
+  --vscode-cornerRadius-medium: 3px;
+}
+.reference-workbench {
+  --vscode-editorGroup-dropBackground: rgba(83, 89, 93, 0.5);
+  --vscode-tab-dragAndDropBorder: #cccccc;
+  --vscode-list-activeSelectionBackground: var(--raised);
+  --vscode-list-activeSelectionForeground: var(--text);
+}
+[data-theme="light"] .reference-workbench {
+  --vscode-editorGroup-dropBackground: rgba(38, 119, 203, 0.18);
+}

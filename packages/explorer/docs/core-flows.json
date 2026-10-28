@@ -1,0 +1,11 @@
+{
+  "flows": [
+    {
+      "id": "explorer.inspect",
+      "kind": "operation",
+      "options": ["enabled", "disabled"],
+      "status": "built",
+      "source": "src/features/explorer/module.ts"
+    }
+  ]
+}

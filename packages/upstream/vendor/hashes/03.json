@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/base/browser/ui/tree/dataTree.ts",
+    "sha256": "2fecf0f15a5cd48edaf4b3dd0a6e4d306f5e3bcde330cd02e55c7a5a61258c93"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/indexTreeModel.ts",
+    "sha256": "d610e6d5d0a7a730417b1bd83c8bdd788b6c2bc323e8190e4d46123b58cc2a72"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/media/tree.css",
+    "sha256": "1c39fca16b94a9ab9745e2cafe59a62b395ec87ef611e655e486bc07f9af880d"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/objectTree.ts",
+    "sha256": "830a00eb65a50cdb8d142eeccb8514a4c325f60ba9f8d5d5d1d5878f092b087e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/objectTreeModel.ts",
+    "sha256": "26caac56a44d60de704186bb32b39ca4c0e3e4b3d15567c04682e602c7798f0e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/tree.ts",
+    "sha256": "f9d5b574e78ac843e5c7bfee054ad42d7a7bb4b32ab1c0160d009461eb082bda"
+  },
+  {
+    "path": "src/vs/base/browser/ui/widget.ts",
+    "sha256": "19724519fd46421c934f981f6334a8b2d8c78090900cc5c5a31eaf7038762fea"
+  },
+  {
+    "path": "src/vs/base/browser/window.ts",
+    "sha256": "8003fc60f1f022d1ae4abfa8773385399ab5a7413dccbffb825f1c0c8bdef13b"
+  },
+  {
+    "path": "src/vs/base/common/actions.ts",
+    "sha256": "034926e04fa7ad9020d98e2f72fef357efb9698418c3877548780d039c520a68"
+  },
+  {
+    "path": "src/vs/base/common/arrays.ts",
+    "sha256": "e9a08190d445f28485a24c8b2701b5d91fda0702f3999f96d53f0cfebc032c0a"
+  },
+  {
+    "path": "src/vs/base/common/arraysFind.ts",
+    "sha256": "b170eb4ef83d61dabeb8aaa3355b006a95f575c6e5a9bba3176ac67f8b446a8b"
+  },
+  {
+    "path": "src/vs/base/common/assert.ts",
+    "sha256": "16b9d0b4b5abe860fa90388d9db8202bc157efab7104acb5964e58dc25c020ad"
+  },
+  {
+    "path": "src/vs/base/common/async.ts",
+    "sha256": "d67876043091bdcc1e0769b50b864c20b8dcd2588ec33108d685e394ca5c70e3"
+  },
+  {
+    "path": "src/vs/base/common/buffer.ts",
+    "sha256": "5f374d79479cb42c15ea1c4bbf54f8fcf88a17541c8e2192a533aecb8698319c"
+  },
+  {
+    "path": "src/vs/base/common/cache.ts",
+    "sha256": "42019b6f65cb6d0d10a74b8d74e5aa3e7099dc018044337ef826f8d76f925591"
+  },
+  {
+    "path": "src/vs/base/common/cancellation.ts",
+    "sha256": "9b1f98fe06fc5f4e80431818736f83d0626de63322859e6f727c01a0c6c6decc"
+  },
+  {
+    "path": "src/vs/base/common/charCode.ts",
+    "sha256": "ddb45e08c0f66a253a52ca5eaafc705687ceda45229ce5c9a1aa64d0fb34e510"
+  },
+  {
+    "path": "src/vs/base/common/codicons.ts",
+    "sha256": "9a9ceb2c545f05854b501061e5759b728bab880bfa5942ea37cf223e88f984e4"
+  },
+  {
+    "path": "src/vs/base/common/codiconsLibrary.ts",
+    "sha256": "338dd5c8dac64e5a444a5874dbcb4505b1436980a82fd1acb3cb035f94b724ef"
+  },
+  {
+    "path": "src/vs/base/common/codiconsUtil.ts",
+    "sha256": "b2b8f53a786fc6f5bc1c7b80e37b1738a8d2fbd53d995d5961dc2e7856893e46"
+  },
+  {
+    "path": "src/vs/base/common/collections.ts",
+    "sha256": "643a53c117abaa383e2a3d047589d5b79a826c280df1974cdd64be4d8f7835a9"
+  },
+  {
+    "path": "src/vs/base/common/color.ts",
+    "sha256": "0ad6fec820a7d0ef88345d32bec01d1049ab63d7c6ef2ac7592e4486fe475214"
+  },
+  {
+    "path": "src/vs/base/common/comparers.ts",
+    "sha256": "31e574fe9e164120cd23f6bcb0aeeaf1501c9565d5d0ef127795620a68bd478c"
+  },
+  {
+    "path": "src/vs/base/common/dataTransfer.ts",
+    "sha256": "bcc2084803ea380566b22a59826dad983f7197b405d2133be32e5779de037d22"
+  },
+  {
+    "path": "src/vs/base/common/date.ts",
+    "sha256": "06d944e213c2cb4af61f08bca0a58bc3622be3149b0eec40c47c71a58091725b"
+  },
+  {
+    "path": "src/vs/base/common/decorators.ts",
+    "sha256": "966ab56fac588cfc8248a1548958f26f98b55d9221c8c675992dbd77f5663da9"
+  },
+  {
+    "path": "src/vs/base/common/decorators/cancelPreviousCalls.ts",
+    "sha256": "651e601166c89f65a3b0287a239faf97a75b4b28ef4c71378ae36f5aceca21ab"
+  },
+  {
+    "path": "src/vs/base/common/defaultAccount.ts",
+    "sha256": "c8b954f6bea4add7df62ad9222c6338cc96baf9f685750eb5324b0ef4d694f3f"
+  },
+  {
+    "path": "src/vs/base/common/diff/diff.ts",
+    "sha256": "2d3e5aa13a5cb0ecb128006719da069c11c410d9aff5d47c2490d205fc3cc289"
+  },
+  {
+    "path": "src/vs/base/common/diff/diffChange.ts",
+    "sha256": "9efcc35d063dc81f2d269515d9f3d5bf80e7b67df36a6ea5ab0e81b9b516fdf4"
+  },
+  {
+    "path": "src/vs/base/common/equals.ts",
+    "sha256": "62a7350742a35570062837d8ef3df1889d4faf48dd66b614162e6418aa36414c"
+  },
+  {
+    "path": "src/vs/base/common/errorMessage.ts",
+    "sha256": "3e58670d934bded7e7d65938e6f2a7a67f5c183c7c36dd15bdfa3fd294047326"
+  },
+  {
+    "path": "src/vs/base/common/errors.ts",
+    "sha256": "4771945225f0689ea9feef5fcf148dc493791edaf8693d5e11b057ce4a8d0b6e"
+  },
+  {
+    "path": "src/vs/base/common/event.ts",
+    "sha256": "a0e14b8621208ea3fadf28f3fbc292490f4ca805fcab209183b0e98a660f2385"
+  },
+  {
+    "path": "src/vs/base/common/extpath.ts",
+    "sha256": "0c8ee50b4d29423eb2d400850a6dc156fc9a6da0db0d4859e606c2bd38e1dbc3"
+  },
+  {
+    "path": "src/vs/base/common/filters.ts",
+    "sha256": "3149b17406f712f8251bac2f15fb19a695b37d21083d5eb162c93607f8bc9fa3"
+  },
+  {
+    "path": "src/vs/base/common/functional.ts",
+    "sha256": "976c27e04b82913ad0e068cce30d74212c2c86a86f866038156b6fd9dca27610"
+  },
+  {
+    "path": "src/vs/base/common/fuzzyScorer.ts",
+    "sha256": "5189b83f460a68b5949481b83933f6e011d29e348fc7cae504f61b24b626a2f8"
+  },
+  {
+    "path": "src/vs/base/common/glob.ts",
+    "sha256": "bc2fb44be304cc9c139c1410f690172e90e163e0f4bcda74ad2700b2abd21921"
+  },
+  {
+    "path": "src/vs/base/common/hash.ts",
+    "sha256": "0c8da1f43d38436f169081a60e1d0aef0c69537f3ad8a9f27eb0fefc4feb4894"
+  }
+]

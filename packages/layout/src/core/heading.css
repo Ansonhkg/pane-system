@@ -1,0 +1,36 @@
+.pane-view-heading {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex: none;
+  min-width: 0;
+  height: var(--pane-view-heading-height, 28px);
+  padding: 0 var(--pane-view-heading-padding, 8px);
+  gap: 4px;
+  color: var(--pane-text, #ccc);
+}
+.pane-view-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+}
+.pane-view-actions {
+  flex: none;
+  display: flex;
+  align-items: center;
+  height: var(--pane-view-action-size, 22px);
+}
+.pane-view-heading .pane-view-actions .monaco-action-bar .action-label.codicon {
+  box-sizing: content-box;
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  font-size: var(--pane-view-icon-size, 12px);
+  color: var(--pane-muted, #949596);
+}

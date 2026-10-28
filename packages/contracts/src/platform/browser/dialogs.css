@@ -1,0 +1,51 @@
+.pane-dialog {
+  width: min(480px, calc(100vw - 32px));
+  padding: 18px;
+  border: 0;
+  border-radius: 7px;
+  color: var(--pane-text, #ccc);
+  background: var(--pane-surface, #202020);
+  font:
+    12px -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  box-shadow: 0 12px 48px #0008;
+}
+.pane-dialog::backdrop {
+  background: #0007;
+}
+.pane-dialog form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.pane-dialog input {
+  width: 100%;
+  padding: 8px;
+  color: inherit;
+  background: var(--field, #303030);
+  border: 0;
+  border-radius: 3px;
+  font: inherit;
+}
+.pane-dialog form > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.pane-dialog button {
+  padding: 7px 14px;
+  color: inherit;
+  border: 0;
+  border-radius: 3px;
+  background: var(--pane-active, #343434);
+  cursor: pointer;
+  font: inherit;
+}
+.pane-dialog button.primary {
+  background: #287e9f;
+  color: white;
+}
+.pane-dialog [hidden] {
+  display: none;
+}

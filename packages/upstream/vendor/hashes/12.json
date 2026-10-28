@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/common/core/textChange.ts",
+    "sha256": "8dd65438aec840a9f58458b7cd7f71a11f14c70488df45d5480a9a43800cb64c"
+  },
+  {
+    "path": "src/vs/editor/common/core/wordCharacterClassifier.ts",
+    "sha256": "ef7830423d9bd56face300301120fb27259fa41916a61e7b6aeb5d66951c8c87"
+  },
+  {
+    "path": "src/vs/editor/common/core/wordHelper.ts",
+    "sha256": "6f91676884dab09a935c7567a5ef9f8beec241aa0fe326e9af06f6336be102a4"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursor.ts",
+    "sha256": "73ba7f3d2d5e5e2bd226ce6b375f14c0411ca26059fcf5d9b5ccf8830b615fdb"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorAtomicMoveOperations.ts",
+    "sha256": "c6a4d914ee61e04f8d6cc89dfafdbdd3d9a2c93830af0bcb2d2399fd45676cb7"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorCollection.ts",
+    "sha256": "64237df92f27eb889a5b62da32f6f84fe08fd1c8a7714c93b746a7f26ee99353"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorColumnSelection.ts",
+    "sha256": "4c80acdbd72c53bc8495bede97cfd3f4a79af175ee88c6feb1316980f078b0ba"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorContext.ts",
+    "sha256": "44c6abc9d0435c7f2fc43ef092532509e59ff7c53157e4c3ede8f1de15ee76be"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorDeleteOperations.ts",
+    "sha256": "a969af06b4adf17202497e2b6c5414fa646d49a6d37b533e523b1475e55255be"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorMoveCommands.ts",
+    "sha256": "8847f06971fec13807a51e0eef35434d1b17c687301010ce26260080831f96fd"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorMoveOperations.ts",
+    "sha256": "5f9d930d83395050bbdddb84e8f2519a06f43700bbbb29a93cbb72bd552532f6"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorTypeEditOperations.ts",
+    "sha256": "b6911a6b0d560efe6a90fe24bd487b296d08259db003164eca0b9793d5dca30c"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorTypeOperations.ts",
+    "sha256": "f9fbd353741c6f08bbc2e37a0bacf44805a7148c6ad7aab02e96e3f841fbb41d"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/cursorWordOperations.ts",
+    "sha256": "119d21b91afec5d35af1d1ec83951959170222cb0bb625c8e6e3c877ed97f5b6"
+  },
+  {
+    "path": "src/vs/editor/common/cursor/oneCursor.ts",
+    "sha256": "daaaad723fd72efb7436e89a1c746e9eb393967192336d5a7b5b36d9dc5b6ffa"
+  },
+  {
+    "path": "src/vs/editor/common/cursorCommon.ts",
+    "sha256": "1d2fda732784298693955e57dc3726a6d8f470311da3d99a2ad6d8b73f0c0cc9"
+  },
+  {
+    "path": "src/vs/editor/common/cursorEvents.ts",
+    "sha256": "467224e74062990c813eed7b354a3c328b1c989eb765a49ec8c1efed9e977b11"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/diffAlgorithm.ts",
+    "sha256": "78bf05b78fd86f1d665279f980e50c7a16b5fa5649266426114558e836f545ca"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/dynamicProgrammingDiffing.ts",
+    "sha256": "7259d096b43491175885dd43c943835e5ac815a9bcd1ef62ef878d1edfcfbfeb"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/myersDiffAlgorithm.ts",
+    "sha256": "324e13187ba8214a4792660520daa6fca041730a53522b06ad3ea6062d366c98"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/computeMovedLines.ts",
+    "sha256": "ecee81cd97f4b4386a2fe37f6f7fc031a53ffaade7d0f642e7a902132951a2c5"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/defaultLinesDiffComputer.ts",
+    "sha256": "ebd325663ad65153e3eaac832115037b1912b98380a19882be03185bd01068fe"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/heuristicSequenceOptimizations.ts",
+    "sha256": "76b350016d4c6cc865e32f82a319d8d5cfc1c8e5263d319db6be444c58dd2cab"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/lineSequence.ts",
+    "sha256": "d362c210ee7adaba91bb1c0507b7ece86ca9013155af5d487309f9271d494462"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/linesSliceCharSequence.ts",
+    "sha256": "693094f45886478188466bb32e8ba4e0f506cc8befac0f3228b69bdc1e95a839"
+  },
+  {
+    "path": "src/vs/editor/common/diff/defaultLinesDiffComputer/utils.ts",
+    "sha256": "261492a6ecd2e860c9e7def87c985be03a204a2fbe88b7927dbd281615cb4504"
+  },
+  {
+    "path": "src/vs/editor/common/diff/documentDiffProvider.ts",
+    "sha256": "cfe9dcecd5ff507babc55bd4c0b500d55339eaf6078f4fac20c2829d81efe8bf"
+  },
+  {
+    "path": "src/vs/editor/common/diff/externalLinesDiffComputer.ts",
+    "sha256": "bc11af36bc5f5f5d388574bc6bacbaa58d1b02d64122d090a792ec4dbf911962"
+  },
+  {
+    "path": "src/vs/editor/common/diff/legacyLinesDiffComputer.ts",
+    "sha256": "71b3a63373b5a3adfc72fd32c7b8242a90bd9fcf8ced3654edcbc9113decdd27"
+  },
+  {
+    "path": "src/vs/editor/common/diff/linesDiffComputer.ts",
+    "sha256": "03e26e71c1c68f2720fde2956712d496a41807db4947c122508733bb9236c5dd"
+  },
+  {
+    "path": "src/vs/editor/common/diff/linesDiffComputers.ts",
+    "sha256": "3de1ab72cdcf5749f5dda7eafb10ee5020592eb0a2e01af2243b837b460f6efc"
+  },
+  {
+    "path": "src/vs/editor/common/diff/rangeMapping.ts",
+    "sha256": "eb191e13ef8af2a9e404f09bef889015dc15f1a9d61368468262af9bc5bee4f1"
+  },
+  {
+    "path": "src/vs/editor/common/editorAction.ts",
+    "sha256": "3ba076a2d7f1d4ee832aff751d9cc9b7075e9d4cbe09c584027663690c44d731"
+  },
+  {
+    "path": "src/vs/editor/common/editorCommon.ts",
+    "sha256": "86e64d099b9add7e762ad30623a21d859498b23cce4cd03ce20451e76de342ee"
+  },
+  {
+    "path": "src/vs/editor/common/editorContextKeys.ts",
+    "sha256": "479c22f7104e50497ac48445e08ff95a84a3df3d0cb73151b91df64520052336"
+  },
+  {
+    "path": "src/vs/editor/common/editorFeatures.ts",
+    "sha256": "572f0a559ef01bf4d96d66db18b1fc7eae53f54b85867c1ba8376f69eb57b674"
+  },
+  {
+    "path": "src/vs/editor/common/editorTheme.ts",
+    "sha256": "982acda4b48005c00357b0f8ebbcf8ed856b198761762deb18147623c455b5a1"
+  },
+  {
+    "path": "src/vs/editor/common/encodedTokenAttributes.ts",
+    "sha256": "fc93bdce0891b120825938870810431cadaa8cd6024687d37d830fe2edfe3adb"
+  },
+  {
+    "path": "src/vs/editor/common/inputMode.ts",
+    "sha256": "4c27f28c34c424652f8a7624930992a3abe5a9fa8dc979bdd5e4b99d5ae7c10a"
+  },
+  {
+    "path": "src/vs/editor/common/languageFeatureRegistry.ts",
+    "sha256": "1071cc2f50aa6d6ea6a0e9af4dd29a0f7ecfeab63cd009a71fcb79265f079335"
+  }
+]

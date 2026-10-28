@@ -1,0 +1,30 @@
+{
+  "name": "@pane-system/demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pane-system/workbench": "workspace:*",
+    "@pane-system/layout": "workspace:*",
+    "@pane-system/explorer": "workspace:*",
+    "@pane-system/editor": "workspace:*",
+    "@pane-system/syntax": "workspace:*",
+    "@pane-system/source-control": "workspace:*",
+    "@pane-system/terminal": "workspace:*",
+    "@pane-system/output": "workspace:*",
+    "@pane-system/contracts": "workspace:*",
+    "@pane-system/host": "workspace:*",
+    "@pane-system/upstream": "workspace:*",
+    "@xterm/xterm": "6.0.0",
+    "@pane-system/language-services": "workspace:*",
+    "@pane-system/tabs": "workspace:*"
+  }
+}

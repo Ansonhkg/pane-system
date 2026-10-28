@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/base/common/scrollable.ts",
+    "sha256": "d4a854a492bc686758c9dfe46599648099e81768d8bbcd1f54ba99917525277b"
+  },
+  {
+    "path": "src/vs/base/common/search.ts",
+    "sha256": "a5880ef5a2200fbf57390ed4fa422f12a4e58b61ce103687bf975ba714e03436"
+  },
+  {
+    "path": "src/vs/base/common/sequence.ts",
+    "sha256": "9f7a0e0ec46e0665af3a2927b99d4b34231b0026dc2124cf72f0356456347326"
+  },
+  {
+    "path": "src/vs/base/common/severity.ts",
+    "sha256": "2debdd3dd67bfcc350d33b441f08877af5e9f58ace838619f19abdfb23764d72"
+  },
+  {
+    "path": "src/vs/base/common/stopwatch.ts",
+    "sha256": "e56bb28c1a532616d5e85ff3576d2cfaa57d0a42f8382999e6e13859869bfae8"
+  },
+  {
+    "path": "src/vs/base/common/stream.ts",
+    "sha256": "85d62100a2eea468dc23b35ea16439f2a383b618878a24b1352e302fb15773e9"
+  },
+  {
+    "path": "src/vs/base/common/strings.ts",
+    "sha256": "8419f80b407c97e88e5c7ebd73732737c364b360050740bb0ab4cab52680f811"
+  },
+  {
+    "path": "src/vs/base/common/symbols.ts",
+    "sha256": "bf83fa91c9eac09fd8f8da74111f12784978ff154d00c48f11c8bcce04f348d2"
+  },
+  {
+    "path": "src/vs/base/common/ternarySearchTree.ts",
+    "sha256": "00a3d559f421ed6a77547b7435a202197e16ad39ac63c9a8e26703d18916c2bd"
+  },
+  {
+    "path": "src/vs/base/common/tfIdf.ts",
+    "sha256": "bd900f5f408d0a2dfc048268c2868ced175518470441f8bce6bf4368d1bcf7b7"
+  },
+  {
+    "path": "src/vs/base/common/themables.ts",
+    "sha256": "b0ca99912396a08c83efd070fd8ddfadc37e7debf798d1c87f36fcaa077de183"
+  },
+  {
+    "path": "src/vs/base/common/types.ts",
+    "sha256": "0a17b8d00093ff63b8387508fcacfe82dfb1838ddcc44bd8315eabfd48c32076"
+  },
+  {
+    "path": "src/vs/base/common/uint.ts",
+    "sha256": "0b1102ade974b21bd46bd789027c2dd7959366202e9b87287b13be0a8cf3b05a"
+  },
+  {
+    "path": "src/vs/base/common/uri.ts",
+    "sha256": "768f9fb41fe93a8b41518ce19a1a872513ceebd07b889407c1a05ddd586b5beb"
+  },
+  {
+    "path": "src/vs/base/common/uuid.ts",
+    "sha256": "99dc9f90c4c015697ee0ca04664d644990a3c7dfad59e147dde3e6ea5afefa67"
+  },
+  {
+    "path": "src/vs/base/common/validation.ts",
+    "sha256": "c468a4031d64d9d726a601211069c1557745407288d815b5bb67305d09050c90"
+  },
+  {
+    "path": "src/vs/base/common/worker/webWorker.ts",
+    "sha256": "9c3d1bfb7f132c3ab93624c75b62b98443b24ad2f4e0a659bac1004d13082bc0"
+  },
+  {
+    "path": "src/vs/base/common/worker/webWorkerBootstrap.ts",
+    "sha256": "344d14277de384c698f586b6f9897817791010a82d1d1b6fa15f4c08484f2a17"
+  },
+  {
+    "path": "src/vs/base/parts/sandbox/common/sandboxTypes.ts",
+    "sha256": "4a8edd10842257dc39c1ea7490bf69e5f283eb1164462693a82e20ec224fadf6"
+  },
+  {
+    "path": "src/vs/base/parts/storage/common/storage.ts",
+    "sha256": "57241f57e6410de1dd0388994f284ddc1446a3420e7f015442cdc25a0e36012d"
+  },
+  {
+    "path": "src/vs/editor/browser/config/charWidthReader.ts",
+    "sha256": "57848172b20da83933312953b7f7cbd8cc5de1c31fe7d355cbd60ddfe13baf14"
+  },
+  {
+    "path": "src/vs/editor/browser/config/domFontInfo.ts",
+    "sha256": "30ae4a5a95fe7bf3384421c4e7d7fa80f28dc94b671a289868867b977bbd2fbc"
+  },
+  {
+    "path": "src/vs/editor/browser/config/editorConfiguration.ts",
+    "sha256": "84d3e1369bd70b9fbe7d9f6bf1c2154c594749e88fbed83606f8477c979c1128"
+  },
+  {
+    "path": "src/vs/editor/browser/config/elementSizeObserver.ts",
+    "sha256": "f18fcf3f17e194920ca6ac22bf669b6536f4fa0def87625ce81901c948ce7fbd"
+  },
+  {
+    "path": "src/vs/editor/browser/config/fontMeasurements.ts",
+    "sha256": "942dea70add59aa4587ea03c0eda86a2fa833ce9506f7afb6324b3fb354ce8ad"
+  },
+  {
+    "path": "src/vs/editor/browser/config/migrateOptions.ts",
+    "sha256": "9e3341a56e40127f083cc527bf7a5937f911f18704cab74f33bee6cf479fa800"
+  },
+  {
+    "path": "src/vs/editor/browser/config/tabFocus.ts",
+    "sha256": "a6a3e7a3c53511b6dd6a518c66f35b6ae3309fe132956cc0fbc651580d5d48bb"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/dragScrolling.ts",
+    "sha256": "9946da2376833584810854089c82b63fdb2306d7a6d040148298526951cfbb76"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/clipboardUtils.ts",
+    "sha256": "6271258245ed85050da75d95ac0417371d312ff22cd1e80c06e397f2941c375d"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/editContext.ts",
+    "sha256": "0c663cc3bc3159eeef2edfc23465150295e8bd03fe7e7ea3a64d82cba13cc1ce"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/editContextFactory.ts",
+    "sha256": "11f1ccdbf4259cc9152cc34d9fac5abb11fa9671cbef2bcb3f4b952266652895"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/nativeEditContext.css",
+    "sha256": "55a9ea2063303039a0e4c6b2628a78ea7a4c8ac6f9b3662fe46e6ebbec7e542a"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/nativeEditContext.ts",
+    "sha256": "b742ee3982734422261bff82794da228c5318ad1be3d77b584310e71c6c7f5a1"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/nativeEditContextRegistry.ts",
+    "sha256": "27a122f3bd387e7faeaf1d526a2bbfeec9c2975964abab2a6d6d977d923e4f52"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/nativeEditContextUtils.ts",
+    "sha256": "3b15b3c220460c6307e49619235be79e43d76da32fe7d4932ed2c0212a710358"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/screenReaderContentRich.ts",
+    "sha256": "00295e3f8c4d51900a3af3c34795f13fd2d859bb92ff166e8fd7670167ab64f0"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/screenReaderContentSimple.ts",
+    "sha256": "f5d044743ae00cf0a7615c98ad007e2bc08a0bbaf31e9064e3f02484b172db44"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/screenReaderSupport.ts",
+    "sha256": "1ad5f9aac73d9fa4c1b5056ed81148d0e0d54a629bd32e242aa111135c0cb8c9"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/native/screenReaderUtils.ts",
+    "sha256": "ed8d0f4b6f4aa9c25628f0fc0e844726b2dc16481c297634c3bf478ae2578d0b"
+  },
+  {
+    "path": "src/vs/editor/browser/controller/editContext/screenReaderUtils.ts",
+    "sha256": "59e870a05eba894677e48b04e9c1d003c845c5b9efe7918997815f2e60827562"
+  }
+]

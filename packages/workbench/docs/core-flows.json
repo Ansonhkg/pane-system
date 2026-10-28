@@ -1,0 +1,11 @@
+{
+  "flows": [
+    {
+      "id": "workbench.inspect",
+      "kind": "operation",
+      "options": ["enabled", "disabled"],
+      "status": "built",
+      "source": "src/features/workbench/module.ts"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/browser/services/codeEditorService.ts",
+    "sha256": "7b717cb3f1194deba1331e92b992abf86c856bf4580ab3c8915bc145286f40bb"
+  },
+  {
+    "path": "src/vs/editor/browser/services/contribution.ts",
+    "sha256": "6fe2c811b8123be7f167bb24e8153150b7cb119198b9d231249bd8af326ee32d"
+  },
+  {
+    "path": "src/vs/editor/browser/services/editorWorkerService.ts",
+    "sha256": "5e5f000d933b88cc24c9eba9de9ee2c0b2c14954bea5e565513a70d84fbbf388"
+  },
+  {
+    "path": "src/vs/editor/browser/services/inlineCompletionsService.ts",
+    "sha256": "b8266e5ab8c35b2725c5727c52b6b7026e40c54aca9421bbbd5449d272331501"
+  },
+  {
+    "path": "src/vs/editor/browser/services/markerDecorations.ts",
+    "sha256": "c160fa781c17663be1fc5e226444687dbabebef3b1c0d68438be87fdb9e4891c"
+  },
+  {
+    "path": "src/vs/editor/browser/services/openerService.ts",
+    "sha256": "43b8eff9ddd3824329fa42702505cb7d3e288c3bf853ea9330f8a686df84bcac"
+  },
+  {
+    "path": "src/vs/editor/browser/services/renameSymbolTrackerService.ts",
+    "sha256": "f5a557f647611562c77d8ea4ce2f830f14f6fc79f895855d50aa985ab72fd5b3"
+  },
+  {
+    "path": "src/vs/editor/browser/stableEditorScroll.ts",
+    "sha256": "d48a59d1a38b489e43b91a9b9b79e7cb448b70ad17a89c14dfc063b321f8210e"
+  },
+  {
+    "path": "src/vs/editor/browser/triggerInlineEditCommandsRegistry.ts",
+    "sha256": "784988437da6414e48ed900593c2ff49fbacd4a600d3fbff592d4b8281c775e2"
+  },
+  {
+    "path": "src/vs/editor/browser/view.ts",
+    "sha256": "388983608095ae43ed4cb9008ec2cea16ade0dac7a9cffe82c5a4a7bfec4a0c6"
+  },
+  {
+    "path": "src/vs/editor/browser/view/domLineBreaksComputer.ts",
+    "sha256": "f88338e72743f91eef30efbedd2ed72cb766969c7c29931a082327111c459117"
+  },
+  {
+    "path": "src/vs/editor/browser/view/dynamicViewOverlay.ts",
+    "sha256": "334b8d784b161661c8377773d9fe7f801449a01c657a6a927c695a19e0f5265c"
+  },
+  {
+    "path": "src/vs/editor/browser/view/renderingContext.ts",
+    "sha256": "1f10fa65e8235e03bfcb987cd19df7aaca34cac8d73b8be3bca31b8c556e47f9"
+  },
+  {
+    "path": "src/vs/editor/browser/view/viewController.ts",
+    "sha256": "141c86256a0929f0fd1a8b466a6ee56d477fab4a5bca5063a8c55ee8d0d6a2fe"
+  },
+  {
+    "path": "src/vs/editor/browser/view/viewLayer.ts",
+    "sha256": "8e8fc4f816931648bcae1ebb01cf8aa67d723311f2f78bd67b649c6ef74e92ca"
+  },
+  {
+    "path": "src/vs/editor/browser/view/viewOverlays.ts",
+    "sha256": "93dda802411e21e3c23a3db55e416d5f4942fdf2bcfadab79b95d3cedfd4cf5e"
+  },
+  {
+    "path": "src/vs/editor/browser/view/viewPart.ts",
+    "sha256": "920c845a3ce6016a36f2f4762e962d9fa22c31055d6a60e1639bba9f16cdc280"
+  },
+  {
+    "path": "src/vs/editor/browser/view/viewUserInputEvents.ts",
+    "sha256": "aa967f421f753eac20555515e15ea89a235c9c4052afe9c8b0b541690d637c2f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/blockDecorations/blockDecorations.css",
+    "sha256": "1517cd7e4aa0417d339a55de6a8568cff1d4340459306101ab4d6bb3c2948be3"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/blockDecorations/blockDecorations.ts",
+    "sha256": "795543808d121a64a52ea106d8268ad0cf58747be43d46b4236b0eaec261e360"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/contentWidgets/contentWidgets.ts",
+    "sha256": "e533235bb26bd7ccba94be71bb1399e18107ed140d14040c425b4f3ecdfcd465"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css",
+    "sha256": "05fc7e6aa0110f6c255eb3b4d91be0fad0bb57608f2af14b06b82127b2dea9cd"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.ts",
+    "sha256": "74e10848de7ea076230aef844110f7471326581178a4f56bab2792c9f5928596"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/decorations/decorations.css",
+    "sha256": "910a1e95e672eb72395e5ebaa6bcff0a96898eba9125e94713f94762bdab7863"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/decorations/decorations.ts",
+    "sha256": "d5b64d806e6a617fc51d93b79cf727a0bab1eba8947c775729ed6e42c34f7452"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/editorScrollbar/editorScrollbar.ts",
+    "sha256": "a1e42dc51f9f3d414e3efec87f1fb5ca2c7e4b89733914c3897daed32fdb832d"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css",
+    "sha256": "42cb2658283487fee6b8a8b0808de696271a123b24f0d78521cfab71ec87d52f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/glyphMargin/glyphMargin.ts",
+    "sha256": "a437e5c77e308c5e8684f0d4db5715ce058485de26cc024ad15d5e66298652bc"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/gpuMark/gpuMark.css",
+    "sha256": "5a007cc054f44def221191cc7716ba9796f99d72b17f78bea6ca0c2785ff643d"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/gpuMark/gpuMark.ts",
+    "sha256": "00c87346cb4cc8a726c9019c1ddf428c83408c39929d1f3ebcefed20333d3e03"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/indentGuides/indentGuides.css",
+    "sha256": "9e8534d3c91316a94bf4a161ae7308b0e9e6bf4294eeead83848825edc29ebc0"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/indentGuides/indentGuides.ts",
+    "sha256": "448ae6478f56c13972ad29ad6f63cf84372a7af1953ee81c16352367f613d8c6"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css",
+    "sha256": "6f9e5f9247002ca7aaad8cc734261ef50379f3dd347947af7b77e4bd74e8b48f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/lineNumbers/lineNumbers.ts",
+    "sha256": "763cfc4dec89518c644336b0b552c4f825db644a67697078a729b090225a352a"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css",
+    "sha256": "b62019a94802b8cf42358168f2d30bf2b8283a84257419403dd6bdf12410d05f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/linesDecorations/linesDecorations.ts",
+    "sha256": "e5ada206f3ff572f396ee9396ffee756b56e432bbb333aabf2ba9354cc9ed13f"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/margin/margin.css",
+    "sha256": "f314bdf68112babf43fd67e6ae51b40df3abcdb47c6cdbef478ed82e673798f7"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/margin/margin.ts",
+    "sha256": "a9ef3fce2c283301a3379bdbca178a32325b29082ed8051752525ae48153a364"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css",
+    "sha256": "df329935ff57eea3d2dba1d3a923e29d72175a3ae03e6fb4385c709bf514221c"
+  },
+  {
+    "path": "src/vs/editor/browser/viewParts/marginDecorations/marginDecorations.ts",
+    "sha256": "3cd450bc3f17b6dd630c8592cde24f8c8ba8e9870e648545b95b762e8f74fc1e"
+  }
+]

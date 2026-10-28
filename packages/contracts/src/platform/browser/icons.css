@@ -1,0 +1,29 @@
+/* Microsoft Codicons, CC BY 4.0. Original font and hinting. */
+@font-face {
+  font-family: pane-codicon;
+  font-display: block;
+  src: url("./codicon.ttf") format("truetype");
+}
+.pane-codicon {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  font: normal normal normal 12px/1 pane-codicon;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+.monaco-workbench .monaco-tl-twistie {
+  width: calc(16px * var(--pane-tree-scale, 1));
+  padding-right: calc(6px * var(--pane-tree-scale, 1));
+  transform: translateX(calc(3px * var(--pane-tree-scale, 1)));
+}
+.monaco-workbench .monaco-tl-twistie.codicon,
+.monaco-workbench .codicon[class*="codicon-chevron-"],
+.monaco-action-bar .action-label.codicon[class*="codicon-chevron-"],
+[data-icon^="chevron-"] > .pane-codicon {
+  font-size: var(--pane-chevron-size, calc(16px * var(--pane-tree-scale, 1)));
+  color: var(--pane-chevron-color, var(--vscode-icon-foreground, #c5c5c5));
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/inlayHints/browser/inlayHintsLocations.ts",
+    "sha256": "4f1ddf7914077c7cff5aa6faa8c0691af9e3d7bbc179321f9a8aa765ee988864"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/controller/commandIds.ts",
+    "sha256": "5aeb2688814e5047a85a7f88615fa62450cbed3a6541f15d29668a6ebe19efb0"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/controller/commands.ts",
+    "sha256": "d968d6d52b1b62f0cc91c04e16e4b03acf43241ac82ab26091c7a50b5c3174e8"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/controller/common.ts",
+    "sha256": "b8e8209f3585f611cd09109f2279d248fd598966a36e463d805a42c1abdd6092"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys.ts",
+    "sha256": "1a586dcf2ef66074489db661e7b7042dfd0446c9ce889f5f6c9ba336fae75f29"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController.ts",
+    "sha256": "f192395c09b631ab953a9fdba683466268926aed8993c24fe88686a1400c4fb4"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/hintsWidget/hoverParticipant.ts",
+    "sha256": "fa36a36c9ad7dad63d93ebe2c8a1b6848ee4e8c207ede638ee3ebb088a51c132"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/hintsWidget/inlineCompletionsHintsWidget.css",
+    "sha256": "5d59dcc145c52d54ed1e0abba94277d0256a836d058580c6ce2e3722c2cca46a"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/hintsWidget/inlineCompletionsHintsWidget.ts",
+    "sha256": "71cff34a01b72f249cda1adc6e70becc24dabc8c4996d12759e6bcf41cd0f7d5"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/inlineCompletions.contribution.ts",
+    "sha256": "40f59efc054d9dc659c18655a941bd42035fe883277927a98225754e924e5eff"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/inlineCompletionsAccessibleView.ts",
+    "sha256": "354bd3ab9d57a02cd220428c9c6debf6958d34a80c22d50126da4122ed7200a0"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/changeRecorder.ts",
+    "sha256": "4dcc26f5f39f65e7ac91a27204725cdf7ba240ab72113f81579483907d2c0834"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/computeGhostText.ts",
+    "sha256": "2013d98ac384cd485b32e9b5cbc8f7fb88fe6a142991776f08df78413c7d7a4f"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/editKind.ts",
+    "sha256": "3b4b9e41ab27f20ec92d66f4b401ea56bb8b9acb3e8caf0e6e1e504a3884c35b"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/ghostText.ts",
+    "sha256": "5bde9a47ee9bb058a3aa00f3f4d617cc384a7d5e8fa27662a3ee8fe10af478b2"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/graph.ts",
+    "sha256": "67bbf2ec50da49626000b9c96817d18d01078c984df66ba194c5f970ef898840"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionIsVisible.ts",
+    "sha256": "6e679ebcf9018a2b6dcfe54fe4a2b5aa4a2e1cf96d12a9fb47f779e131d146ea"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsModel.ts",
+    "sha256": "997892a2fd7e3b99c5a2b1993f4a1c91f088384ddb370c0ba9e09e6360c7e05e"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsSource.ts",
+    "sha256": "af5031d600c9025842a37f5f75b719c577121f33552087568eaf6cd9302b137a"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/InlineSuggestAlternativeAction.ts",
+    "sha256": "a9dbb5ab714bc285d3fd934d4c6bb0d00f7d2bc239026296233324f1e1b74fe7"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/inlineSuggestionItem.ts",
+    "sha256": "16737009e0c84aefb7959289ffde8ea2410aeddb4d3109dff6655bf8fe8894bb"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions.ts",
+    "sha256": "890ac8876428cd87fade0635131ca7c89c5efff1860edd37137c579ffc91a7d8"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/renameSymbolProcessor.ts",
+    "sha256": "7c2702290a503b5d356e41d1abe183a6091053e36992d7e6ded80a567ab1e4d5"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/singleTextEditHelpers.ts",
+    "sha256": "9e048c4ba24558f035ff009b4876b0ec8e9e043f4a844947b6665d9bc6c8fb5b"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter.ts",
+    "sha256": "c734872348843e9a09ef550f904da0c68ff0822e4635d6d49f8307c817528d72"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/textModelValueReference.ts",
+    "sha256": "6960eefc99ebcf47c7565c4312b6710c51ccefc7709ebf47f57fe6e6162d3d88"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/model/typingSpeed.ts",
+    "sha256": "acafde315d2bcff286d84fe781239e9e4ff03f1da2d8f179206364bf6289afc8"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/structuredLogger.ts",
+    "sha256": "66af7b46fbd43b38cf042248b45d720df023dea826a3990631eb7259d961197e"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/telemetry.ts",
+    "sha256": "0697c6b2082a403558534f9bb4c9ec906483089e73bde12cc6930e72d9befb30"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/utils.ts",
+    "sha256": "3941d93327916724e55e47f95b5aaa7bc3ac3c96540181f99b60651cbd8b6fd2"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/ghostText/ghostTextView.css",
+    "sha256": "254650aa5a9530793554d9d8461997a19bcedeaa8141cdb262944d3bed710d5d"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/ghostText/ghostTextView.ts",
+    "sha256": "c44ef006266eccce840642b71cc059eaaec9ca03908c9741109231115c62f82b"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorMenu.ts",
+    "sha256": "05eefb3895a8247b73888cb62e6e0b393ae5608d3dd184f14f62a87860c948f5"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorView.ts",
+    "sha256": "124242775b7f58140edd95794a8edca505b94c3280fd68a9dc638457e7110d0e"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsModel.ts",
+    "sha256": "7c5260aa79245981d40ba4bc60a708276bc75ce72f054713e0ce701d3b8be9f0"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsNewUsers.ts",
+    "sha256": "38c7de2e59ff02d26bcc3909466ccda4d96ce98b158006d03bad8a8521c03a19"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsView.ts",
+    "sha256": "00b82e7d6910b4e6d444bf83eaf782c60cc7b3eb16c81531dbb1c04f58c544db"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewInterface.ts",
+    "sha256": "12151221837da88340312ab58647ac2a174b20b4523151ef5623bd10e1fde005"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewProducer.ts",
+    "sha256": "bcd631e6b193a6623a3bbb78d54155ff5495b6da5f24a7160abcef75cae45d0d"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/debugVisualization.ts",
+    "sha256": "89dd52de60ade02f53a228897a830507c3bd6c5346627b956325caa27cce30e4"
+  }
+]

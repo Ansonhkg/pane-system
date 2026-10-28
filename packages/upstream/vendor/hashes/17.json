@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/codelens/browser/codelensWidget.css",
+    "sha256": "8a2105852378f4b8b8411a19ef13388b110e056f903aba6702b4140fb02ca5c0"
+  },
+  {
+    "path": "src/vs/editor/contrib/codelens/browser/codelensWidget.ts",
+    "sha256": "5ca4d1a64e7c8f0149311fed2596016b8ccbcf2c87b1601a15a116f9aa16d682"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/color.ts",
+    "sha256": "ac71d4427bac6b4562a2da52da37162d7078c64635e35fed19faff9ab18a2a84"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorDetector.ts",
+    "sha256": "5319d604025bfcd7647107a219a607e336a66e2b4427a05ab96408fd9f64a1f4"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPicker.css",
+    "sha256": "08ee1e821859e00a7aa109c53f21fcdc6cf17e2823664f74474134e8d3504e07"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerContribution.ts",
+    "sha256": "928985c5d58448ac80790654feb3e24e7c52702b0a265e7454a3293f7dcc0448"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerModel.ts",
+    "sha256": "e796831eeb4164a5f2a05ef75cae984412bbe2f621590ba6f5d6ec84b14d95fc"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParticipantUtils.ts",
+    "sha256": "549f8edab99a8ad97e591152adf9f6c94995cb099d70edba94f8e96ad1e0932d"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.ts",
+    "sha256": "5b2c83bc02dfd66eda558e3000c801a77355c34cf3ace1ba6d6ce0a5d6e73282"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerCloseButton.ts",
+    "sha256": "03e8fb28e93dfffb04ece01fc4b8caabc9c9e3ba996a5a63713fff16aa959571"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerHeader.ts",
+    "sha256": "fb025b0cbc9af9c00e9b8263b89ea42ae9427f75b14d1b349d73b8b72aab66da"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerInsertButton.ts",
+    "sha256": "cbbc398911988fd473e437e2b0f0392100120d228fe47a12f3f553298890bae8"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerSaturationBox.ts",
+    "sha256": "ba8f3b4051b3074840644cd33ab8b18748f6bc4549c6dcda1fdd24d715d1d7e1"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerStrip.ts",
+    "sha256": "d77a6d413404c0956e5d3cecabe7b77ac8461534efd35bbc80c04500a8e2ccb6"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/colorPickerWidget.ts",
+    "sha256": "a50a301ebb4f2cce854a89bc4b945677cccee826fb1c85aba87e644b27888b3c"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/defaultDocumentColorProvider.ts",
+    "sha256": "966d8781c63430e28814b38bb64b3086142f19335420397de829ce7ce5cfb588"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPicker.ts",
+    "sha256": "61b507931e74b558c31416c8adc579649409f92d6ec3382dc37e762dffed5656"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerContribution.ts",
+    "sha256": "ada8b9124ad8eeb04dca37bbd48588065aba0924d2eaf84731b0eb3140346765"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.ts",
+    "sha256": "bf1c870b4a3f0b2af85810eb5a2e9cfda9155d7d24229a1f7119d88a6404bc20"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/images/opacity-background.png",
+    "sha256": "f4b465b0c59dd075ea94d4170ea73d2e1a99dd0877cabe24cbe18f0b9c30375a"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerActions.ts",
+    "sha256": "a65b133c46d63052ea533d01b574a34acddb48fdb14e16f7f872186b6114c26f"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerController.ts",
+    "sha256": "d8c1516c217368245f0fe5a3514a7d7319bdbc70777fc38ae963739a4c1dd25b"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerParticipant.ts",
+    "sha256": "be67c768769409fa0ab1f9c4676d62b63dc6ad4b4eac87111ad3a388c77ff45a"
+  },
+  {
+    "path": "src/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerWidget.ts",
+    "sha256": "d678564ce5815022d59efb34ac5694ef61d7aa66f883dfd5768c189571f454d7"
+  },
+  {
+    "path": "src/vs/editor/contrib/comment/browser/blockCommentCommand.ts",
+    "sha256": "a04466c096f5d51c1f1bd486beb6e559d611d2a81a56f96bd85cbb3567f2794b"
+  },
+  {
+    "path": "src/vs/editor/contrib/comment/browser/comment.ts",
+    "sha256": "e050338cc62ce8d254caec1b14cce2172badfe56dd7d611ae2241bb0c1e6a59e"
+  },
+  {
+    "path": "src/vs/editor/contrib/comment/browser/lineCommentCommand.ts",
+    "sha256": "5989eea23203de411d50c5146bd70e0878f4362054d609d28bb14d2694e1194c"
+  },
+  {
+    "path": "src/vs/editor/contrib/contextmenu/browser/contextmenu.ts",
+    "sha256": "84220bcccff7ec4dd5d32f7cd3f79c08c68ad13813557aae82f0200adf6da307"
+  },
+  {
+    "path": "src/vs/editor/contrib/cursorUndo/browser/cursorUndo.ts",
+    "sha256": "d4222f920fa7179626123a5def5e1ed0955781e58a4eaec9c8e17f5af17b202c"
+  },
+  {
+    "path": "src/vs/editor/contrib/diffEditorBreadcrumbs/browser/contribution.ts",
+    "sha256": "a2ba1c8e407b81afd1ef37b0fc0d735a09ceb7a2f01dfd036a507cc84d88c588"
+  },
+  {
+    "path": "src/vs/editor/contrib/dnd/browser/dnd.css",
+    "sha256": "10cbaa6ef508b193e036aedafad0e6459c2a7968b2336599552fc6fbac6ef9a1"
+  },
+  {
+    "path": "src/vs/editor/contrib/dnd/browser/dnd.ts",
+    "sha256": "1d8e087bde616ddd683bfd64542202e0783456a8939e914082bdd20f7a5dbc1f"
+  },
+  {
+    "path": "src/vs/editor/contrib/dnd/browser/dragAndDropCommand.ts",
+    "sha256": "4878ea6202cf28282e2da11b11f816ac891077c2b0b7dcd720baee23d6176369"
+  },
+  {
+    "path": "src/vs/editor/contrib/documentSymbols/browser/documentSymbols.ts",
+    "sha256": "664e63653462a9a14cbbc90cfc11550221b0c521aacefc2dd31594ae73770d4a"
+  },
+  {
+    "path": "src/vs/editor/contrib/documentSymbols/browser/outlineModel.ts",
+    "sha256": "a89c5a1ae8b0d6cd523b328ed8e09ef94b6b50f1d068a0cd69d47cfbbb0bfe60"
+  },
+  {
+    "path": "src/vs/editor/contrib/dropOrPasteInto/browser/copyPasteContribution.ts",
+    "sha256": "06fda130ea2ab298ba5f8e16214704fe7e83b5398f76058b481c2530610b077f"
+  },
+  {
+    "path": "src/vs/editor/contrib/dropOrPasteInto/browser/copyPasteController.ts",
+    "sha256": "b624a37e76d1faa4bce4bea3bc3f2434d89185b17c5e9d1a1a552674ff99cd48"
+  },
+  {
+    "path": "src/vs/editor/contrib/dropOrPasteInto/browser/defaultProviders.ts",
+    "sha256": "3003caa3c2db80f0efedd15a29adc84bc983f447eb5786e1c9c6ed9fa22fa698"
+  },
+  {
+    "path": "src/vs/editor/contrib/dropOrPasteInto/browser/dropIntoEditorContribution.ts",
+    "sha256": "280f9c9c953c61d0d7bb6936c6e058b607e317053380d4d59b8f3dd346cd1dc4"
+  },
+  {
+    "path": "src/vs/editor/contrib/dropOrPasteInto/browser/dropIntoEditorController.ts",
+    "sha256": "6734731af715f6120815f3b68953652cd31f2a43193540f267fb0cd263e249c0"
+  }
+]

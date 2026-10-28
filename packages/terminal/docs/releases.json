@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "branch": "main",
+  "baseline": {
+    "version": "0.1.0",
+    "commit": "c2b8115b86085d06aa3ad003ce6b1350fde9aea9"
+  },
+  "versionFiles": [
+    {
+      "path": "package.json",
+      "pointer": "/version"
+    }
+  ],
+  "releases": []
+}

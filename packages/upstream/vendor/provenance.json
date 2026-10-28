@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/microsoft/vscode",
+  "revision": "ef01428f91d9b036beba1c6c1712771aec77e181",
+  "license": "MIT",
+  "files": [
+    "hashes/00.json",
+    "hashes/01.json",
+    "hashes/02.json",
+    "hashes/03.json",
+    "hashes/04.json",
+    "hashes/05.json",
+    "hashes/06.json",
+    "hashes/07.json",
+    "hashes/08.json",
+    "hashes/09.json",
+    "hashes/10.json",
+    "hashes/11.json",
+    "hashes/12.json",
+    "hashes/13.json",
+    "hashes/14.json",
+    "hashes/15.json",
+    "hashes/16.json",
+    "hashes/17.json",
+    "hashes/18.json",
+    "hashes/19.json",
+    "hashes/20.json",
+    "hashes/21.json",
+    "hashes/22.json",
+    "hashes/23.json",
+    "hashes/24.json",
+    "hashes/25.json",
+    "hashes/26.json",
+    "hashes/27.json",
+    "hashes/28.json",
+    "hashes/29.json"
+  ],
+  "externals": ["@vscode/diff", "@vscode/tree-sitter-wasm"],
+  "fileCount": 1174,
+  "supplemental": [
+    {
+      "path": "src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+      "source": "Visual Studio Code installed application",
+      "license": "CC-BY-4.0",
+      "sha256": "fe9082f0a5b971345a5321ddabb6e710020692f254155e20712242cac7c91858"
+    }
+  ]
+}

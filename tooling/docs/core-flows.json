@@ -1,0 +1,11 @@
+{
+  "flows": [
+    {
+      "id": "tooling.inspect",
+      "kind": "operation",
+      "options": ["enabled", "disabled"],
+      "status": "built",
+      "source": "src/features/tooling/module.ts"
+    }
+  ]
+}

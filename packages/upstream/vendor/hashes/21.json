@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsCollapsedView.ts",
+    "sha256": "e9e1b49d2d6bdfc6b079183103b8a65141b52f4c060e4ed0ec21acac243e0441"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsCustomView.ts",
+    "sha256": "b32c5c6a00943934ccc0775305da55b11a8a818c581af3d5e5108aea303e6662"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsDeletionView.ts",
+    "sha256": "41d9fd8009f26c07090f3e37f2509a843ab475285f557e08092d56ea126f4780"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsInsertionView.ts",
+    "sha256": "7813f27447e0e082b485c10d9f0df9cc534aad506939b3683f1b5b699b108817"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsLineReplacementView.ts",
+    "sha256": "3c613ba3b37cb78b7b240a740f3330003b0528d917c265f672c3a0ea1b9ece80"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsSideBySideView.ts",
+    "sha256": "df950e3208449606ec48e36dd31a8c41f22be38f6f889cf0f9fe1cfa15e905a2"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsWordReplacementView.ts",
+    "sha256": "bb3bd9b50f0e8e445cc219ec5db99081b4b1e78d8576241fa1688855c4476da1"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/jumpToView.ts",
+    "sha256": "6015732511d28b369f72649a622c6494e22d9a3aaf7b48d373aab0de80d5abc6"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/longDistanceHint/inlineEditsLongDistanceHint.ts",
+    "sha256": "e9598b63c189d421b880bb25941cf8b8819792f699d190d03b80e57c225815ab"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/longDistanceHint/longDistancePreviewEditor.ts",
+    "sha256": "45463f7fa973b4e0b098531de06faa6af24fd9268aea9a60a6cbcbb6fbcd4621"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/longDistanceHint/longDistnaceWidgetPlacement.ts",
+    "sha256": "c010c7b385b912bf8bf4db81f8fd2ef94440d0a32cab7f719cbab8ebf6866028"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/originalEditorInlineDiffView.ts",
+    "sha256": "02aed0c2e9841cad4c0150f57b37a1fb1756d810c45caa7bcb82b80c97019216"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditWithChanges.ts",
+    "sha256": "6a0afaeecca5d2b007592c8ef7fbe1e83b6a836f7a5146c1d510b5629fa5a7a4"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme.ts",
+    "sha256": "6720600e1c8e99adee76189a25610f7f8b655921407b0eacf729c68259bf9b4b"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/utils/flexBoxLayout.ts",
+    "sha256": "f63ea33eb7f3991e0230d37538cdec5554362b3b3a09a84e923f8a74ce47c769"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/utils/towersLayout.ts",
+    "sha256": "009f02279345519afc1695dd132a876de652de14717abaabab397bd223e29f17"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/utils/utils.ts",
+    "sha256": "71d466738932748c9c4f34bee98f76936eb7687fb65155334b9dec05731e260d"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/view.css",
+    "sha256": "8c4c6269395ab7b05e721778fe5e76e9f54dd1ce2433e6efe488ce3c38224f93"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineCompletions/browser/view/inlineSuggestionsView.ts",
+    "sha256": "7cb0e4e373466fe76f1816a78c1dbd36818b9b7e5afcd605b04fc3527d7ee1dc"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineProgress/browser/inlineProgress.ts",
+    "sha256": "3ab186ecdbe16afd76e838259a1a39fde6de97a09ba9eb053f58d253050bb74f"
+  },
+  {
+    "path": "src/vs/editor/contrib/inlineProgress/browser/inlineProgressWidget.css",
+    "sha256": "20aaebebacb82e36949c156c4264f1d21e0367563c5205137db15485c0367212"
+  },
+  {
+    "path": "src/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplace.css",
+    "sha256": "75cbe8381bfd1ec5c7290c87427a5fe0d91fa124569e863632dd1a686984d45d"
+  },
+  {
+    "path": "src/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplace.ts",
+    "sha256": "3ec316c5569214a1299467c62ac5bac67a10cf703b6d4539989be686fbbb42c1"
+  },
+  {
+    "path": "src/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplaceCommand.ts",
+    "sha256": "5267acf11ead02ff7ca3eb866cdab272e0a76cdc1fd85aab6ea118ec08dcce9b"
+  },
+  {
+    "path": "src/vs/editor/contrib/insertFinalNewLine/browser/insertFinalNewLine.ts",
+    "sha256": "ee59f93980d3e9b8fa86e7de6fd44eb67a7c2aabcb3c01f95263234be8d38809"
+  },
+  {
+    "path": "src/vs/editor/contrib/insertFinalNewLine/browser/insertFinalNewLineCommand.ts",
+    "sha256": "976cd843c43c5982de948d82d501bd7943df44cbbf33c863d5d16e2b3e18602f"
+  },
+  {
+    "path": "src/vs/editor/contrib/lineSelection/browser/lineSelection.ts",
+    "sha256": "671085f34ec860dad2a7955c84bc4616754f839bb1767b36dff832e1147059e2"
+  },
+  {
+    "path": "src/vs/editor/contrib/linesOperations/browser/copyLinesCommand.ts",
+    "sha256": "8e77ac52db54fc056b07bc7ef4c16888a382fd21c1cdd4771101834b8e3ab892"
+  },
+  {
+    "path": "src/vs/editor/contrib/linesOperations/browser/linesOperations.ts",
+    "sha256": "19d641073851f08667c316c4a0571e3739ecdd1c5465d8c44eacf395a3c2a91c"
+  },
+  {
+    "path": "src/vs/editor/contrib/linesOperations/browser/moveLinesCommand.ts",
+    "sha256": "686423cf96eb4fa887859aa16fcb8ca9d29df80503c6ee0d65960fecc4570ae7"
+  },
+  {
+    "path": "src/vs/editor/contrib/linesOperations/browser/sortLinesCommand.ts",
+    "sha256": "379989ea9963af6b63bb50fe9dfb3456370f68d26d6faf54ff79e7424afdf8a5"
+  },
+  {
+    "path": "src/vs/editor/contrib/linkedEditing/browser/linkedEditing.css",
+    "sha256": "0c525cc13d88522b14a61b8d4d0376182362ee46c85edd3cbed25bef48e72b70"
+  },
+  {
+    "path": "src/vs/editor/contrib/linkedEditing/browser/linkedEditing.ts",
+    "sha256": "a5804ab11a182f103bc632de666332caa8e6f991e415977f7d9a2618b171a2ee"
+  },
+  {
+    "path": "src/vs/editor/contrib/links/browser/getLinks.ts",
+    "sha256": "bfaccf24ed8c63ff20dec9ef2a3cb54b0e361408542504415731be268a07105c"
+  },
+  {
+    "path": "src/vs/editor/contrib/links/browser/links.css",
+    "sha256": "391c3b488103c0e045978008e589df08781d9c9783aa454026a7e898ac21ff19"
+  },
+  {
+    "path": "src/vs/editor/contrib/links/browser/links.ts",
+    "sha256": "c0bf8ab8b78eb731a82c85afcd179a4a47681ed0e6ea5735876373636d196426"
+  },
+  {
+    "path": "src/vs/editor/contrib/longLinesHelper/browser/longLinesHelper.ts",
+    "sha256": "c3e1ffa24562b71e0fc472438d634f9a3a6341b65339a14ee0635429af4b94a4"
+  },
+  {
+    "path": "src/vs/editor/contrib/message/browser/messageController.css",
+    "sha256": "ac45cf3659e0f5a06f345eab9a1dc322a791d01501e94bcf9b54a60b90713e58"
+  },
+  {
+    "path": "src/vs/editor/contrib/message/browser/messageController.ts",
+    "sha256": "0f3747e3d33ad906420fdf5f4e33b6fc86cc8b26c4638397971fc8bb572afc09"
+  },
+  {
+    "path": "src/vs/editor/contrib/middleScroll/browser/middleScroll.contribution.ts",
+    "sha256": "392b07d04c6323e1df2c920792fd2ed847afe5184164e3e1c0c76ca336dd0d55"
+  }
+]

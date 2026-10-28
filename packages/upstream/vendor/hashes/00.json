@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/amdX.ts",
+    "sha256": "3edf1786f214bc410084cce1aada2cc56e38811f5e2e1cdd66df77856692882d"
+  },
+  {
+    "path": "src/vs/base/browser/animatedValue.ts",
+    "sha256": "6abeccfa4fb8c1eb8910d21d14c37e74250d6b0bc138a5ee3755987b82f8488e"
+  },
+  {
+    "path": "src/vs/base/browser/browser.ts",
+    "sha256": "e5f8a4cbad6bf274cd156f99ee33cb19496515ce4f076dac66510351f2c686e3"
+  },
+  {
+    "path": "src/vs/base/browser/canIUse.ts",
+    "sha256": "c686e21f655ac66fed5598b7b3bd216d34a44806ad50f250052c4f47b321758f"
+  },
+  {
+    "path": "src/vs/base/browser/contextmenu.ts",
+    "sha256": "d5bec089e5d2dd23296a0463c91ec9d9e84157c56a852517ecfc0fcd22b22c16"
+  },
+  {
+    "path": "src/vs/base/browser/cssValue.ts",
+    "sha256": "079241970029edfd1cfc257eaf85bbdd07dafb34fbdc1d619997493327456c16"
+  },
+  {
+    "path": "src/vs/base/browser/dnd.ts",
+    "sha256": "7f963c8d10a1969d4ef6795884d0a3de40361bb489c0f2e29ecebe1bd80256ba"
+  },
+  {
+    "path": "src/vs/base/browser/dom.ts",
+    "sha256": "c5c3be7d7bb7b80f60b364a93b59dd6265d2e985aa8f6291a4913bdbf2336311"
+  },
+  {
+    "path": "src/vs/base/browser/dompurify/dompurify.js",
+    "sha256": "0f5bcc52bbee29587b5589098b2b210541cf30de6a2a056b278cc1a783ea6fd3"
+  },
+  {
+    "path": "src/vs/base/browser/domSanitize.ts",
+    "sha256": "7b0db2931d42eb3f4ecaa97d6cc57f6f702fb8d21e260e148a875cf0f028ed22"
+  },
+  {
+    "path": "src/vs/base/browser/domStylesheets.ts",
+    "sha256": "7419032aaf4a92e47d017cdcf656c4b1bef9bc11bb6662d4a1cc01842d8f05dc"
+  },
+  {
+    "path": "src/vs/base/browser/event.ts",
+    "sha256": "e4cdde1517f01fcc5561eddb36f2a2de4a48c4b61f481ae6536cee3f398ed775"
+  },
+  {
+    "path": "src/vs/base/browser/fastDomNode.ts",
+    "sha256": "356cefee4ff31666d61e78ac9cd7fc297504e66121fbe5aacf79eb639a87bed4"
+  },
+  {
+    "path": "src/vs/base/browser/fonts.ts",
+    "sha256": "b2977b0c523eaf0bcdbcf23375323c35c6a7594810a242a63febab5231b6025a"
+  },
+  {
+    "path": "src/vs/base/browser/formattedTextRenderer.ts",
+    "sha256": "3991b4d9c77a70f7750244eba4b7736d8586d32198e14673b814a365339b57d4"
+  },
+  {
+    "path": "src/vs/base/browser/globalPointerMoveMonitor.ts",
+    "sha256": "b605496cf09d8414215405a2a4ae78b05edb312af62bbde60ec1aa57868ee900"
+  },
+  {
+    "path": "src/vs/base/browser/history.ts",
+    "sha256": "89cde2ebaf2e9e89f8012dfe98b876c0cf59feece4a7d53eb4b8df2e1480d6e7"
+  },
+  {
+    "path": "src/vs/base/browser/iframe.ts",
+    "sha256": "f5b589a741cd7a0bf76a828a5087494e4851bc368c4b4525f1751f45bcdc5586"
+  },
+  {
+    "path": "src/vs/base/browser/indexedDB.ts",
+    "sha256": "31dfe9d39cac8e41acd9f7a7977bce1817793739a20532d8018b1437d534640b"
+  },
+  {
+    "path": "src/vs/base/browser/keyboardEvent.ts",
+    "sha256": "07e2f37f996c7501fa5a2ebee3df431ecee626e32fc68fd6e798f2ef2cc6cad9"
+  },
+  {
+    "path": "src/vs/base/browser/markdownRenderer.ts",
+    "sha256": "9e5053fdda601cc6b413c3d30db63850771d638b9522b61d9ec49eb01c9af36e"
+  },
+  {
+    "path": "src/vs/base/browser/mouseEvent.ts",
+    "sha256": "560747ed70add1908279ccb7a2ba3834540077231258eb0430b04c388f2f16ff"
+  },
+  {
+    "path": "src/vs/base/browser/performance.ts",
+    "sha256": "66601d74fc40fc57711341e7adaed11d17b93704117ce62e506f4a10695e5f4e"
+  },
+  {
+    "path": "src/vs/base/browser/pixelRatio.ts",
+    "sha256": "e0fc58608c28471bed3fbe4eec34fe5943d4611f86913cc66f9231ffb5b46331"
+  },
+  {
+    "path": "src/vs/base/browser/touch.ts",
+    "sha256": "be8810bc679d6e6f19bc2cb720e0fcc051c4a3972b43e8772978cbab85e726c0"
+  },
+  {
+    "path": "src/vs/base/browser/trustedTypes.ts",
+    "sha256": "1f3a8ebef18f1770b4d6ba29b1647ca4cba07fc4fa6bdceeb4010da9439d5209"
+  },
+  {
+    "path": "src/vs/base/browser/ui/actionbar/actionbar.css",
+    "sha256": "668d8ae988db452eea23e553440df31d4eaeeef777b903562adfcd677e1aedbe"
+  },
+  {
+    "path": "src/vs/base/browser/ui/actionbar/actionbar.ts",
+    "sha256": "dd1c3e93975f73b6526e96489d7593e99b841ca439b182db6945d0564b013bb3"
+  },
+  {
+    "path": "src/vs/base/browser/ui/actionbar/actionViewItems.ts",
+    "sha256": "a679c36474ebb813873503871572f831ba67e88359a98ed3f94a6765ed9ca15c"
+  },
+  {
+    "path": "src/vs/base/browser/ui/animations/animations.ts",
+    "sha256": "cc8ce2f8cdec68754366c328e6356d7e509517e79ddffe1156bed7d7cf3da9f5"
+  },
+  {
+    "path": "src/vs/base/browser/ui/aria/aria.css",
+    "sha256": "f684c3c5beccb27afc61a66c1dadc4d78900041f27879bff9186e992b4c2b5de"
+  },
+  {
+    "path": "src/vs/base/browser/ui/aria/aria.ts",
+    "sha256": "bea3c43aad4b897f792cde17423a317fb0288d4a40da2e08e909048b17cde659"
+  },
+  {
+    "path": "src/vs/base/browser/ui/breadcrumbs/breadcrumbsWidget.css",
+    "sha256": "d5c468a0862b32d45c4f2e49059efa0bb018385a81503bb1434c78afd359dfe9"
+  },
+  {
+    "path": "src/vs/base/browser/ui/breadcrumbs/breadcrumbsWidget.ts",
+    "sha256": "5c59c3d8dee94ec3eb4ffec09904ab45e5660bf670c559ee890e311b3abd0e39"
+  },
+  {
+    "path": "src/vs/base/browser/ui/button/button.css",
+    "sha256": "cf4de7909370f6698034e77097a136d07f5ecdc447979b9f67ab8b11f7dc94b2"
+  },
+  {
+    "path": "src/vs/base/browser/ui/button/button.ts",
+    "sha256": "0243c8e34fc8da5f9e80359439cf44c1ad023e89f26fe36eebbe96b16d9f906a"
+  },
+  {
+    "path": "src/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css",
+    "sha256": "9c55edb401956cae8fb84a135618593296af23c0c84bfd807e1b8056a86f45f6"
+  },
+  {
+    "path": "src/vs/base/browser/ui/codicons/codicon/codicon.css",
+    "sha256": "2a18f26de562eed6d60f070d9bf7a234f158fa149c991b17bf1c91632a250f41"
+  },
+  {
+    "path": "src/vs/base/browser/ui/codicons/codiconStyles.ts",
+    "sha256": "102329c327d1b5b6a2bb62a0f656197481944b697a789b7094e43b5f95499ca1"
+  },
+  {
+    "path": "src/vs/base/browser/ui/contextview/contextview.css",
+    "sha256": "5730822c82bcb49ccf6c92a20f1428d5281b009392ce8512626bb2e6e1bbdd7a"
+  }
+]

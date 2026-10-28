@@ -1,0 +1,7 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.scode/local/
+**/.scode/local/
+.DS_Store

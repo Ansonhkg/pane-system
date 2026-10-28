@@ -1,0 +1,13 @@
+[
+  {
+    "id": "layout.inspect",
+    "cli": "bun src/app/entrypoints/package.ts doctor --json",
+    "sdk": "src/index.ts#inspectPackage",
+    "http": "POST /operations",
+    "handler": "src/features/layout/module.ts#module",
+    "input": "Empty object.",
+    "output": "Package name, version, and public entry points.",
+    "errors": "Disabled feature or invalid operation.",
+    "durable": true
+  }
+]

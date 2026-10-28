@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/base/browser/ui/mouseCursor/mouseCursor.css",
+    "sha256": "a7f054d6941e06753d44114ad410c9cc37026633c7c3151f3dbce83dbd31ed4b"
+  },
+  {
+    "path": "src/vs/base/browser/ui/mouseCursor/mouseCursor.ts",
+    "sha256": "ea05d34df59ca76ce1dde5ef6833e0dc83e0078399647e0d59cde88128aaffc6"
+  },
+  {
+    "path": "src/vs/base/browser/ui/progressbar/progressAccessibilitySignal.ts",
+    "sha256": "b3fe06849338e5ef23462ca7db6cc8170d27000488d2d3e19babe6bb2659989c"
+  },
+  {
+    "path": "src/vs/base/browser/ui/progressbar/progressbar.css",
+    "sha256": "8c67efa51409ab88aeb10e8c79e517b56193c7f852da8c5401865246b21d4460"
+  },
+  {
+    "path": "src/vs/base/browser/ui/progressbar/progressbar.ts",
+    "sha256": "0bf9c80d2c8f4cc332ea38f42c1896acc66a45fc4db2b9c49cc821da2b2e075d"
+  },
+  {
+    "path": "src/vs/base/browser/ui/radio/radio.css",
+    "sha256": "bef58b578b3707402f785ffaf72aef864a5eab9d83d47596aad60b37cd63b061"
+  },
+  {
+    "path": "src/vs/base/browser/ui/radio/radio.ts",
+    "sha256": "4f4ad29292efada0c07046e876ea382f2b4414bdded1781dd4152e7d0b440b94"
+  },
+  {
+    "path": "src/vs/base/browser/ui/resizable/resizable.ts",
+    "sha256": "3d2560faf0d6495ed4f8b5771e309ffdcea7f2cce4f721307214b4afd605b5e4"
+  },
+  {
+    "path": "src/vs/base/browser/ui/sash/sash.css",
+    "sha256": "55a98b0f131e52dd70e92c9db66efbbd0a17f4c8e2891af39d9c33f98e4d24d7"
+  },
+  {
+    "path": "src/vs/base/browser/ui/sash/sash.ts",
+    "sha256": "95c13f4374a847976c08a1c83d72714ce27a89da1ca8423760f7ae1ecbcd59e6"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/abstractScrollbar.ts",
+    "sha256": "c00bc12b4d84525d09abe82c358cbec04a867e8952f0c24cc207d73925dcb8ac"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/horizontalScrollbar.ts",
+    "sha256": "a3997391015784b5339ac6b2487d85bc9faa3ced8224e2db7853b779234c82b4"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/media/scrollbars.css",
+    "sha256": "39e5be458917904ddbc613289a17d4ae32ca5e75ccdb22364c8ce2a5aa251432"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/scrollableElement.ts",
+    "sha256": "7d95f0d0e8bc98c512f3f0db6f9ad00f73db2d46a544ef9a56925f89e4db989e"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/scrollableElementOptions.ts",
+    "sha256": "43b6f61d85ac8835ac1f290d9e34006239a6c0b527a6c700ca3991c50aa53358"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/scrollbarArrow.ts",
+    "sha256": "415f0dd24fd9c865d7523c659c20a5851a04b4230ee4322584236c9752a7adfa"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/scrollbarState.ts",
+    "sha256": "f3cc8772ec057b3b55be2b69f1e502bbb43b9886c102d94fe107ca9fe6c29608"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/scrollbarVisibilityController.ts",
+    "sha256": "0ab0846077e264b46644e1501961bf4d1a4224b9e7e0d3a15eb6c6fbd3cfbea0"
+  },
+  {
+    "path": "src/vs/base/browser/ui/scrollbar/verticalScrollbar.ts",
+    "sha256": "d5afe1b30aa2b7f51a26c86e02b3cda72d977d43d7bc5fa7f33e2113b25304f8"
+  },
+  {
+    "path": "src/vs/base/browser/ui/selectBox/selectBox.css",
+    "sha256": "697d9518f3424b14a3c33d241c193f13a0aff80f4fd682b201f639836359d47f"
+  },
+  {
+    "path": "src/vs/base/browser/ui/selectBox/selectBox.ts",
+    "sha256": "0d5eff20f50ca9b3a866b4ff016cdca686b91417454c1c14473eb5a5a7d87661"
+  },
+  {
+    "path": "src/vs/base/browser/ui/selectBox/selectBoxCustom.css",
+    "sha256": "fd5806d4da522f3bfdafd13b662a44bb7b0010f200965d064fc26e5b8a8beaac"
+  },
+  {
+    "path": "src/vs/base/browser/ui/selectBox/selectBoxCustom.ts",
+    "sha256": "5d88ece1bcdcd51923ae20e1efdbbc761fed2d67e2439f689d3d10e00dc9b519"
+  },
+  {
+    "path": "src/vs/base/browser/ui/selectBox/selectBoxNative.ts",
+    "sha256": "5645cdbddce45d331ed645de3a13f67367a1896a2b44a2630211b72604a94a18"
+  },
+  {
+    "path": "src/vs/base/browser/ui/severityIcon/media/severityIcon.css",
+    "sha256": "59df7a5fdc7e3412e3874583cca07be7df7697bba609472a8d1862b98a7c8c17"
+  },
+  {
+    "path": "src/vs/base/browser/ui/severityIcon/severityIcon.ts",
+    "sha256": "185bade013fcd1c5949ae0b93b5b24ccfda44e6c64169a8e302744ca252e418f"
+  },
+  {
+    "path": "src/vs/base/browser/ui/splitview/splitview.css",
+    "sha256": "d8fe7c928757ccf073c81ca5457ddf01059851588c66f53f13261d0537f9332d"
+  },
+  {
+    "path": "src/vs/base/browser/ui/splitview/splitview.ts",
+    "sha256": "f356800ec6e1e456a55e7a6ab6f049e74ae1d5aafaeccbc125cd88e42af4c4a4"
+  },
+  {
+    "path": "src/vs/base/browser/ui/table/table.css",
+    "sha256": "be46a3d8cc2bdae3201e61d2a0e298d82c7aedd62f84ebddd793917a2978f4ac"
+  },
+  {
+    "path": "src/vs/base/browser/ui/table/table.ts",
+    "sha256": "53ca32bd7ff3f6f4d54f33e6adb1b4b4ed15d157d1e39f3af8382596a7779def"
+  },
+  {
+    "path": "src/vs/base/browser/ui/table/tableWidget.ts",
+    "sha256": "10abe7d2de8a9eca10525a5171574d4a10d76f6c94e57cfb53ab9ea3e3aae392"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toggle/switch.css",
+    "sha256": "eb7decbfce07aa11c65cd64585bc855a9ddfabffd40e8aacd33f68e04221d3dc"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toggle/switch.ts",
+    "sha256": "fabdffdfb6c973822ceff44e88e33cff7107763403d6c5bccbe781060fbdd8a3"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toggle/toggle.css",
+    "sha256": "4a2a3df30fc1331d21c862b6e5e341b04d489a8371bfc53b4d48da1d0d80413f"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toggle/toggle.ts",
+    "sha256": "7b82f5b650400e3eda7b64eda9aeb2dc497239bb929fe66f5c19e3deeac898ae"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toolbar/toolbar.css",
+    "sha256": "eb386f35b375754ba2b6e4ff9766c0b67833a68648f76eee2fbe0cd2aec24035"
+  },
+  {
+    "path": "src/vs/base/browser/ui/toolbar/toolbar.ts",
+    "sha256": "fc05b2d7f1d220880aa1884681dc486ac154af01aed4a2e0b23b58bc3f2eafae"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/abstractTree.ts",
+    "sha256": "9fc5cceb5b12520c7e8707fe39bf898858fcebc93c13e3ae14198d4095149d52"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/asyncDataTree.ts",
+    "sha256": "30e4b3aee3cd65ee206409c10738375a2da5d97542de453c1b4550b77f72c604"
+  },
+  {
+    "path": "src/vs/base/browser/ui/tree/compressedObjectTreeModel.ts",
+    "sha256": "6697cb6a61901920b99b277e00d08970e587058fb64b63e8a98e56853a5d313f"
+  }
+]

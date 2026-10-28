@@ -1,0 +1,25 @@
+export const PATHS = {
+  layoutRoute: "/layout",
+  layoutPage: "apps/demo/layout.html",
+  languageWorker: "/assets/language-worker.js",
+  manifest: "package.json",
+  gitignore: ".gitignore",
+  workspace: "../../../../..",
+  assets: "dist",
+  index: "apps/demo/index.html",
+  state: ".scode/local/host.sqlite",
+  desktopState: ".scode/local/desktop-host.sqlite",
+  desktopMain: "apps/demo/src/platform/desktop/main.ts",
+  desktopBundle: "dist/desktop-main.cjs",
+  desktopPort: 49451,
+  worker: "/assets/editor-worker.js",
+  performance: ".scode/local/browser-metrics.json",
+  fixture: ".scode/local/demo-workspace",
+  sample: "src/welcome.ts",
+  context: "src/context.ts",
+  layoutKey: "pane-layout-reference-v2",
+  inputKey: "pane-input-v1",
+  themeKey: "pane-theme-v1",
+} as const;
+
+export const PACKAGE_RUN_PATH = ".scode/local/package-runs.json";

@@ -1,0 +1,22 @@
+{
+  "name": "@pane-system/host",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/platform/transport/client.ts",
+    "./server": "./src/platform/server.ts",
+    "./operations": "./src/core/operations.ts"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pane-system/contracts": "workspace:*",
+    "@tanstack/query-core": "5.104.5"
+  },
+  "license": "MIT"
+}

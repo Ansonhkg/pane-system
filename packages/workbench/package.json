@@ -1,0 +1,22 @@
+{
+  "name": "@pane-system/workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/core/commands.css"
+  },
+  "scripts": {
+    "lint": "scode lint --root .",
+    "doctor": "bun src/app/entrypoints/package.ts doctor --json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pane-system/layout": "workspace:*",
+    "@pane-system/tabs": "workspace:*",
+    "@pane-system/contracts": "workspace:*",
+    "@pane-system/upstream": "workspace:*"
+  },
+  "license": "MIT"
+}

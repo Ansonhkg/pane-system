@@ -1,0 +1,5 @@
+export const PACKAGE = {
+  name: "@pane-system/language-services",
+  version: "0.1.0",
+  capabilities: [".", "./worker"],
+} as const;

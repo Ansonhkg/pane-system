@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pane System · Layout Framework</title>
+    <link rel="stylesheet" href="/assets/layout-demo.css" />
+    <script type="module" src="/assets/layout-demo.js"></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <img src="/assets/logo.svg" alt="" width="24" height="24" />
+      </div>
+      <div class="project-name">
+        Pane System <span>/ Layout framework</span>
+      </div>
+      <button id="commands" class="command-search">
+        Find a command <kbd>⌘ K</kbd>
+      </button>
+      <button id="theme" aria-label="Change theme" title="Change theme">
+        ◐
+      </button>
+      <a href="/">Full workbench</a>
+    </header>
+    <main class="app-main">
+      <nav class="rail" aria-label="Layout"><div class="brand">◫</div></nav>
+      <div id="workspace" aria-label="Workspace"></div>
+    </main>
+    <footer class="app-footer">
+      <span id="status" role="status">Starting</span
+      ><span>VS Code grid · Custom panes · No editor dependency</span>
+    </footer>
+  </body>
+</html>

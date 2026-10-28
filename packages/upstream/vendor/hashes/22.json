@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/middleScroll/browser/middleScroll.css",
+    "sha256": "554c81e0581592e27181f134819efb116ce6c1c36c46b7cf0af61bcfe67df37a"
+  },
+  {
+    "path": "src/vs/editor/contrib/middleScroll/browser/middleScrollController.ts",
+    "sha256": "43367a33b82564e301c28e356df83b01946b0efe5a43ff6c5922eb8915d3c6a2"
+  },
+  {
+    "path": "src/vs/editor/contrib/multicursor/browser/multicursor.ts",
+    "sha256": "2fb374ce11c1e585468154aa5416e5ca435db0cf82c4194bb8cd42384e1ab3eb"
+  },
+  {
+    "path": "src/vs/editor/contrib/parameterHints/browser/parameterHints.css",
+    "sha256": "d862f09b16cf01d385b537e831f37cfdc73c106f79eaeeafe8125a27b07f0ab9"
+  },
+  {
+    "path": "src/vs/editor/contrib/parameterHints/browser/parameterHints.ts",
+    "sha256": "39477bae157769525370187ed064149215ba193bbc7c1bf8d57f6d9d335ff656"
+  },
+  {
+    "path": "src/vs/editor/contrib/parameterHints/browser/parameterHintsModel.ts",
+    "sha256": "4daf55068ffbf5a1fa65878b56c32e3151c96bd5f616a6c9d6f86d180072849c"
+  },
+  {
+    "path": "src/vs/editor/contrib/parameterHints/browser/parameterHintsWidget.ts",
+    "sha256": "6739f2e8cb7b672aad67fc9b51cd5c3875258d56bcd565ebb3c71454f7d810aa"
+  },
+  {
+    "path": "src/vs/editor/contrib/parameterHints/browser/provideSignatureHelp.ts",
+    "sha256": "4bf939012bc9ee040bedafa5bd9523fbb94c5b3c9b74d85c577d19a1bf5610f2"
+  },
+  {
+    "path": "src/vs/editor/contrib/peekView/browser/media/peekViewWidget.css",
+    "sha256": "5eee22445ac0b24152df3de044256e98f5d9c70f5a919b238994f0a57fcb44f1"
+  },
+  {
+    "path": "src/vs/editor/contrib/peekView/browser/peekView.ts",
+    "sha256": "b03db6257edce40158271960d16cabbaa40424d77817ca0fcc25f056c488d268"
+  },
+  {
+    "path": "src/vs/editor/contrib/placeholderText/browser/placeholderText.contribution.ts",
+    "sha256": "8ac81fefb2f9020f4a6fe384731042b66940fe15cf0424c344941a7ec4f5d5b8"
+  },
+  {
+    "path": "src/vs/editor/contrib/placeholderText/browser/placeholderText.css",
+    "sha256": "4d41f8ddf0d0cbcc34b6dbfd340534a71cbfb57baed022d138069c25023a8096"
+  },
+  {
+    "path": "src/vs/editor/contrib/placeholderText/browser/placeholderTextContribution.ts",
+    "sha256": "e22654f23661ccfac260f8a8c38024d256e877f6e955037ab30ac28c45572d70"
+  },
+  {
+    "path": "src/vs/editor/contrib/quickAccess/browser/commandsQuickAccess.ts",
+    "sha256": "f7adc94d651e02b797c613e3995a1200346b7aab8f5e6045089f425eed8e2dd2"
+  },
+  {
+    "path": "src/vs/editor/contrib/quickAccess/browser/editorNavigationQuickAccess.ts",
+    "sha256": "7230d0592188fe427f7f4f3c0929eb6ab3809e62f5d767b57ff8e83a2d11b106"
+  },
+  {
+    "path": "src/vs/editor/contrib/quickAccess/browser/gotoLineQuickAccess.ts",
+    "sha256": "9e75ca38de792794617bf5440e395ce07b80b7719a51e78c88ecd64a722fb4f1"
+  },
+  {
+    "path": "src/vs/editor/contrib/quickAccess/browser/gotoSymbolQuickAccess.ts",
+    "sha256": "dfc3dedd96e5d8aff9051bb743670b188855fdf4826dd986252d14e404d33c56"
+  },
+  {
+    "path": "src/vs/editor/contrib/readOnlyMessage/browser/contribution.ts",
+    "sha256": "808260743ffa85ce36c06b79bf3f9f7e2a57acf0e554a3e6c166cb5c04b74ab6"
+  },
+  {
+    "path": "src/vs/editor/contrib/rename/browser/rename.ts",
+    "sha256": "eb6db7eb7a7b0d8ee91d4d9f2a625c111b8a07cd8f30fd948bd69faf5778241e"
+  },
+  {
+    "path": "src/vs/editor/contrib/rename/browser/renameWidget.css",
+    "sha256": "0c5f0fc38fcc273f480b13402b7de5e2d152cc2acb15e553ddd40c1984537f0c"
+  },
+  {
+    "path": "src/vs/editor/contrib/rename/browser/renameWidget.ts",
+    "sha256": "61384fc41156bddb8ffd9c3da099b9f28497e5920afbb70857242afceee02f13"
+  },
+  {
+    "path": "src/vs/editor/contrib/sectionHeaders/browser/sectionHeaders.ts",
+    "sha256": "9bc982503fe8fe40d93c9e17b7cdf7eb3152beff46ced254e084b6641c4f8281"
+  },
+  {
+    "path": "src/vs/editor/contrib/semanticTokens/browser/documentSemanticTokens.ts",
+    "sha256": "81c013e6c37d1a8a51e09f8416d9d771ed806d5fab011a65c70c40500a2c51c6"
+  },
+  {
+    "path": "src/vs/editor/contrib/semanticTokens/browser/viewportSemanticTokens.ts",
+    "sha256": "5791888cbe2c867093d0d950eda176457743ea2f3c608c5bf1b6db73282a28ae"
+  },
+  {
+    "path": "src/vs/editor/contrib/semanticTokens/common/getSemanticTokens.ts",
+    "sha256": "89c8ed6414d1442aa0b9382d0dc69a87bfe122a31cea9238eaa9ebb37223d360"
+  },
+  {
+    "path": "src/vs/editor/contrib/semanticTokens/common/semanticTokensConfig.ts",
+    "sha256": "6627efcf52a3f21294c79f0522a5c7223b9d4adf72fae90a9cbb3580ed197e4c"
+  },
+  {
+    "path": "src/vs/editor/contrib/smartSelect/browser/bracketSelections.ts",
+    "sha256": "cd032619ee209cfce86b28929cbd63f4aa97a0f9d97b3010b4e9f87366701b85"
+  },
+  {
+    "path": "src/vs/editor/contrib/smartSelect/browser/smartSelect.ts",
+    "sha256": "5268c9998c6a77445dc0a6f919a1a9b5e2c2c4f56ef767227fc35ebb4a8bedd2"
+  },
+  {
+    "path": "src/vs/editor/contrib/smartSelect/browser/wordSelections.ts",
+    "sha256": "b9a9acefe45675933f0fd56dd3e28b9d904c589f6548ad8ee0dd1e986a2eb4a6"
+  },
+  {
+    "path": "src/vs/editor/contrib/snippet/browser/snippetController2.ts",
+    "sha256": "59174aa8b00798928afc9c6481a2d4141890aadb4dd3fa8f697942a9bbc16346"
+  },
+  {
+    "path": "src/vs/editor/contrib/snippet/browser/snippetParser.ts",
+    "sha256": "e042ea774eb6ed25cb997ef13e5c51e93ab8777d25859620f18e2fbe8c18c8c7"
+  },
+  {
+    "path": "src/vs/editor/contrib/snippet/browser/snippetSession.css",
+    "sha256": "1ecf4af2b75ed71eb19e456e93fae75508fba9d489beaf9b84d0dd48bd248c32"
+  },
+  {
+    "path": "src/vs/editor/contrib/snippet/browser/snippetSession.ts",
+    "sha256": "fda899896ff11f93c435357e17749227f828594e351acea1a7a5f6800ddd663c"
+  },
+  {
+    "path": "src/vs/editor/contrib/snippet/browser/snippetVariables.ts",
+    "sha256": "5fafceeadf07276da023689de8b5e793dd3673346135b529fa592601ae098572"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScroll.css",
+    "sha256": "abe454ffe6c6eed1539695ef0a2c9a13fd2973883ba96841366c082f66d4bfe0"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollActions.ts",
+    "sha256": "27d2ae02e835616d5c83556a59170877ee0f95d7df39959476112532c3df40e2"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollContribution.ts",
+    "sha256": "25297e0f0b26dea30564f516cdcb2f48b81bce8833875a8bc7ab16a2a8d26119"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollController.ts",
+    "sha256": "fe59ff333a87f143a44a60f3774d72d1f575c2476e9fffb8b4bdb009f3400550"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollElement.ts",
+    "sha256": "d87b9a8b1d8b58b124d531df782818a07e8ef1aefc4d4fb26adde044bfda56ee"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollModelProvider.ts",
+    "sha256": "b53deae8abb31b6421a828a2358e0a0bb8a06edfb090e67c17ae4b2f163f6bb3"
+  }
+]

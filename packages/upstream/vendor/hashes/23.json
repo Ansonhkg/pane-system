@@ -1,0 +1,162 @@
+[
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollProvider.ts",
+    "sha256": "80dba9d3ea524b27d40eb40fd71c71537fe113a73259dca0bbad63ff3fc9792b"
+  },
+  {
+    "path": "src/vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.ts",
+    "sha256": "33154bd3ef5106ddf310919f0887ef1a3f596d21b16197b1bb6a9ce4116bb6b5"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/completionModel.ts",
+    "sha256": "943c88a124075585b69a82c5afff9536e0b453df38b9103362397df55dec40b5"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/media/suggest.css",
+    "sha256": "19d6d76a8919ef3fa5d865a2636612b24cadae2f393399b5ba38e8e9abfa8128"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggest.ts",
+    "sha256": "d128c47ecbfa053d52b2c17e66145dd5780b251ee467d77729bfa15f45986dab"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestAlternatives.ts",
+    "sha256": "7f792c0c46676b2803f197fbc9c29b1f592d678ddcd7e4edcf7f0d71750a30dd"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestCommitCharacters.ts",
+    "sha256": "6a2660a3ba30ae166088e2f0d18cc65f2f8ac999ab0fa2b4ad8feb3d4af1cea1"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestController.ts",
+    "sha256": "d2f84cdf99096869d13b0d73454061c132f9ba5a0fe46602826ffeca98a56720"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestInlineCompletions.ts",
+    "sha256": "49c83c682c5ff6417387650625c2e9c51d0451daa0225bf14c4944332a8e464d"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestMemory.ts",
+    "sha256": "35a57d19d2d3e732f82c338bf8b779861b53ff93f0ed2eaf8fbdc1f45611c114"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestModel.ts",
+    "sha256": "3459e180357186800a4b1b45c12bb95238e71ff298e6fc362069db190f2873fc"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestOvertypingCapturer.ts",
+    "sha256": "ac302a027458ff026ce20a34b3548bafcac904681a5ed616bbba1cdc42c0c804"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestWidget.ts",
+    "sha256": "6d78df45cd6c9c4bd3b7fc2e3a237c3ace416d9fb7c8774d9797a2a4906b614d"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestWidgetDetails.ts",
+    "sha256": "161dcfdc499924d4ef5f19a6a0c41a9092168e3b26e124ae8721749f4d577484"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestWidgetRenderer.ts",
+    "sha256": "b79f987691df6538df0912664128a2bc5f86d06273ee4dc9b1b355bd1e36397b"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/suggestWidgetStatus.ts",
+    "sha256": "172bb5f16bbacec10a5c3daebc9e9613fa0d07448e9e6e4fd45988bcd958b882"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/wordContextKey.ts",
+    "sha256": "df4e2d25257c2bf956b9b1ea515686d041e2ff18ce31ef7c68d184951ccbbc50"
+  },
+  {
+    "path": "src/vs/editor/contrib/suggest/browser/wordDistance.ts",
+    "sha256": "f9e3fd19c73c07e0fd14a31a49f48a21bc646d2b28578df8320e2ee9e6f5c243"
+  },
+  {
+    "path": "src/vs/editor/contrib/symbolIcons/browser/symbolIcons.css",
+    "sha256": "bddd5e7795ed092d9d49bdbcc20b142fa59691fa559ced843b0eb6a58c7231cb"
+  },
+  {
+    "path": "src/vs/editor/contrib/symbolIcons/browser/symbolIcons.ts",
+    "sha256": "d4ad122f721c87722eaf42490c07d252b64964df82a7bea36bfe8279522a3975"
+  },
+  {
+    "path": "src/vs/editor/contrib/toggleTabFocusMode/browser/toggleTabFocusMode.ts",
+    "sha256": "b05cb21163f605d5089ce131b47a7a2ab92a0b17ee06dd7e24821f0ae8f25c28"
+  },
+  {
+    "path": "src/vs/editor/contrib/tokenization/browser/tokenization.ts",
+    "sha256": "f96c7efeb8737faa1873cef614181aa1cffa908efe598268c78ce0a74f21c613"
+  },
+  {
+    "path": "src/vs/editor/contrib/unicodeHighlighter/browser/bannerController.css",
+    "sha256": "27d4a78ecf6ca9e9f9b01cb0b651b0b87d5fce7a5e96c45428e7177c8add63be"
+  },
+  {
+    "path": "src/vs/editor/contrib/unicodeHighlighter/browser/bannerController.ts",
+    "sha256": "5232ce29364f74a3e603944633a743a1d4e10a834a42879f6cc048b11d816c2a"
+  },
+  {
+    "path": "src/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.css",
+    "sha256": "b85a7602e19ac76157c6b72de8c26bc665dd457aa552fcec5d6b07f47eb803fb"
+  },
+  {
+    "path": "src/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.ts",
+    "sha256": "586a77a8a018e440adb71b95aa4058548d1fe946f0313481a23515904ec80796"
+  },
+  {
+    "path": "src/vs/editor/contrib/unusualLineTerminators/browser/unusualLineTerminators.ts",
+    "sha256": "d40f9f2e1c9c966d1d7a6fc3c80e62c92628471cb0d1617db5cd93e9cab183ec"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordHighlighter/browser/highlightDecorations.css",
+    "sha256": "1310cd4a56a525b8c7f0b3e037589b0f97c4517f07aae585444aaf15b6ddd989"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordHighlighter/browser/highlightDecorations.ts",
+    "sha256": "648e8009c31dd3d2a84be9421560b1a19ad4c249150ba0338506e94fd1dfe8e7"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordHighlighter/browser/textualHighlightProvider.ts",
+    "sha256": "335b042890ef0b6a5b43770a3bef9353e61e54cd4d92e2f7ef0397b8143bcb86"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordHighlighter/browser/wordHighlighter.ts",
+    "sha256": "b4eb540178b8a9cbe3044f5fe5f58d6db59b62665f50036079a22295897bf43b"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordOperations/browser/wordOperations.ts",
+    "sha256": "6b5770a41581b0fa14124b712db6f7ac091974bea9a7bfbd6911c28046898f70"
+  },
+  {
+    "path": "src/vs/editor/contrib/wordPartOperations/browser/wordPartOperations.ts",
+    "sha256": "383815ab700d1b4ffe2e47eb036de1e1bda5a155d318838b048b83664ac6c2ea"
+  },
+  {
+    "path": "src/vs/editor/contrib/zoneWidget/browser/zoneWidget.css",
+    "sha256": "b1f9346f00e9767f3caf6deac9fb75e9274671f4ceaaa91c3a34609b152d55de"
+  },
+  {
+    "path": "src/vs/editor/contrib/zoneWidget/browser/zoneWidget.ts",
+    "sha256": "fbd4877803606de8ecfe11163cf862d2489b0e17941e409808ef773cfffd0df3"
+  },
+  {
+    "path": "src/vs/editor/editor.all.ts",
+    "sha256": "478670b5f20c5bdfccea7144b30671d823a7f80cca156444fa8428a1ff76d84e"
+  },
+  {
+    "path": "src/vs/editor/editor.api.ts",
+    "sha256": "043169bfa209fa3d5d91b8f043f2862870c9d6371560de8435e5d1cafe3133aa"
+  },
+  {
+    "path": "src/vs/editor/editor.main.ts",
+    "sha256": "274ffa5ec19de94c4f8bec65777b4f673005ef45a42ab79dfc849fb46fe7d528"
+  },
+  {
+    "path": "src/vs/editor/editor.worker.start.ts",
+    "sha256": "71e2af4e8478ecf7dc775fd210691408c2032641d9cd7ffed63aba59e92e28a1"
+  },
+  {
+    "path": "src/vs/editor/standalone/browser/colorizer.ts",
+    "sha256": "791e647303785b6cec5a5520004343a3441c53e9c29520a3f6d8b3f94cacc1ca"
+  }
+]
