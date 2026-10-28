@@ -1,4 +1,4 @@
-name: Release verification
+name: Verify packages
 on:
   workflow_dispatch:
 jobs:

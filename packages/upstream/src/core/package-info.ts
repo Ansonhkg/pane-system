@@ -1,6 +1,6 @@
 export const PACKAGE = {
   name: "@pane-system/upstream",
-  version: "0.1.0",
+  version: "0.1.1",
   capabilities: [
     "./layout",
     "./editor",

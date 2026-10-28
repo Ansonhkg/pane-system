@@ -13,7 +13,7 @@
     },
     "apps/demo": {
       "name": "@pane-system/demo",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/editor": "workspace:*",
@@ -33,11 +33,11 @@
     },
     "packages/contracts": {
       "name": "@pane-system/contracts",
-      "version": "0.1.0",
+      "version": "0.1.1",
     },
     "packages/editor": {
       "name": "@pane-system/editor",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/upstream": "workspace:*",
@@ -45,7 +45,7 @@
     },
     "packages/explorer": {
       "name": "@pane-system/explorer",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/layout": "workspace:*",
@@ -54,7 +54,7 @@
     },
     "packages/host": {
       "name": "@pane-system/host",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@tanstack/query-core": "5.104.5",
@@ -62,7 +62,7 @@
     },
     "packages/language-services": {
       "name": "@pane-system/language-services",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/upstream": "workspace:*",
@@ -71,7 +71,7 @@
     },
     "packages/layout": {
       "name": "@pane-system/layout",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/upstream": "workspace:*",
@@ -79,7 +79,7 @@
     },
     "packages/output": {
       "name": "@pane-system/output",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/upstream": "workspace:*",
@@ -87,7 +87,7 @@
     },
     "packages/source-control": {
       "name": "@pane-system/source-control",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/layout": "workspace:*",
@@ -96,7 +96,7 @@
     },
     "packages/syntax": {
       "name": "@pane-system/syntax",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/upstream": "workspace:*",
@@ -104,7 +104,7 @@
     },
     "packages/tabs": {
       "name": "@pane-system/tabs",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/layout": "workspace:*",
@@ -113,7 +113,7 @@
     },
     "packages/terminal": {
       "name": "@pane-system/terminal",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@xterm/addon-fit": "0.11.0",
@@ -122,7 +122,7 @@
     },
     "packages/upstream": {
       "name": "@pane-system/upstream",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "monaco-editor": "0.57.0",
@@ -130,7 +130,7 @@
     },
     "packages/workbench": {
       "name": "@pane-system/workbench",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@pane-system/contracts": "workspace:*",
         "@pane-system/layout": "workspace:*",

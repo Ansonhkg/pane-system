@@ -11,5 +11,16 @@
       "pointer": "/version"
     }
   ],
-  "releases": []
+  "releases": [
+    {
+      "version": "0.1.1",
+      "changes": [
+        {
+          "id": "2026-10-28-editor-workspace-ci",
+          "kind": "fix",
+          "summary": "Move package verification CI to the repository root."
+        }
+      ]
+    }
+  ]
 }

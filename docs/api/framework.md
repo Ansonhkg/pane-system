@@ -80,7 +80,7 @@ The selected folder remains active until the host stops.
 `bun run pack` creates 13 package archives in `dist/packages`.
 They contain ESM, declarations, CSS, licenses, and required native bundles.
 When installing the local archives with Bun offline, map each package name to its archive in both `dependencies` and `overrides`.
-Each package has version `0.1.0`.
+Each package has version `0.1.1`.
 
 ## Limits
 
