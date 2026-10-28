@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-28",
+  "artifact": "README.md",
+  "request": "Update the README with the product-led-landing-page skill. Do not create an HTML page.",
+  "interview": {
+    "question": "Which message should lead the README?",
+    "answer": "Build custom workspaces with real VS Code components",
+    "audience": "Developers who build custom workspaces",
+    "primaryAction": "Run the local demo",
+    "secondaryAction": "Register a custom pane"
+  },
+  "decisions": [
+    "Adapt the product story, visual, examples and comparison to Markdown.",
+    "Use a static SVG illustration with sample data and the original logo and Codicons.",
+    "Keep runtime code and build configuration unchanged.",
+    "The explicit README request takes precedence over REPO-009 API-only documentation.",
+    "Do not change the documentation baseline or suppress the policy check.",
+    "Do not claim a speed advantage without comparative measurements."
+  ],
+  "claims": [
+    {
+      "claim": "Real VS Code layout and editor group primitives",
+      "sources": [
+        "packages/upstream/vendor/provenance.json",
+        "packages/layout/src/core/layout.ts",
+        "packages/tabs/src/core/model.ts"
+      ],
+      "scope": "Extracted primitives with a separate pane shell, not the full workbench."
+    },
+    {
+      "claim": "Custom panes use ordinary DOM views",
+      "sources": [
+        "packages/contracts/src/index.ts",
+        "packages/workbench/src/core/workbench.ts"
+      ],
+      "scope": "The host registers a PaneExtension and supplies its view lifecycle."
+    },
+    {
+      "claim": "Separate pane zoom from 50 to 200 percent",
+      "sources": ["packages/tabs/src/core/zoom.ts"],
+      "scope": "Content zoom; the tab strip stays at the host scale."
+    },
+    {
+      "claim": "Layout, drafts, active panes and editor positions survive refresh",
+      "sources": [
+        "packages/workbench/src/core/state.ts",
+        "packages/workbench/src/core/workbench.ts",
+        "apps/demo/src/app/bootstrap/startup.ts",
+        "packages/editor/src/core/editor.ts"
+      ],
+      "scope": "Demo browser storage for each folder; custom applications must supply storage."
+    },
+    {
+      "claim": "Shared theme with live preview, Apply and Cancel",
+      "sources": [
+        "packages/workbench/src/core/theme/controller.ts",
+        "packages/workbench/src/core/theme/editor.ts"
+      ],
+      "scope": "The demo connects the controller to editor and terminal themes."
+    },
+    {
+      "claim": "Workspace search groups matches and supports filters",
+      "sources": [
+        "apps/demo/src/features/demo/panes/search.ts",
+        "packages/host/src/platform/search.ts"
+      ],
+      "scope": "Local ripgrep adapter; 1,000 matches, 4 MiB files and 15-second limit."
+    },
+    {
+      "claim": "Command-click and F12 definition navigation",
+      "sources": ["packages/language-services/src/core/definitions.ts"],
+      "scope": "TypeScript and JavaScript, relative imports and local workspace package exports."
+    },
+    {
+      "claim": "Local file, Git and shell adapters",
+      "sources": [
+        "packages/host/src/platform/files.ts",
+        "packages/host/src/platform/git.ts",
+        "packages/host/src/platform/terminal.ts"
+      ],
+      "scope": "Bun local host; custom applications can supply their own providers."
+    },
+    {
+      "claim": "13 local package archives",
+      "sources": ["tooling/src/app/entrypoints/pack.ts"],
+      "scope": "Generated archives, not a claim of public registry publication."
+    },
+    {
+      "claim": "1,174 archived source files with SHA-256 verification",
+      "sources": [
+        "packages/upstream/vendor/provenance.json",
+        "tooling/src/platform/integrity.ts"
+      ],
+      "scope": "Revision ef01428f91d9b036beba1c6c1712771aec77e181."
+    },
+    {
+      "claim": "21 host operation IDs with CLI and host HTTP adapters",
+      "sources": [
+        "packages/host/src/core/operation-ids.ts",
+        "packages/host/src/app/entrypoints/cli.ts",
+        "packages/host/src/platform/transport/client.ts",
+        "packages/host/src/platform/server.ts"
+      ],
+      "scope": "Pane actions also use direct browser SDK APIs. Package inspection is not full operation coverage."
+    }
+  ],
+  "limits": [
+    "No bundled VS Code extension host, marketplace or debugger.",
+    "No claim of complete language server coverage.",
+    "Input, context and connection panes are custom view examples.",
+    "Speed relative to VS Code or other libraries is not established."
+  ],
+  "visual": {
+    "path": "docs/assets/workspace.svg",
+    "type": "Static illustration redrawn from the demo",
+    "data": "Generated pane-example workspace; no personal data",
+    "sources": [
+      "apps/demo/src/platform/workspace.ts",
+      "apps/demo/assets/logo.svg",
+      "packages/contracts/src/platform/browser/icons.ts",
+      "packages/workbench/src/core/theme/palette.ts"
+    ],
+    "iconLicense": "Microsoft Codicons, CC BY 4.0"
+  },
+  "verification": {
+    "localLinks": {
+      "checked": 27,
+      "failures": 0
+    },
+    "formatting": "Prettier passed for README and JSON catalogs; SVG has no inferred Prettier parser.",
+    "codeExample": "The exact TypeScript code block passed tsc with strict mode in the demo package dependency context.",
+    "visual": "Rendered the SVG at 1200 by 640 pixels and inspected the result.",
+    "artifactReview": "Response review agent found no concrete wording or unsupported claim issues.",
+    "lint": {
+      "run": "6f122961-ce37-4e28-812b-82ecdd7b08fc",
+      "files": 581,
+      "errors": 1,
+      "rule": "documentation.new",
+      "reason": "REPO-009 rejects the explicitly requested README. No check was suppressed."
+    },
+    "doctor": {
+      "run": "9d2c5c66-2556-4316-8836-d8d744680591",
+      "errors": 13,
+      "reason": "Package release workflows are absent from the existing commit."
+    },
+    "scope": "Documentation only. Runtime behavior was not rechecked for this change."
+  },
+  "followupRequest": "Document the CLI and API commands required by the scode operation rules.",
+  "interfaceVerification": {
+    "date": "2026-10-28",
+    "fixture": "Temporary Git workspace with one generated example.ts file",
+    "localCLI": [
+      "host.inspect",
+      "host.doctor",
+      "files.list",
+      "files.read",
+      "files.search",
+      "git.status"
+    ],
+    "httpOperation": "files.list completed with runId and status",
+    "sdkOperation": "files.search returned one matching sample file through the host HTTP adapter",
+    "remoteCLI": "git.status completed through --url and PANE_HOST_TOKEN",
+    "runs": "HTTP/SDK list and get completed",
+    "packageInspection": "layout.inspect completed through package CLI and bearer-token HTTP adapter",
+    "limits": "Mutation and interruption behavior were not rechecked. No claim of complete CLI/API coverage for browser actions."
+  }
+}

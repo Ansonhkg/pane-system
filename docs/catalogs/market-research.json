@@ -1,0 +1,98 @@
+{
+  "reviewDate": "2026-10-28",
+  "method": "Research agent reviewed official product documentation and license files. The author checked the category claims against official sources.",
+  "limits": [
+    "Not documented means the reviewed sources did not establish a capability.",
+    "Products within each category have different capabilities.",
+    "No performance, adoption or maintenance cost comparison was measured."
+  ],
+  "products": [
+    {
+      "name": "Dockview",
+      "category": "Layout library",
+      "audience": "Developers building browser applications with IDE layouts",
+      "layout": "Tabs, groups, drag movement, floating panels, popouts and saved layouts",
+      "editor": "Application supplies the editor",
+      "fileGitShellAdapters": "Not documented",
+      "license": "Free MIT core; commercial Enterprise features",
+      "enterprisePrice": "Not found in reviewed sources",
+      "sources": [
+        "https://dockview.dev/docs/overview/introduction/",
+        "https://dockview.dev/docs/overview/licence/"
+      ]
+    },
+    {
+      "name": "Golden Layout",
+      "category": "Layout library",
+      "audience": "Developers arranging application components in a browser",
+      "layout": "Component registration, drag movement, popouts and saved layouts",
+      "editor": "Application supplies the editor",
+      "fileGitShellAdapters": "Not documented",
+      "license": "MIT",
+      "sources": [
+        "https://golden-layout.github.io/golden-layout/",
+        "https://github.com/golden-layout/golden-layout/blob/master/LICENSE"
+      ]
+    },
+    {
+      "name": "Lumino",
+      "category": "Layout library",
+      "audience": "Developers building extensible web applications",
+      "layout": "DockPanel, movable tabs and saved layouts",
+      "editor": "Application supplies the editor",
+      "fileGitShellAdapters": "Not documented",
+      "license": "BSD-3-Clause",
+      "sources": [
+        "https://lumino.readthedocs.io/en/latest/",
+        "https://lumino.readthedocs.io/en/latest/api/classes/widgets.DockPanel-1.html",
+        "https://github.com/jupyterlab/lumino/blob/main/LICENSE"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "category": "Editor component",
+      "audience": "Developers embedding the VS Code editor",
+      "layout": "Application docking not documented",
+      "editor": "Code editor, models and language providers",
+      "fileGitShellAdapters": "Application supplies host integrations; models represent opened files",
+      "license": "MIT",
+      "sources": [
+        "https://github.com/microsoft/monaco-editor#readme",
+        "https://github.com/microsoft/monaco-editor/blob/main/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "CodeMirror",
+      "category": "Editor component",
+      "audience": "Developers embedding an extensible web editor",
+      "layout": "Application docking not documented",
+      "editor": "Syntax highlighting, completion, folding, search and extensions",
+      "fileGitShellAdapters": "Not documented",
+      "license": "MIT; maintenance funding encouraged",
+      "sources": [
+        "https://codemirror.net/",
+        "https://codemirror.net/docs/extensions/"
+      ]
+    },
+    {
+      "name": "Ace",
+      "category": "Editor component",
+      "audience": "Developers embedding a JavaScript code editor",
+      "layout": "Sessions support application tabs; workspace docking not documented",
+      "editor": "Syntax highlighting, search, folding and multiple selections",
+      "fileGitShellAdapters": "Application supplies host integrations; the optional command line is not an OS terminal",
+      "license": "BSD-3-Clause",
+      "sources": [
+        "https://ace.c9.io/",
+        "https://github.com/ajaxorg/ace/blob/master/LICENSE"
+      ]
+    }
+  ],
+  "decisions": [
+    "Lead with custom workspaces and connected panes, not unique docking.",
+    "Treat layout and editor products as different starting points.",
+    "Separate browser components from the included local Bun adapters.",
+    "Do not claim that tabs or saved layouts are unique to Pane System.",
+    "Use links to official sources in the README comparison."
+  ]
+}

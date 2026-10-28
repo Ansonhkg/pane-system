@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">Build your workspace from connected panes</title>
+<desc id="desc">Illustration of the Pane System demo with sample files, two editor tabs, one Git change and output messages. Pane boundaries use the shared orange frame.</desc>
+<!-- Layout and palette: apps/demo; sample data: apps/demo/src/platform/workspace.ts. -->
+<!-- Original Microsoft Codicons vectors: CC BY 4.0. https://creativecommons.org/licenses/by/4.0/ -->
+<defs>
+<symbol id="file" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M94 19H220Q215 10 206.5 5.0Q198 0 188 0H94Q73 0 56.0 10.0Q39 20 29.0 37.5Q19 55 19 75V225Q19 235 24.0 243.5Q29 252 38 257V75Q38 52 54.5 35.5Q71 19 94 19ZM263 198V75Q263 59 252.0 48.0Q241 37 225 37H94Q78 38 67.0 48.5Q56 59 56 75V263Q56 278 67.0 289.0Q78 300 94 300H161Q173 300 181 292L254 218Q263 210 262 198ZM169 216Q169 212 171.5 209.0Q174 206 178 206H240L169 277ZM244 75V188H178Q166 188 158.0 196.0Q150 204 150 216V281H94Q86 281 80.5 275.5Q75 270 75 262V75Q75 67 80.5 61.5Q86 56 94 56H225Q233 56 238.5 61.5Q244 67 244 75Z"/></symbol>
+<symbol id="search" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M188 99Q174 87 157.0 81.0Q140 75 122 75Q94 75 70.0 89.0Q46 103 32.5 126.5Q19 150 19.0 178.0Q19 206 32.5 230.0Q46 254 70.0 267.5Q94 281 122.0 281.0Q150 281 173.5 267.5Q197 254 211.0 230.0Q225 206 225 178Q225 160 219.0 143.0Q213 126 201 112L260 54Q262 51 262.0 47.0Q262 43 259.5 40.5Q257 38 253.0 38.0Q249 38 246 40ZM206 178Q206 201 195.0 220.5Q184 240 164.5 251.0Q145 262 122.0 262.5Q99 263 79.5 251.5Q60 240 48.5 220.5Q37 201 37.5 178.0Q38 155 49.0 135.5Q60 116 79.5 105.0Q99 94 122.0 94.0Q145 94 164.5 105.0Q184 116 195.0 135.5Q206 155 206 178Z"/></symbol>
+<symbol id="new-file" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M94 38Q86 38 80.5 43.0Q75 48 75 56V244Q75 252 80.5 257.5Q86 263 94 263H150V216Q150 204 158.0 196.0Q166 188 178 188H225V187Q234 186 244 184V198Q244 210 236 218L181 273Q173 281 161 281H94Q78 281 67.0 270.0Q56 259 56 244V56Q56 41 67.0 30.0Q78 19 94 19H136Q129 27 124 37H94ZM169 259 221 206H178Q174 206 171.5 209.0Q169 212 169 216ZM216 169Q193 169 173.5 157.5Q154 146 142.5 126.5Q131 107 131.0 84.0Q131 61 142.5 42.0Q154 23 173.5 11.5Q193 0 216.0 0.0Q239 0 258.0 11.5Q277 23 288.5 42.0Q300 61 300.0 84.0Q300 107 288.5 126.5Q277 146 258.0 157.5Q239 169 216 169ZM263 75H225V38Q225 34 222.5 31.0Q220 28 216.0 28.0Q212 28 209.0 31.0Q206 34 206 38V75H169Q165 75 162.0 77.5Q159 80 159.0 84.0Q159 88 162.0 91.0Q165 94 169 94H206V131Q206 135 209.0 138.0Q212 141 216.0 141.0Q220 141 222.5 138.0Q225 135 225 131V94H263Q266 94 269.0 91.0Q272 88 272.0 84.0Q272 80 269.0 77.5Q266 75 262 75Z"/></symbol>
+<symbol id="new-folder" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M38 216V188H105Q109 188 111 190L137 216L111 241Q109 244 105 244H66Q54 244 46.0 235.5Q38 227 38 216ZM19 216Q19 235 32.5 248.5Q46 262 66 262H105Q116 263 125 254L154 225H234Q254 225 267.5 211.5Q281 198 281 178V164Q273 171 262 176V178Q263 190 254.5 198.0Q246 206 234 206H154L125 177Q116 169 105 169H38V84Q38 73 46.0 64.5Q54 56 66 56H116Q119 47 124 38H66Q46 38 32.5 51.5Q19 65 19 84ZM300 84Q300 61 288.5 42.0Q277 23 258.0 11.5Q239 0 216.0 0.0Q193 0 173.5 11.5Q154 23 142.5 42.0Q131 61 131.0 84.0Q131 107 142.5 126.5Q154 146 173.5 157.5Q193 169 216.0 169.0Q239 169 258.0 157.5Q277 146 288.5 126.5Q300 107 300 84ZM225 131Q225 135 222.5 138.0Q220 141 216.0 141.0Q212 141 209.0 138.0Q206 135 206 131V94H169Q165 94 162.0 91.0Q159 88 159.0 84.0Q159 80 162.0 77.5Q165 75 169 75H206V38Q206 34 209.0 31.0Q212 28 216.0 28.0Q220 28 222.5 31.0Q225 34 225 37V75H263Q266 75 269.0 77.5Q272 80 272.0 84.0Q272 88 269.0 91.0Q266 94 262 94H225Z"/></symbol>
+<symbol id="reload" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M56 150Q56 175 68.5 197.0Q81 219 103.0 231.5Q125 244 150 244Q173 244 192.5 234.0Q212 224 225 206H188Q184 206 181.0 203.5Q178 201 178.0 197.0Q178 193 181.0 190.0Q184 187 187 187L244 188Q248 187 250.5 190.0Q253 193 253 197V253Q253 257 250.5 260.0Q248 263 244.0 263.0Q240 263 237.0 260.0Q234 257 234 253V224Q219 242 197.0 252.0Q175 262 150 262Q119 263 93.5 247.5Q68 232 53.0 206.5Q38 181 38.0 150.0Q38 119 53.0 93.5Q68 68 93.5 53.0Q119 38 149.0 38.0Q179 38 203.5 51.5Q228 65 243.5 88.0Q259 111 262 140Q262 144 259.5 147.0Q257 150 253.5 150.0Q250 150 247.0 147.5Q244 145 243 141Q241 118 228.0 98.5Q215 79 194.5 67.5Q174 56 149.5 56.0Q125 56 103.0 68.5Q81 81 68.5 103.0Q56 125 56 150Z"/></symbol>
+<symbol id="collapse" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M263 220Q271 215 276.0 206.5Q281 198 281 187V94Q281 73 271.0 56.0Q261 39 244.0 29.0Q227 19 206 19H113Q102 19 93.5 24.0Q85 29 80 38H206Q229 38 246.0 54.5Q263 71 263 94ZM178 169Q182 169 184.5 166.0Q187 163 187.5 159.0Q188 155 185.0 152.5Q182 150 178 150H103Q99 150 96.5 152.5Q94 155 94.0 159.0Q94 163 96.5 166.0Q99 169 103 169ZM206 263Q222 263 233.0 252.0Q244 241 244 225V94Q244 78 233.0 67.0Q222 56 206 56H75Q59 56 48.5 67.0Q38 78 37 94V225Q38 241 48.5 252.0Q59 263 75 262H206ZM75 244Q67 244 61.5 238.5Q56 233 56 225V94Q56 86 61.5 80.5Q67 75 75 75H206Q214 75 219.5 80.5Q225 86 225 94V225Q225 233 219.5 238.5Q214 244 206 244Z"/></symbol>
+<symbol id="branch" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M263 197Q263 216 249.0 230.0Q235 244 215.5 244.0Q196 244 182.5 230.0Q169 216 169 197Q169 180 179.0 167.5Q189 155 205 151Q202 143 195.0 137.0Q188 131 178 131H122Q106 131 94 122V207Q110 210 120.5 223.0Q131 236 131 253Q131 273 117.5 286.5Q104 300 84.5 300.0Q65 300 51.5 286.5Q38 273 38 253Q37 236 48.0 223.0Q59 210 75 207V93Q59 90 48.5 77.0Q38 64 38 47Q38 28 51.5 14.0Q65 0 84.5 0.0Q104 0 117.5 14.0Q131 28 131 47Q131 63 121.0 76.0Q111 89 95 92Q98 101 105.0 107.0Q112 113 122 113H178Q195 113 208.0 123.5Q221 134 224 151Q241 154 251.5 167.0Q262 180 262 197ZM56 253Q56 265 64.5 273.0Q73 281 84.5 281.0Q96 281 104.5 273.0Q113 265 113.0 253.0Q113 241 104.5 233.0Q96 225 84.5 225.0Q73 225 64.5 233.0Q56 241 56 253ZM113 47Q113 35 104.5 27.0Q96 19 84.5 19.0Q73 19 64.5 27.0Q56 35 56.0 47.0Q56 59 64.5 67.0Q73 75 84.5 75.0Q96 75 104.5 67.0Q113 59 113 47ZM216 169Q204 169 195.5 177.0Q187 185 187.5 197.0Q188 209 196.0 217.0Q204 225 215.5 225.0Q227 225 235.5 217.0Q244 209 244.0 197.0Q244 185 235.5 177.0Q227 169 216 169Z"/></symbol>
+<symbol id="close" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M260 53Q263 51 263.0 47.0Q263 43 260.0 40.0Q257 37 253.0 37.0Q249 37 247 40L150 137L53 40Q51 37 47.0 37.0Q43 37 40.5 40.0Q38 43 38.0 47.0Q38 51 40 53L137 150L40 247Q38 249 38.0 253.0Q38 257 40.5 260.0Q43 263 47.0 263.0Q51 263 54 260L150 163L247 260Q250 263 253.5 263.0Q257 263 260.0 260.0Q263 257 263.0 253.0Q263 249 260 247L164 150L260 53Z"/></symbol>
+<symbol id="plus" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M150 272Q150 276 147.5 278.5Q145 281 141.0 281.0Q137 281 134.0 278.5Q131 276 131 272V169H28Q24 169 21.5 166.0Q19 163 19.0 159.0Q19 155 21.5 152.5Q24 150 28 150H131V47Q131 43 134.0 40.5Q137 38 141.0 38.0Q145 38 147.5 40.5Q150 43 150 47V150H253Q257 150 260.0 152.5Q263 155 263.0 159.0Q263 163 260.0 166.0Q257 169 253 169H150Z"/></symbol>
+<symbol id="more" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M94 150Q94 142 88.5 136.5Q83 131 75.0 131.0Q67 131 61.5 136.5Q56 142 56.0 150.0Q56 158 61.5 163.5Q67 169 75.0 169.0Q83 169 88.5 163.5Q94 158 94 150ZM169 150Q169 142 163.5 136.5Q158 131 150.0 131.0Q142 131 136.5 136.5Q131 142 131.0 150.0Q131 158 136.5 163.5Q142 169 150.0 169.0Q158 169 163.5 163.5Q169 158 169 150ZM225 131Q233 131 238.5 136.5Q244 142 244.0 150.0Q244 158 238.5 163.5Q233 169 225.0 169.0Q217 169 211.5 163.5Q206 158 206.0 150.0Q206 142 211.5 136.5Q217 131 225 131Z"/></symbol>
+<symbol id="panel-toggle" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M234 281H66Q46 281 32.5 267.5Q19 254 19 234V66Q19 46 32.5 32.5Q46 19 66 19H234Q254 19 267.5 32.5Q281 46 281 66V234Q281 254 267.5 267.5Q254 281 234 281ZM38 66V234Q38 246 46.0 254.5Q54 263 66 263H141V38H66Q54 38 46.0 46.0Q38 54 38 66ZM263 66Q263 54 254.5 46.0Q246 38 234 38H159V263H234Q246 263 254.5 254.5Q263 246 263 234Z"/></symbol>
+<symbol id="split-down" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M19 234V66Q19 46 32.5 32.5Q46 19 66 19H234Q254 19 267.5 32.5Q281 46 281 66V234Q281 254 267.5 267.5Q254 281 234 281H66Q46 281 32.5 267.5Q19 254 19 234ZM234 38H66Q54 38 46.0 46.0Q38 54 38 66V141H263V66Q263 54 254.5 46.0Q246 38 234 38ZM234 263Q246 263 254.5 254.5Q263 246 263 234V159H38V234Q38 246 46.0 254.5Q54 263 66 263Z"/></symbol>
+<symbol id="theme" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M150 281Q110 281 77.0 259.0Q44 237 29.0 200.0Q14 163 21.5 124.0Q29 85 57.0 57.0Q85 29 124.0 21.0Q163 13 200.0 28.5Q237 44 259.0 77.0Q281 110 281 150Q281 176 271.0 200.0Q261 224 242.5 242.5Q224 261 200.0 271.0Q176 281 150 281ZM150 37V262Q172 262 193.0 253.5Q214 245 229.5 229.5Q245 214 254.0 193.0Q263 172 263.0 150.0Q263 128 254.0 107.0Q245 86 229.5 70.5Q214 55 193.0 46.0Q172 37 150 37Z"/></symbol>
+<symbol id="chevron-right" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M115 241Q112 238 112.0 234.5Q112 231 115 228L193 150L115 72Q112 70 112.0 66.0Q112 62 115.0 59.0Q118 56 122.0 56.0Q126 56 128 59L213 143Q216 146 216.0 150.0Q216 154 213 157L128 241Q126 244 122.0 244.0Q118 244 115 241Z"/></symbol>
+<symbol id="chevron-down" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M59 190 143 106Q146 103 150.0 103.0Q154 103 157 106L241 190Q244 193 244.0 197.0Q244 201 241.0 203.5Q238 206 234.0 206.0Q230 206 228 203L150 126L72 203Q70 206 66.0 206.0Q62 206 59.0 203.5Q56 201 56.0 197.0Q56 193 59 190Z"/></symbol>
+<symbol id="check" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M256 241Q259 244 263.0 244.0Q267 244 269.5 241.0Q272 238 272.0 234.0Q272 230 269 228L110 78Q107 75 103.0 75.0Q99 75 96 78L31 143Q28 146 28.0 150.0Q28 154 31.0 156.5Q34 159 37.5 159.0Q41 159 44 157L103 97Z"/></symbol>
+<symbol id="doc" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M99 203Q95 203 92.5 200.5Q90 198 90.0 194.0Q90 190 92.5 187.5Q95 185 99 185H189Q193 185 195.5 187.5Q198 190 198.0 194.0Q198 198 195.5 200.5Q193 203 189 203ZM90 140Q90 144 92.5 146.5Q95 149 99 149H189Q193 149 195.5 146.5Q198 144 198.0 140.0Q198 136 195.5 133.5Q193 131 189 131H99Q95 131 92.5 133.5Q90 136 90 140ZM99 95Q95 95 92.5 92.5Q90 90 90.0 86.0Q90 82 92.5 79.5Q95 77 99 77H135Q139 77 141.5 79.5Q144 82 144.0 86.0Q144 90 141.5 92.5Q139 95 135 95ZM81 293Q77 293 74.5 290.5Q72 288 72 284V275H63Q52 275 44.0 267.0Q36 259 36 248V32Q36 21 44.0 13.0Q52 5 63 5H171Q175 5 177 8L249 80Q252 82 252 86V248Q252 259 244.0 267.0Q236 275 225 275H216V284Q216 288 213.5 290.5Q211 293 207.0 293.0Q203 293 200.5 290.5Q198 288 198 284V275H153V284Q153 288 150.5 290.5Q148 293 144.0 293.0Q140 293 137.5 290.5Q135 288 135 284V275H90V284Q90 288 87.5 290.5Q85 293 81 293ZM225 257Q229 257 231.5 254.5Q234 252 234 248V95H189Q178 95 170.0 87.0Q162 79 162 68V23H63Q59 23 56.5 25.5Q54 28 54 32V248Q54 252 56.5 254.5Q59 257 63 257ZM221 77 180 36V68Q180 72 182.5 74.5Q185 77 189 77Z"/></symbol>
+<symbol id="terminal" viewBox="0 0 300 300" fill="currentColor"><path transform="translate(0 300) scale(1 -1)" d="M234 281H66Q46 281 32.5 267.5Q19 254 19 234V66Q19 46 32.5 32.5Q46 19 66 19H234Q254 19 267.5 32.5Q281 46 281 66V234Q281 254 267.5 267.5Q254 281 234 281ZM263 66Q263 54 254.5 46.0Q246 38 234 38H66Q54 38 46.0 46.0Q38 54 38 66V234Q38 246 46.0 254.5Q54 263 66 263H234Q246 263 254.5 254.5Q263 246 263 234ZM129 134 72 78Q70 75 66.0 75.0Q62 75 59.0 77.5Q56 80 56.0 84.0Q56 88 59 91L109 141L59 190Q56 193 56.0 197.0Q56 201 59.0 203.5Q62 206 66.0 206.0Q70 206 72 203L128 147Q131 144 131.0 140.5Q131 137 128 134ZM244 84Q244 80 241.0 77.5Q238 75 234 75H141Q137 75 134.0 77.5Q131 80 131.0 84.0Q131 88 134.0 91.0Q137 94 141 94H234Q238 94 241.0 91.0Q244 88 244 84Z"/></symbol>
+<clipPath id="code"><rect x="266" y="88" width="624" height="389"/></clipPath>
+</defs>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<rect x="0" y="0" width="1200" height="640" rx="10" fill="#d05c39"/>
+<text x="490" y="20" fill="#ffffff" font-size="12" >welcome.ts — pane-example</text>
+<g transform="translate(674 6) scale(.7)" fill="none" stroke="#a594f9" stroke-width="1.7"><rect x="3" y="3" width="7" height="18" rx="1.8"/><rect x="13" y="3" width="8" height="10" rx="1.8"/><rect x="13" y="16" width="8" height="5" rx="1.5"/></g>
+<use href="#panel-toggle" x="1101" y="8" width="14" height="14" color="#fff"/>
+<use href="#split-down" x="1124" y="8" width="14" height="14" color="#fff"/>
+<use href="#theme" x="1147" y="8" width="14" height="14" color="#fff"/>
+<use href="#reload" x="1170" y="8" width="14" height="14" color="#fff"/>
+<rect x="3" y="30" width="253" height="447" rx="5" fill="#191a1b"/>
+<rect x="259" y="30" width="633" height="447" rx="5" fill="#121314"/>
+<rect x="895" y="30" width="302" height="447" rx="5" fill="#191a1b"/>
+<rect x="3" y="30" width="253" height="28" rx="5" fill="#d97d61"/>
+<rect x="895" y="30" width="302" height="28" rx="5" fill="#d97d61"/>
+<rect x="7" y="33" width="23" height="22" rx="4" fill="#2b2c2d"/>
+<use href="#file" x="12" y="37" width="14" height="14" color="#cccccc"/>
+<use href="#search" x="39" y="37" width="14" height="14" color="#38302d"/>
+<rect x="899" y="33" width="23" height="22" rx="4" fill="#2b2c2d"/>
+<use href="#branch" x="904" y="37" width="14" height="14" color="#cccccc"/>
+<text x="15" y="77" fill="#cccccc" font-size="11" font-weight="600">pane-example</text>
+<use href="#new-file" x="167" y="65" width="14" height="14" color="#949596"/>
+<use href="#new-folder" x="188" y="65" width="14" height="14" color="#949596"/>
+<use href="#reload" x="209" y="65" width="14" height="14" color="#949596"/>
+<use href="#collapse" x="230" y="65" width="14" height="14" color="#949596"/>
+<use href="#chevron-down" x="15" y="88" width="12" height="12" color="#949596"/>
+<text x="30" y="99" fill="#cccccc" font-size="11" >src</text>
+<text x="38" y="120" fill="#4dabc9" font-size="9" >TS</text>
+<text x="56" y="120" fill="#cccccc" font-size="11" >context.ts</text>
+<rect x="8" y="127" width="242" height="20" rx="3" fill="#2b2c2d"/>
+<text x="38" y="141" fill="#4dabc9" font-size="9" >TS</text>
+<text x="56" y="141" fill="#e39376" font-size="11" >welcome.ts</text>
+<text x="235" y="141" fill="#d9b677" font-size="10" >M</text>
+<text x="28" y="162" fill="#d7c85a" font-size="9" >{}</text>
+<text x="46" y="162" fill="#cccccc" font-size="11" >package.json</text>
+<rect x="259" y="30" width="633" height="28" rx="0" fill="#212223"/>
+<rect x="260" y="30" width="142" height="28" rx="4" fill="#121314"/>
+<text x="270" y="48" fill="#4dabc9" font-size="9" >TS</text>
+<text x="289" y="48" fill="#cccccc" font-size="11" >welcome.ts</text>
+<use href="#close" x="382" y="38" width="12" height="12" color="#949596"/>
+<text x="414" y="48" fill="#4dabc9" font-size="9" >TS</text>
+<text x="433" y="48" fill="#949596" font-size="11" >context.ts</text>
+<use href="#panel-toggle" x="839" y="37" width="14" height="14" color="#949596"/>
+<use href="#more" x="862" y="37" width="14" height="14" color="#949596"/>
+<text x="272" y="76" fill="#949596" font-size="11" >src</text>
+<use href="#chevron-right" x="292" y="66" width="12" height="12" color="#949596"/>
+<text x="311" y="76" fill="#4dabc9" font-size="9" >TS</text>
+<text x="330" y="76" fill="#cccccc" font-size="11" >welcome.ts</text>
+<g clip-path="url(#code)" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace">
+<text x="291" y="108" fill="#858585" font-size="11" text-anchor="end">1</text>
+<text x="313" y="108" font-size="11" xml:space="preserve"><tspan fill="#6a9955">/** A custom pane can contain any DOM view. */</tspan></text>
+<text x="291" y="128" fill="#858585" font-size="11" text-anchor="end">2</text>
+<text x="313" y="128" font-size="11" xml:space="preserve"><tspan fill="#c586c0">export interface </tspan><tspan fill="#4ec9b0">PaneContent </tspan><tspan fill="#cccccc">{</tspan></text>
+<text x="291" y="148" fill="#858585" font-size="11" text-anchor="end">3</text>
+<text x="313" y="148" font-size="11" xml:space="preserve"><tspan fill="#9cdcfe">  element: </tspan><tspan fill="#4ec9b0">HTMLElement;</tspan></text>
+<text x="291" y="168" fill="#858585" font-size="11" text-anchor="end">4</text>
+<text x="313" y="168" font-size="11" xml:space="preserve"><tspan fill="#dcdcaa">  layout</tspan><tspan fill="#9cdcfe">(width: </tspan><tspan fill="#569cd6">number</tspan><tspan fill="#9cdcfe">, height: </tspan><tspan fill="#569cd6">number</tspan><tspan fill="#cccccc">): </tspan><tspan fill="#569cd6">void</tspan><tspan fill="#cccccc">;</tspan></text>
+<text x="291" y="188" fill="#858585" font-size="11" text-anchor="end">5</text>
+<text x="313" y="188" font-size="11" xml:space="preserve"><tspan fill="#dcdcaa">  dispose</tspan><tspan fill="#cccccc">(): </tspan><tspan fill="#569cd6">void</tspan><tspan fill="#cccccc">;</tspan></text>
+<text x="291" y="208" fill="#858585" font-size="11" text-anchor="end">6</text>
+<text x="313" y="208" font-size="11" xml:space="preserve"><tspan fill="#cccccc">}</tspan></text>
+<text x="291" y="228" fill="#858585" font-size="11" text-anchor="end">7</text>
+<text x="313" y="228" font-size="11" xml:space="preserve"><tspan fill="#cccccc"></tspan></text>
+<text x="291" y="248" fill="#858585" font-size="11" text-anchor="end">8</text>
+<text x="313" y="248" font-size="11" xml:space="preserve"><tspan fill="#c586c0">export function </tspan><tspan fill="#dcdcaa">greeting</tspan><tspan fill="#9cdcfe">(name: </tspan><tspan fill="#569cd6">string</tspan><tspan fill="#cccccc">): </tspan><tspan fill="#569cd6">string </tspan><tspan fill="#cccccc">{</tspan></text>
+<text x="291" y="268" fill="#858585" font-size="11" text-anchor="end">9</text>
+<text x="313" y="268" font-size="11" xml:space="preserve"><tspan fill="#c586c0">  return </tspan><tspan fill="#ce9178">`Welcome, ${name}. Create your first pane.`</tspan><tspan fill="#cccccc">;</tspan></text>
+<text x="291" y="288" fill="#858585" font-size="11" text-anchor="end">10</text>
+<text x="313" y="288" font-size="11" xml:space="preserve"><tspan fill="#cccccc">}</tspan></text>
+</g>
+<text x="908" y="77" fill="#cccccc" font-size="11" font-weight="600">Source Control</text>
+<use href="#check" x="1128" y="65" width="14" height="14" color="#949596"/>
+<use href="#reload" x="1151" y="65" width="14" height="14" color="#949596"/>
+<use href="#more" x="1174" y="65" width="14" height="14" color="#949596"/>
+<rect x="908" y="89" width="276" height="24" rx="3" fill="#252627"/>
+<text x="916" y="105" fill="#949596" font-size="10" >Message (⌘Enter to commit on main)</text>
+<rect x="908" y="121" width="276" height="24" rx="3" fill="#287e9f"/>
+<use href="#check" x="1004" y="126" width="12" height="12" color="#fff"/>
+<text x="1022" y="137" fill="#fff" font-size="11" >Commit</text>
+<use href="#chevron-down" x="908" y="164" width="12" height="12" color="#949596"/>
+<text x="925" y="174" fill="#cccccc" font-size="11" >Changes</text>
+<rect x="1164" y="160" width="20" height="18" rx="9" fill="#287e9f"/>
+<text x="1174" y="173" fill="#fff" font-size="10" text-anchor="middle">1</text>
+<use href="#chevron-down" x="918" y="187" width="12" height="12" color="#949596"/>
+<text x="935" y="197" fill="#cccccc" font-size="11" >src</text>
+<text x="937" y="219" fill="#4dabc9" font-size="9" >TS</text>
+<text x="957" y="219" fill="#cccccc" font-size="11" >welcome.ts</text>
+<text x="1171" y="219" fill="#d9b677" font-size="10" >M</text>
+<rect x="3" y="480" width="1194" height="157" rx="5" fill="#191a1b"/>
+<rect x="4" y="481" width="1192" height="28" rx="4" fill="#212223"/>
+<use href="#terminal" x="13" y="488" width="14" height="14" color="#949596"/>
+<text x="35" y="498" fill="#949596" font-size="11" >Terminal</text>
+<rect x="104" y="481" width="88" height="28" rx="4" fill="#191a1b"/>
+<use href="#doc" x="113" y="488" width="14" height="14" color="#949596"/>
+<text x="135" y="498" fill="#cccccc" font-size="11" >Output</text>
+<use href="#close" x="174" y="489" width="12" height="12" color="#949596"/>
+<text x="205" y="498" fill="#949596" font-size="11" >Problems</text>
+<use href="#plus" x="1113" y="488" width="14" height="14" color="#949596"/>
+<use href="#more" x="1140" y="488" width="14" height="14" color="#949596"/>
+<use href="#close" x="1174" y="488" width="14" height="14" color="#949596"/>
+<text x="17" y="532" fill="#cccccc" font-size="11" font-family="SFMono-Regular, Consolas, monospace">Pane System host connected.</text>
+<text x="17" y="554" fill="#949596" font-size="11" font-family="SFMono-Regular, Consolas, monospace">Layout uses the VS Code SerializableGrid, GridView, SplitView, and Sash.</text>
+<text x="17" y="576" fill="#cccccc" font-size="11" font-family="SFMono-Regular, Consolas, monospace">Opened src/welcome.ts</text>
+</g></svg>
