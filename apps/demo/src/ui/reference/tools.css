@@ -1,6 +1,6 @@
 .reference-workbench
   .pane:is(
-    [data-kind="explorer"],
+    :has(> .pane-header > .rail),
     [data-kind="source-control"],
     [data-kind="terminal"],
     [data-kind="output"],
@@ -10,9 +10,9 @@
   background: var(--pane-utility-header, #da7e62);
   color: var(--pane-utility-foreground, #655044);
 }
-.reference-workbench .pane[data-kind="explorer"] > .pane-header > .tabs,
+.reference-workbench .pane:has(> .pane-header > .rail) > .pane-header > .tabs,
 .reference-workbench
-  .pane[data-kind="explorer"]
+  .pane:has(> .pane-header > .rail)
   > .pane-header
   > .pane-controls {
   display: none;
@@ -133,13 +133,13 @@
 
 .reference-workbench
   .pane:is(
-    [data-kind="explorer"],
+    :has(> .pane-header > .rail),
     [data-kind="source-control"],
     [data-kind="terminal"],
     [data-kind="output"],
     [data-kind="problems"]
   ) {
-  --pane-header-surface: #da7e62;
+  --pane-header-surface: var(--pane-utility-header, #da7e62);
 }
 
 .reference-workbench
@@ -164,13 +164,13 @@
   background: #454545;
 }
 .reference-workbench
-  .pane:is([data-kind="explorer"], [data-kind="source-control"])
+  .pane:is(:has(> .pane-header > .rail), [data-kind="source-control"])
   > .pane-header
   > .pane-controls {
   display: flex;
 }
 .reference-workbench
-  .pane:is([data-kind="explorer"], [data-kind="source-control"])
+  .pane:is(:has(> .pane-header > .rail), [data-kind="source-control"])
   .pane-controls
   .action-item:not(:has(.codicon-zoom-in)) {
   display: none;

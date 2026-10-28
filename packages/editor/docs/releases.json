@@ -21,6 +21,16 @@
           "summary": "Move package verification CI to the repository root."
         }
       ]
+    },
+    {
+      "version": "0.1.2",
+      "changes": [
+        {
+          "id": "2026-10-28-editor-search-startup-1",
+          "kind": "fix",
+          "summary": "Restore editor cursor and scroll state after layout."
+        }
+      ]
     }
   ]
 }

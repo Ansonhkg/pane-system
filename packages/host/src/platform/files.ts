@@ -13,6 +13,7 @@ import { resolve, relative, dirname, basename, sep } from "node:path";
 import { watch } from "node:fs";
 import type { FilePort, FileEntry } from "@pane-system/contracts";
 import { PATHS } from "../core/paths";
+import { searchWorkspace } from "./search";
 const ignored = new Set([".git", "node_modules", "dist", PATHS.scode]);
 export async function createFiles(root: string): Promise<
   FilePort & {
@@ -48,6 +49,7 @@ export async function createFiles(root: string): Promise<
   return {
     root: base,
     resolve: safe,
+    search: (query) => searchWorkspace(base, query),
     async list(path) {
       const folder = await safe(path);
       const entries = await readdir(folder, { withFileTypes: true });

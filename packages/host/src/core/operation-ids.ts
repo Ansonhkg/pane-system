@@ -3,6 +3,7 @@ export const OPERATION = {
   DOCTOR: "host.doctor",
   LIST: "files.list",
   READ: "files.read",
+  SEARCH: "files.search",
   WRITE: "files.write",
   STATUS: "git.status",
   DIFF: "git.diff",

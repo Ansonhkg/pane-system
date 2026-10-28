@@ -1,3 +1,4 @@
+import { showWorkspace, startupFailed } from "../bootstrap/startup";
 import * as editorModule from "@pane-system/editor";
 import { registerSyntax } from "@pane-system/syntax";
 import { initializeLanguages } from "../bootstrap/languages";
@@ -189,6 +190,7 @@ const keydown = (event: KeyboardEvent) => {
 window.addEventListener("keydown", keydown);
 window.addEventListener("pointerup", () => workbench.save());
 window.addEventListener("beforeunload", (event) => {
+  workbench.save(true);
   if (
     [...workbench.panes.values()].some((p) =>
       p.tabs.some((t) => t.content.dirty),
@@ -200,10 +202,12 @@ window.addEventListener("beforeunload", (event) => {
 });
 try {
   let sampleAvailable = false;
-  try {
-    await client.files.read(PATHS.sample);
-    sampleAvailable = true;
-  } catch {}
+  if (!storage.read(layoutKey) && flags.enabled("editor")) {
+    try {
+      await client.files.read(PATHS.sample);
+      sampleAvailable = true;
+    } catch {}
+  }
   await workbench.restore(
     measurementLayout(
       initialLayout(
@@ -215,11 +219,11 @@ try {
     ),
   );
   mountPaneNavigation(workbench);
-  const doctor = await client.doctor();
+  appearance.refresh();
   required("workspace-name").textContent =
-    doctor.root.split("/").at(-1) ?? "workspace";
+    metadata.root.split("/").at(-1) ?? "workspace";
   status.textContent = "Connected · " + workbench.panes.size + " panes";
-  await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
+  await showWorkspace();
   required("performance").textContent =
     performance.now().toFixed(0) + " ms ready";
   performance.mark("pane-ready");
@@ -231,4 +235,5 @@ try {
 } catch (error) {
   status.textContent = String(error);
   console.error(error);
+  startupFailed();
 }

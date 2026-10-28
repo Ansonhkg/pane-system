@@ -9,5 +9,16 @@
     "output": "Package name, version, and public entry points.",
     "errors": "Disabled feature or invalid operation.",
     "durable": true
+  },
+  {
+    "id": "files.search",
+    "cli": "bun src/app/entrypoints/cli.ts files.search --root <folder> --input <json>",
+    "sdk": "src/index.ts#searchFiles",
+    "http": "POST /api/operations",
+    "handler": "src/core/operations.ts#createOperations",
+    "input": "Object with search: { query, matchCase?, wholeWord?, regex?, include?, exclude? }. Comma-separated glob patterns filter paths.",
+    "output": "matches with path, line, UTF-16 column, endColumn and preview segments; fileCount and limitHit. At most 1000 matches.",
+    "errors": "Invalid query, invalid regex, missing ripgrep, search timeout, file access failure or invalid host authorization.",
+    "durable": true
   }
 ]

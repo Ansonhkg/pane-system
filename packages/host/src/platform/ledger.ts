@@ -58,6 +58,7 @@ export function createLedger(
   const reads = new Set<string>([
     OPERATION.LIST,
     OPERATION.READ,
+    OPERATION.SEARCH,
     OPERATION.STATUS,
     OPERATION.DIFF,
     OPERATION.PATCH,

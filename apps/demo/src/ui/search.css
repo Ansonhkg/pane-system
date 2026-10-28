@@ -1,0 +1,130 @@
+/* VS Code searchview.css geometry, hosted in the shared pane heading and native tree. */
+.workspace-search {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  color: var(--text);
+}
+.workspace-search .search-widgets {
+  padding: 4px 12px 4px 18px;
+}
+.workspace-search .monaco-findInput {
+  width: 100%;
+}
+.workspace-search .monaco-inputbox {
+  border-radius: 2px;
+}
+.workspace-search .monaco-inputbox .input {
+  font: inherit;
+  min-height: 23px;
+  padding: 3px 6px;
+}
+.workspace-search .monaco-inputbox.synthetic-focus {
+  background: color-mix(in srgb, var(--field), var(--accent) 8%) !important;
+  outline: none !important;
+}
+.workspace-search .monaco-findInput .controls {
+  top: 2px;
+}
+.workspace-search .monaco-custom-toggle {
+  border: 0;
+  border-radius: 2px;
+  outline: none !important;
+}
+.workspace-search .monaco-custom-toggle:hover {
+  background: var(--active);
+}
+.workspace-search .search-message {
+  flex: none;
+  margin: 0;
+  padding: 6px 18px 8px;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.workspace-search .search-message[data-error="true"] {
+  color: var(--pane-error, #e69686);
+}
+.workspace-search .search-results {
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+}
+.workspace-search .search-file {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-width: 0;
+  gap: 4px;
+}
+.workspace-search .search-file-name {
+  flex: none;
+  max-width: 65%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.workspace-search .search-file-path {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  color: var(--muted);
+}
+.workspace-search .search-count {
+  flex: none;
+  display: grid;
+  place-items: center;
+  min-width: 14px;
+  height: 14px;
+  padding: 0 3px;
+  margin-right: 8px;
+  border-radius: 8px;
+  font-size: 9px;
+  background: var(--pane-button-background, #287e9f);
+  color: var(--pane-button-foreground, #fff);
+}
+.workspace-search .search-line {
+  height: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+  line-height: 18.7px;
+}
+.workspace-search mark {
+  background: color-mix(in srgb, var(--accent), transparent 68%);
+  color: inherit;
+}
+.workspace-search .search-filters {
+  padding-top: 6px;
+}
+.workspace-search .search-filters label {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.workspace-search .search-filters input {
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  padding: 3px 6px;
+  background: var(--field);
+  border-radius: 2px;
+}
+.workspace-search .search-filters input:focus-visible {
+  background: var(--active);
+}
+.workspace-search [hidden] {
+  display: none !important;
+}
+.workspace-search .file-icon {
+  width: 12px;
+  height: 12px;
+  flex: none;
+}

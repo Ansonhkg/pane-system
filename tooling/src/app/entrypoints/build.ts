@@ -21,7 +21,7 @@ await generateNativeDrop(source);
 const entries = {
   drop: "export {NativeDropGeometry,TAB_DRAG_OVER_OPEN_THRESHOLD} from './standalone-drop.ts';\nimport './src/vs/workbench/browser/parts/editor/media/editordroptarget.css';",
   chrome:
-    "export { Color } from './src/vs/base/common/color.ts';\nexport { ActionBar } from './src/vs/base/browser/ui/actionbar/actionbar.ts';\nexport { DragAndDropObserver } from './src/vs/base/browser/dom.ts';\nexport { applyDragImage } from './src/vs/base/browser/ui/dnd/dnd.ts';\nexport { isMacintosh } from './src/vs/base/common/platform.ts';\nexport { Action } from './src/vs/base/common/actions.ts';\nexport { ThemeIcon } from './src/vs/base/common/themables.ts';\nexport { Codicon } from './src/vs/base/common/codicons.ts';\nexport { getIconsStyleSheet } from './src/vs/platform/theme/browser/iconsStyleSheet.ts';\nimport './src/vs/base/browser/ui/codicons/codiconStyles.ts';",
+    "export { FindInput } from './src/vs/base/browser/ui/findinput/findInput.ts';\nexport { Color } from './src/vs/base/common/color.ts';\nexport { ActionBar } from './src/vs/base/browser/ui/actionbar/actionbar.ts';\nexport { DragAndDropObserver } from './src/vs/base/browser/dom.ts';\nexport { applyDragImage } from './src/vs/base/browser/ui/dnd/dnd.ts';\nexport { isMacintosh } from './src/vs/base/common/platform.ts';\nexport { Action } from './src/vs/base/common/actions.ts';\nexport { ThemeIcon } from './src/vs/base/common/themables.ts';\nexport { Codicon } from './src/vs/base/common/codicons.ts';\nexport { getIconsStyleSheet } from './src/vs/platform/theme/browser/iconsStyleSheet.ts';\nimport './src/vs/base/browser/ui/codicons/codiconStyles.ts';",
 
   keys: "export { KeybindingParser } from './src/vs/base/common/keybindingParser.ts';\nexport { StandardKeyboardEvent } from './src/vs/base/browser/keyboardEvent.ts';\nexport { ScanCodeChord, KeyCodeChord } from './src/vs/base/common/keybindings.ts';\nexport { ScanCodeUtils } from './src/vs/base/common/keyCodes.ts';\nexport { isMacintosh } from './src/vs/base/common/platform.ts';\nexport { ContextKeyExpr } from './src/vs/platform/contextkey/common/contextkey.ts';",
   groups:
@@ -57,6 +57,18 @@ for (const [name, content] of Object.entries(entries)) {
       .join(", "),
   );
 }
+const startup = await Bun.build({
+  entrypoints: [
+    join(root, BUILD_PATHS.startup),
+    join(root, BUILD_PATHS.startupStyles),
+  ],
+  outdir: join(root, "dist"),
+  target: "browser",
+  format: "iife",
+  minify: true,
+  naming: "[name].[ext]",
+});
+if (!startup.success) throw new Error(startup.logs.join("\n"));
 const demo = await Bun.build({
   entrypoints: [
     join(root, BUILD_PATHS.demo),

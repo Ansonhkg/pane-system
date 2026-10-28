@@ -1,8 +1,9 @@
-import type { FilePort, GitPort } from "@pane-system/contracts";
+import type { FilePort, GitPort, SearchQuery } from "@pane-system/contracts";
 import { OPERATION } from "./operation-ids";
 export { OPERATION } from "./operation-ids";
 
 export interface HostInput {
+  search?: SearchQuery;
   path?: string;
   paths?: string[];
   text?: string;
@@ -44,6 +45,10 @@ export function createOperations(options: {
         return options.files.list(path(input));
       case OPERATION.READ:
         return options.files.read(path(input));
+      case OPERATION.SEARCH:
+        if (!options.files.search || !input.search)
+          throw new Error("Supply a search query.");
+        return options.files.search(input.search);
       case OPERATION.WRITE:
         if (typeof input.text !== "string")
           throw new Error("Supply file text.");

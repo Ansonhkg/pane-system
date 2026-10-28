@@ -218,6 +218,7 @@ export function createExplorer(options: {
   });
   return {
     element,
+    ready,
     layout(width, height) {
       tree.layout(
         Math.max(

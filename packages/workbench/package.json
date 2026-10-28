@@ -1,9 +1,10 @@
 {
   "name": "@pane-system/workbench",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "exports": {
+    "./theme-state": "./src/core/theme/state.ts",
     ".": "./src/index.ts",
     "./styles.css": "./src/core/commands.css"
   },

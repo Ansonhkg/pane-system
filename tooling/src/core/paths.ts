@@ -3,6 +3,8 @@ export const PATHS = { state: ".scode/local/package-runs.json" } as const;
 export const PACKAGE_RUN_PATH = ".scode/local/package-runs.json";
 
 export const BUILD_PATHS = {
+  startup: "apps/demo/src/app/entrypoints/startup.ts",
+  startupStyles: "apps/demo/src/ui/startup.css",
   logo: "apps/demo/assets/logo.svg",
   logoName: "logo.svg",
   layoutDemo: "apps/demo/src/app/entrypoints/layout-demo.ts",

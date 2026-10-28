@@ -177,7 +177,10 @@
     [data-kind="problems"]
   )
   .tab-actions,
-.reference-workbench .pane[data-kind="explorer"] .tab-actions {
+.reference-workbench
+  .pane:has(> .pane-header > .rail)
+  > .pane-header
+  .tab-actions {
   display: none;
 }
 .reference-workbench {

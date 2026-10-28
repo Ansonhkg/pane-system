@@ -21,6 +21,21 @@
           "summary": "Move package verification CI to the repository root."
         }
       ]
+    },
+    {
+      "version": "0.2.0",
+      "changes": [
+        {
+          "id": "2026-10-28-workbench-search-startup-1",
+          "kind": "feature",
+          "summary": "Export lightweight saved theme state for application startup."
+        },
+        {
+          "id": "2026-10-28-workbench-search-startup-2",
+          "kind": "fix",
+          "summary": "Restore saved tabs in parallel and preserve the active pane without intermediate view changes."
+        }
+      ]
     }
   ]
 }

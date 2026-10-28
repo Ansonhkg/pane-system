@@ -208,9 +208,10 @@ export function createSourceControl(options: {
       await load();
       status.textContent = "Committed " + hash.slice(0, 8);
     });
-  void load();
+  const ready = load();
   return {
     element,
+    ready,
     serialize() {
       return { viewMode };
     },

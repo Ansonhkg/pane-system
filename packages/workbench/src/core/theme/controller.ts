@@ -1,4 +1,5 @@
 import type { StoragePort } from "@pane-system/contracts";
+import { THEME_STORAGE_KEY } from "./paths";
 import { themeContrast } from "./color";
 import {
   resolveTheme,
@@ -35,7 +36,7 @@ export function createThemeController(options: {
   initial?: ThemeSettings;
   changed?(settings: ThemeSettings, palette: ThemePalette): void;
 }) {
-  const key = options.storageKey ?? "pane-appearance-v1";
+  const key = options.storageKey ?? THEME_STORAGE_KEY;
   let committed = readTheme(options.storage?.read(key) ?? options.initial);
   let current = committed;
   const listeners = new Set<

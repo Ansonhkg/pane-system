@@ -1,4 +1,41 @@
 import type { IDisposable, Event } from "./lifecycle.js";
+export declare class FindInput implements IDisposable {
+  constructor(
+    parent: HTMLElement | null,
+    contextViewProvider: undefined,
+    options: {
+      placeholder?: string;
+      label: string;
+      showCommonFindToggles?: boolean;
+      inputBoxStyles: {
+        inputBackground?: string;
+        inputForeground?: string;
+        inputBorder?: string;
+      };
+      toggleStyles: {
+        inputActiveOptionBackground?: string;
+        inputActiveOptionForeground?: string;
+        inputActiveOptionBorder?: string;
+      };
+    },
+  );
+  readonly domNode: HTMLElement;
+  readonly inputBox: { inputElement: HTMLInputElement; addToHistory(): void };
+  readonly onInput: Event<unknown>;
+  readonly onDidOptionChange: Event<boolean>;
+  getValue(): string;
+  setValue(value: string): void;
+  getCaseSensitive(): boolean;
+  setCaseSensitive(value: boolean): void;
+  getWholeWords(): boolean;
+  setWholeWords(value: boolean): void;
+  getRegex(): boolean;
+  setRegex(value: boolean): void;
+  onSearchSubmit(): void;
+  focus(): void;
+  select(): void;
+  dispose(): void;
+}
 export declare class Color {
   static fromHex(value: string): Color;
   static readonly white: Color;

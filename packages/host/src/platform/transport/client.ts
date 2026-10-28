@@ -6,6 +6,7 @@ import type {
   TerminalSession,
   Change,
   FileEntry,
+  SearchResults,
 } from "@pane-system/contracts";
 import { OPERATION, type HostInput } from "../../core/operations";
 import { PATHS } from "../../core/paths";
@@ -72,6 +73,7 @@ export function createHostClient(options: {
     const reads = new Set<string>([
       OPERATION.LIST,
       OPERATION.READ,
+      OPERATION.SEARCH,
       OPERATION.STATUS,
       OPERATION.DIFF,
       OPERATION.PATCH,
@@ -94,6 +96,7 @@ export function createHostClient(options: {
     return options.webSocketFactory?.(url, headers) ?? new WebSocket(url);
   }
   const files: FilePort = {
+    search: (search) => operation<SearchResults>(OPERATION.SEARCH, { search }),
     list: (path) => operation<FileEntry[]>(OPERATION.LIST, { path }),
     read: (path) => operation<string>(OPERATION.READ, { path }),
     write: async (path, text) => {

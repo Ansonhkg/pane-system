@@ -21,6 +21,21 @@
           "summary": "Add desktop profiles to measure feature initialization costs."
         }
       ]
+    },
+    {
+      "version": "0.3.0",
+      "changes": [
+        {
+          "id": "2026-10-28-demo-search-startup-1",
+          "kind": "feature",
+          "summary": "Add native workspace search controls, grouped results, file filters and exact-line navigation."
+        },
+        {
+          "id": "2026-10-28-demo-search-startup-2",
+          "kind": "fix",
+          "summary": "Unify navigation headers and reveal the restored workspace after its active panes and fonts are ready."
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,4 @@
+import { createTabContent } from "./tab-content";
 import { activatePane } from "./activate";
 import { createDropAction } from "./drop";
 import type { WorkbenchOptions } from "./options";
@@ -18,6 +19,7 @@ export function createWorkbench(options: WorkbenchOptions) {
   options.container.classList.add("monaco-workbench", "monaco-enable-motion");
   const panes = new Map<string, Pane>();
   const extensions = new Map<string, PaneExtension>();
+  const create = createTabContent.bind(undefined, extensions, () => disposed);
   const context = options.context ?? createContext();
   const commands = createCommands(options.status, context);
   let layout: PaneLayout<Pane> | undefined;
@@ -26,18 +28,24 @@ export function createWorkbench(options: WorkbenchOptions) {
   let disposed = false;
   let restoring = false;
   const key = options.storageKey ?? "pane-layout-v1";
-  function save() {
+  function save(immediate = false) {
     if (disposed || restoring || !layout) return;
     clearTimeout(timer);
-    timer = setTimeout(() => {
+    const persist = () => {
       try {
-        options.storage?.write(key, layout?.serialize());
+        options.storage?.write(key, {
+          ...layout?.serialize(),
+          activePane: active.id,
+        });
       } catch (error) {
         options.status?.(String(error));
       }
-    }, 180);
+    };
+    if (immediate) persist();
+    else timer = setTimeout(persist, 180);
   }
   function activate(pane: Pane) {
+    if (restoring || disposed) return;
     active = pane;
     activatePane(pane, panes, context);
   }
@@ -156,19 +164,7 @@ export function createWorkbench(options: WorkbenchOptions) {
         return existing;
       }
     }
-    const content = await extension.create({ resource, state });
-    if (disposed) {
-      content.dispose();
-      throw new Error("Workbench is closed.");
-    }
-    const tab: Tab = {
-      id,
-      kind,
-      resource,
-      pinned,
-      title: title ?? resource?.split("/").at(-1) ?? extension.title,
-      content,
-    };
+    const tab = await create(kind, resource, state, id, title, pinned);
     pane.open(tab);
     activate(pane);
     save();
@@ -178,12 +174,15 @@ export function createWorkbench(options: WorkbenchOptions) {
     restoring = true;
     try {
       return await restoreWorkbenchState({
+        container: options.container,
         saved: options.storage?.read(key) ?? defaultLayout,
         panes,
         initialize,
-        open,
+        create,
         hasExtension: (kind) => extensions.has(kind),
-        activate,
+        activate: (pane) => {
+          active = pane;
+        },
         reset(error) {
           options.status?.("Layout restore failed: " + String(error));
           layout?.dispose();
@@ -195,6 +194,7 @@ export function createWorkbench(options: WorkbenchOptions) {
       });
     } finally {
       restoring = false;
+      activate(active);
       save();
     }
   }
@@ -238,6 +238,7 @@ export function createWorkbench(options: WorkbenchOptions) {
       commands.dispose();
       if (!options.context) context.dispose();
       for (const pane of panes.values()) pane.dispose();
+      panes.clear();
       layout?.dispose();
     },
   };

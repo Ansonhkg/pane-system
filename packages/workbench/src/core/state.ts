@@ -3,22 +3,34 @@ import type { Pane } from "@pane-system/tabs";
 import type { PaneState, Tab } from "@pane-system/contracts";
 type SavedTab = PaneState["tabs"][number];
 interface RestoreOptions {
+  container: HTMLElement;
   saved: unknown;
   panes: Map<string, Pane>;
   initialize(saved?: SerializedGrid): void;
-  open(
+  create(
     kind: string,
     resource: string | undefined,
-    pane: Pane,
     state: unknown,
     id: string,
     title: string,
+    pinned: boolean,
   ): Promise<Tab>;
   hasExtension(kind: string): boolean;
   activate(pane: Pane): void;
   reset(error: unknown): void;
 }
 export async function restoreWorkbenchState(options: RestoreOptions) {
+  const visibility = options.container.style.visibility;
+  options.container.style.visibility = "hidden";
+  options.container.setAttribute("aria-busy", "true");
+  try {
+    return await restoreState(options);
+  } finally {
+    options.container.style.visibility = visibility;
+    options.container.removeAttribute("aria-busy");
+  }
+}
+async function restoreState(options: RestoreOptions) {
   if (!isGrid(options.saved)) {
     options.initialize();
     return false;
@@ -34,37 +46,64 @@ export async function restoreWorkbenchState(options: RestoreOptions) {
       if (isPaneState(node.data)) leaves.push(node.data);
     }
     collect(options.saved.root);
-    for (const leaf of leaves) {
+    const restored = await Promise.all(
+      leaves.map(async (leaf) => ({
+        leaf,
+        tabs: await Promise.all(
+          leaf.tabs.map(async (tab) => {
+            try {
+              if (!options.hasExtension(tab.kind))
+                throw new Error(
+                  "Pane extension is not registered: " + tab.kind,
+                );
+              const loaded = await options.create(
+                tab.kind,
+                tab.resource,
+                tab.state,
+                tab.id,
+                tab.title,
+                tab.pinned !== false,
+              );
+              loaded.sticky = tab.sticky;
+              return loaded;
+            } catch (error) {
+              return unavailableTab(tab, error);
+            }
+          }),
+        ),
+      })),
+    );
+    for (const { leaf, tabs } of restored) {
       const pane = options.panes.get(leaf.id);
-      if (!pane) continue;
-      if (typeof leaf.zoom === "number") pane.setZoom(leaf.zoom);
-      for (const tab of leaf.tabs) {
-        try {
-          if (!options.hasExtension(tab.kind))
-            throw new Error("Pane extension is not registered: " + tab.kind);
-          await options.open(
-            tab.kind,
-            tab.resource,
-            pane,
-            tab.state,
-            tab.id,
-            tab.title,
-          );
-          pane.setPinned(tab.id, tab.pinned !== false);
-          if (tab.sticky) pane.setSticky(tab.id, true);
-        } catch (error) {
-          pane.open(unavailableTab(tab, error));
-        }
+      if (!pane) {
+        tabs.forEach((tab) => tab.content.dispose());
+        continue;
       }
+      if (typeof leaf.zoom === "number") pane.setZoom(leaf.zoom);
+      for (const tab of tabs) pane.open(tab);
       if (leaf.active) pane.select(leaf.active);
     }
+    await Promise.allSettled(
+      [...options.panes.values()].map(
+        (pane) =>
+          pane.tabs.find((tab) => tab.id === pane.active)?.content.ready,
+      ),
+    );
     for (const [id, pane] of options.panes) {
       if (id === "main" && !leaves.some((leaf) => leaf.id === id)) {
         options.panes.delete(id);
         pane.dispose();
       }
     }
-    const first = options.panes.values().next().value;
+    const saved = options.saved;
+    const activePane =
+      "activePane" in saved && typeof saved.activePane === "string"
+        ? options.panes.get(saved.activePane)
+        : undefined;
+    const first =
+      activePane ??
+      options.panes.get("main") ??
+      options.panes.values().next().value;
     if (first) options.activate(first);
     return true;
   } catch (error) {

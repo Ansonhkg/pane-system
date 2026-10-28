@@ -21,6 +21,16 @@
           "summary": "Move package verification CI to the repository root."
         }
       ]
+    },
+    {
+      "version": "0.2.0",
+      "changes": [
+        {
+          "id": "2026-10-28-host-search-startup-1",
+          "kind": "feature",
+          "summary": "Add bounded ripgrep workspace search through the host operation, SDK and CLI."
+        }
+      ]
     }
   ]
 }

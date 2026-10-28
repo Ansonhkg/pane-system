@@ -1,5 +1,5 @@
 export const PACKAGE = {
   name: "@pane-system/explorer",
-  version: "0.1.1",
+  version: "0.1.2",
   capabilities: ["."],
 } as const;

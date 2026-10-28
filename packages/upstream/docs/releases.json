@@ -21,6 +21,16 @@
           "summary": "Move package verification CI to the repository root."
         }
       ]
+    },
+    {
+      "version": "0.2.0",
+      "changes": [
+        {
+          "id": "2026-10-28-upstream-search-startup-1",
+          "kind": "feature",
+          "summary": "Export the native VS Code search input and its find option controls."
+        }
+      ]
     }
   ]
 }

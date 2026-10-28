@@ -204,7 +204,12 @@ export async function registerExtensions(
           workbench.register({
             id: "search",
             title: "Search",
-            create: () => createSearch({ files: client.files, open }),
+            create: ({ state }) =>
+              createSearch({
+                files: client.files,
+                state,
+                open: (match, behavior) => open(match.path, behavior, match),
+              }),
           }),
         ]
       : []),

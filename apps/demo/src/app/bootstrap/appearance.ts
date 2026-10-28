@@ -52,6 +52,7 @@ export function createAppearance(
     }),
   ];
   return {
+    refresh: () => controller.preview(controller.get()),
     show: () => editor.show(),
     dispose() {
       commands.forEach((c) => c.dispose());

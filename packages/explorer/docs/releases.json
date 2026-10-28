@@ -21,6 +21,16 @@
           "summary": "Move package verification CI to the repository root."
         }
       ]
+    },
+    {
+      "version": "0.1.2",
+      "changes": [
+        {
+          "id": "2026-10-28-explorer-search-startup-1",
+          "kind": "fix",
+          "summary": "Expose initial tree readiness for workspace restoration."
+        }
+      ]
     }
   ]
 }

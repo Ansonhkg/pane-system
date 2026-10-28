@@ -2,6 +2,7 @@ export interface Disposable {
   dispose(): void;
 }
 export interface Content extends Disposable {
+  readonly ready?: Promise<void>;
   readonly element: HTMLElement;
   layout?(width: number, height: number): void;
   focus?(): void;
@@ -45,6 +46,9 @@ export interface FileEntry {
   directory: boolean;
 }
 export interface FilePort {
+  search?(
+    query: import("./core/search").SearchQuery,
+  ): Promise<import("./core/search").SearchResults>;
   list(path: string): Promise<FileEntry[]>;
   read(path: string): Promise<string>;
   write(path: string, text: string): Promise<void>;
@@ -54,6 +58,7 @@ export interface FilePort {
   remove?(path: string): Promise<void>;
   watch?(listener: (path: string) => void): Disposable;
 }
+export type { SearchQuery, SearchMatch, SearchResults } from "./core/search";
 export interface Change {
   path: string;
   status: string;

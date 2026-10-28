@@ -1,0 +1,59 @@
+@import "./startup-spinner.css";
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+html[data-startup="loading"] body,
+html[data-startup="failed"] body {
+  background: var(--startup-surface, #191a1b);
+}
+html[data-startup="loading"] body > :not(#startup-screen),
+html[data-startup="failed"] body > :not(#startup-screen) {
+  visibility: hidden;
+  pointer-events: none;
+}
+#startup-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 14px;
+  background: var(--startup-surface, #191a1b);
+  color: var(--startup-text, #949596);
+  font:
+    12px -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+#startup-screen p {
+  margin: 0;
+  text-align: center;
+  max-width: 32em;
+}
+#startup-screen .ux-spinner {
+  --ux-spinner-size: 24px;
+}
+#startup-retry {
+  background: #287e9f;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 6px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+#startup-retry:focus-visible {
+  outline: 0;
+  background: #1a6682;
+}
+#startup-retry[hidden] {
+  display: none;
+}
+html[data-startup="failed"] #startup-screen .ux-spinner {
+  display: none;
+}

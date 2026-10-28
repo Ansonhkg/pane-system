@@ -31,7 +31,9 @@ export function applyChromeIcons() {
 }
 
 function nativeActions(container: HTMLElement) {
-  const buttons = [...container.querySelectorAll<HTMLButtonElement>("button")];
+  const buttons = [
+    ...container.querySelectorAll<HTMLButtonElement>("button"),
+  ].filter((button) => !button.hidden);
   const names: Record<string, string> = {
     commands: "search",
     "toggle-files": "layout-sidebar-left",
@@ -69,7 +71,7 @@ export function mountPaneNavigation(workbench: Workbench) {
   const windowActions = document.querySelector<HTMLElement>(".window-actions");
   if (windowActions) nativeActions(windowActions);
   const nav = document.getElementById("activity");
-  if (nav) nativeActions(nav);
+  const navigation = nav ? nativeActions(nav) : undefined;
   const activity = document.getElementById("activity");
   const files = [...workbench.panes.values()].find((p) =>
     p.tabs.some((t) => t.kind === "explorer"),
@@ -86,6 +88,11 @@ export function mountPaneNavigation(workbench: Workbench) {
     );
     if (activity && explorer && activity.parentElement !== explorer.header)
       explorer.header.prepend(activity);
+    const currentView = explorer?.tabs.find(
+      (tab) => tab.id === explorer.active,
+    )?.kind;
+    for (const kind of ["explorer", "search"])
+      navigation?.update(kind, { checked: currentView === kind });
     const tab = workbench.active.tabs.find(
       (t) => t.id === workbench.active.active,
     );

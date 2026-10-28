@@ -76,6 +76,22 @@ export function createEditor(options: EditorOptions): Content {
     padding: { top: 5 },
     fixedOverflowWidgets: true,
   });
+  let savedView: ReturnType<typeof view.saveViewState> = null;
+  if (
+    options.state &&
+    typeof options.state === "object" &&
+    "view" in options.state
+  ) {
+    const value = options.state.view;
+    if (
+      value &&
+      typeof value === "object" &&
+      "cursorState" in value &&
+      Array.isArray(value.cursorState) &&
+      "viewState" in value
+    )
+      savedView = value as NonNullable<ReturnType<typeof view.saveViewState>>;
+  }
   return {
     element,
     get dirty() {
@@ -86,6 +102,12 @@ export function createEditor(options: EditorOptions): Content {
         width,
         height: Math.max(0, height - breadcrumbs.offsetHeight),
       });
+      if (savedView && width > 0 && height > 0) {
+        const state = savedView;
+        savedView = null;
+        view.restoreViewState(state);
+        view.render(true);
+      }
     },
     focus() {
       view.focus();

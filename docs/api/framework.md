@@ -80,7 +80,13 @@ The selected folder remains active until the host stops.
 `bun run pack` creates 13 package archives in `dist/packages`.
 They contain ESM, declarations, CSS, licenses, and required native bundles.
 When installing the local archives with Bun offline, map each package name to its archive in both `dependencies` and `overrides`.
-Each package has version `0.1.1`.
+Library versions are recorded in their manifests and release catalogs.
+
+| Packages                                                  | Version |
+| --------------------------------------------------------- | ------- |
+| contracts, host, upstream, workbench                      | `0.2.0` |
+| editor, explorer, source-control                          | `0.1.2` |
+| language-services, layout, output, syntax, tabs, terminal | `0.1.1` |
 
 ## Limits
 
@@ -146,3 +152,15 @@ The editor accepts opaque hex colors, color names, rgb values, and hsl values.
 The demo's theme button opens this editor.
 The demo connects palette changes to the native code editor and terminal.
 Applications can use the controller's `changed` callback or `subscribe` method for custom content.
+
+## Startup and restore
+
+`workbench.restore(defaultLayout)` creates saved tab content in parallel, retains tab order, waits for each active content's optional `ready` promise, and then restores the active pane. The container stays measurable but hidden during restore. It must have a width and height before the call.
+
+Set `Content.ready` to a promise for the first usable content state, such as the first tree or search result. Handle content errors in the pane and settle the promise so another pane can still load. Icon fonts and native editor painting can settle before the host reveals its application shell.
+
+`workbench.save(true)` writes the current layout, active pane and serialized content immediately. The demo uses it before unload to retain drafts and editor view state. The normal `save()` call groups frequent changes into one storage write.
+
+`@pane-system/workbench/theme-state` exports `THEME_STORAGE_KEY`, `readTheme` and `resolveTheme` without loading the workbench UI. The demo's small blocking startup script uses them to show the saved palette before the main bundle starts. Script failures show a Reload action.
+
+Add `?measure-startup=1` to the demo URL to record startup animation frames and layout shifts. The result is available in `document.documentElement.dataset.startupMetrics`. It includes the frame history, the count of visible frames before readiness, the number of distinct visible layouts and the layout shift score. This observation code runs only when the parameter is present.

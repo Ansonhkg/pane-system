@@ -11,5 +11,16 @@
       "pointer": "/version"
     }
   ],
-  "releases": []
+  "releases": [
+    {
+      "version": "0.2.0",
+      "changes": [
+        {
+          "id": "2026-10-28-tooling-search-startup-1",
+          "kind": "feature",
+          "summary": "Build the small startup entry and native search widget assets."
+        }
+      ]
+    }
+  ]
 }
