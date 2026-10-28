@@ -11,5 +11,16 @@
       "pointer": "/version"
     }
   ],
-  "releases": []
+  "releases": [
+    {
+      "version": "0.2.0",
+      "changes": [
+        {
+          "id": "2026-10-28-desktop-measurement-profiles",
+          "kind": "feature",
+          "summary": "Add desktop profiles to measure feature initialization costs."
+        }
+      ]
+    }
+  ]
 }

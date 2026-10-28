@@ -4,7 +4,7 @@ import type { registerExtensions } from "./extensions";
 import { PATHS } from "../../core/paths";
 export function initializeLanguages(
   client: ReturnType<typeof createHostClient>,
-  extensions: ReturnType<typeof registerExtensions>,
+  extensions: Awaited<ReturnType<typeof registerExtensions>>,
   status: HTMLElement,
 ) {
   setTimeout(

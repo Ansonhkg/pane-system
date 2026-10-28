@@ -1,5 +1,4 @@
 import { createIgnoreAction } from "./git-ignore";
-import { createEditor } from "@pane-system/editor";
 import { createSourceControl } from "@pane-system/source-control";
 import { TREE_SCALE } from "../../core/tree-appearance";
 import type { Workbench } from "@pane-system/workbench";
@@ -92,26 +91,6 @@ export function registerSourceControl({
           if (behavior && !behavior.preserveFocus) tab.content.focus?.();
         },
         changed: () => log("Git state updated."),
-      });
-    },
-  });
-}
-
-export function registerHeadEditor(
-  workbench: Workbench,
-  client: ReturnType<typeof createHostClient>,
-) {
-  return workbench.register({
-    id: "head",
-    title: "HEAD",
-    async create({ resource }) {
-      if (!resource || !client.git.head)
-        throw new Error("HEAD content is not available.");
-      return createEditor({
-        path: resource,
-        text: await client.git.head(resource),
-        files: client.files,
-        readOnly: true,
       });
     },
   });

@@ -1,6 +1,9 @@
+import * as editorModule from "@pane-system/editor";
+import { registerSyntax } from "@pane-system/syntax";
+import { initializeLanguages } from "../bootstrap/languages";
+import { installViewNavigation } from "../bootstrap/view-navigation";
 import { createAppearance } from "../bootstrap/appearance";
 import { applyChromeIcons, mountPaneNavigation } from "../bootstrap/chrome";
-import { initializeLanguages } from "../bootstrap/languages";
 import "@pane-system/upstream/layout.css";
 import "@pane-system/upstream/tree.css";
 import "@pane-system/upstream/editor.css";
@@ -11,9 +14,13 @@ import "../../ui/content.css";
 import "../../ui/reference.css";
 import { createWorkbench } from "@pane-system/workbench";
 import { createHostClient } from "@pane-system/host/client";
-import { registerSyntax } from "@pane-system/syntax";
 import { registerExtensions } from "../bootstrap/extensions";
 import { initialLayout } from "../bootstrap/layout";
+import {
+  measurementLayout,
+  filterMeasurementNavigation,
+} from "../bootstrap/measurement-layout";
+import { measurementFlags } from "../../core/measurement-flags";
 import { PATHS } from "../../core/paths";
 function required<T extends HTMLElement>(id: string) {
   const element = document.getElementById(id);
@@ -35,6 +42,7 @@ const container = required("workspace");
 const status = required("status");
 const storage = {
   read(key: string): unknown {
+    if (key.includes(":measurement:")) return null;
     try {
       return JSON.parse(localStorage.getItem(key) ?? "null");
     } catch {
@@ -46,8 +54,15 @@ const storage = {
   },
 };
 const client = createHostClient({ token });
+const flags = measurementFlags(
+  new URL(location.href).searchParams.get("measure-disable"),
+);
 const metadata = await client.doctor();
-const layoutKey = PATHS.layoutKey + ":" + metadata.root;
+const layoutKey =
+  PATHS.layoutKey +
+  ":" +
+  metadata.root +
+  (flags.disabled.length ? ":measurement:" + flags.disabled.join(",") : "");
 const workbench = createWorkbench({
   storageKey: layoutKey,
   container,
@@ -56,31 +71,17 @@ const workbench = createWorkbench({
     status.textContent = message;
   },
 });
-const syntax = registerSyntax();
-
-const extensions = registerExtensions(workbench, client);
-const appearance = createAppearance(workbench, storage, PATHS.themeKey);
-for (const button of document.querySelectorAll<HTMLButtonElement>(
-  "[data-view]",
-)) {
-  button.onclick = () => {
-    const kind = button.dataset.view;
-    if (kind) {
-      for (const pane of workbench.panes.values()) {
-        const tab = pane.tabs.find((t) => t.kind === kind);
-        if (tab) {
-          pane.select(tab.id);
-          tab.content.focus?.();
-          return;
-        }
-      }
-    }
-    if (kind)
-      void workbench.open(kind).catch((error: unknown) => {
-        status.textContent = String(error);
-      });
-  };
-}
+const editor = flags.enabled("editor") ? editorModule : undefined;
+if (editor) registerSyntax();
+const extensions = await registerExtensions(workbench, client, flags);
+const appearance = createAppearance(
+  workbench,
+  storage,
+  PATHS.themeKey,
+  editor?.setEditorTheme,
+);
+filterMeasurementNavigation(flags);
+installViewNavigation(workbench, status);
 required("split-editor").onclick = () => workbench.split();
 required("commands").onclick = () => workbench.commands.show();
 required("theme").onclick = () => appearance.show();
@@ -204,10 +205,13 @@ try {
     sampleAvailable = true;
   } catch {}
   await workbench.restore(
-    initialLayout(
-      container.clientWidth,
-      container.clientHeight,
-      sampleAvailable,
+    measurementLayout(
+      initialLayout(
+        container.clientWidth,
+        container.clientHeight,
+        sampleAvailable && flags.enabled("editor"),
+      ),
+      flags,
     ),
   );
   mountPaneNavigation(workbench);
@@ -219,7 +223,8 @@ try {
   required("performance").textContent =
     performance.now().toFixed(0) + " ms ready";
   performance.mark("pane-ready");
-  initializeLanguages(client, extensions, status);
+  if (flags.enabled("language"))
+    initializeLanguages(client, extensions, status);
   extensions.log(
     "Ready in " + performance.now().toFixed(1) + " ms from navigation start.",
   );

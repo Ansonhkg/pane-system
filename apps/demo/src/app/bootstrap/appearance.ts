@@ -4,11 +4,11 @@ import {
   type Workbench,
 } from "@pane-system/workbench";
 import type { StoragePort } from "@pane-system/contracts";
-import { setEditorTheme } from "@pane-system/editor";
 export function createAppearance(
   workbench: Workbench,
   storage: StoragePort,
   previousKey: string,
+  setEditorTheme?: typeof import("@pane-system/editor").setEditorTheme,
 ) {
   const controller = createThemeController({
     element: document.body,
@@ -18,7 +18,7 @@ export function createAppearance(
       colors: {},
     },
     changed(settings, palette) {
-      setEditorTheme(settings.mode, {
+      setEditorTheme?.(settings.mode, {
         background: palette.editor,
         foreground: palette.text,
         selection: palette.accent,
